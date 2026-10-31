@@ -1,0 +1,67 @@
+{
+  "about": {
+    "path": "/about",
+    "title": "About",
+    "description": "All about BLV Projects and the developer behind it- Ben Levi. read my agenda, motives and my inspiration source. if you would like you could also support my work with a small donation and feel free to contact me with any questions related to my work."
+  },
+  "blv-ender-3-pro": {
+    "path": "/blv-ender-3-pro",
+    "title": "BLV Ender 3 Pro",
+    "description": "Ben Levi introducing  BLV Ender 3 Pro Upgrade project. designed for the popular Ender 3 Pro - 3D printer. The project's goal is to take your beloved Ender 3 Pro 3d printer to the next level.  By using only aluminum parts, mgn12 linear rails, BMG dual drive extruder and more."
+  },
+  "blv-mgn-cube-3d-printer": {
+    "path": "/blv-mgn-cube-3d-printer",
+    "title": "BLV mgn Cube - Overview",
+    "description": "Start building your BLV mgn Cube 3d printer. This is an overview page of the BLV project. Road map of the BLV cube 3d printer. View prints samples, 3d model of the project, Check some of the BLV community builds and prepare yourself for a high accuracy printer performances."
+  },
+  "blv-mgn-cube-assembly-guide": {
+    "path": "/blv-mgn-cube-assembly-guide",
+    "title": "BLV mgn Cube - Assembly Guide",
+    "description": "The BLV mgn Cube 3d printer assembly guide. Learn how to build your BLV Cube printer from scratch."
+  },
+  "blv-mgn-cube-bom": {
+    "path": "/blv-mgn-cube-bom",
+    "title": "BLV mgn Cube - BOM",
+    "description": "The BLV mgn Cube 3d printer BOM - bill of materials. The parts you should have in order to start building your own BLV cube 3d printer."
+  },
+  "blv-mgn-cube-calibrations": {
+    "path": "/blv-mgn-cube-calibrations",
+    "title": "BLV mgn Cube - Calibrations",
+    "description": "All the BLV mgn Cube 3d printer calibrations and guide. Learn how to calibrate your 3d printer."
+  },
+  "blv-mgn-cube-community": {
+    "path": "/blv-mgn-cube-community",
+    "title": "BLV mgn Cube - Community",
+    "description": "Share and view the BLV mgn Cube 3d printer remixes and upgrades. check the latest community add-ons and download stl files"
+  },
+  "blv-mgn-cube-download": {
+    "path": "/blv-mgn-cube-download",
+    "title": "BLV mgn Cube - Download",
+    "description": "Download all the needed files in order to start building your BLV mgn Cube 3d printer. download all the STL files, documents, guides, and many more."
+  },
+  "blv-mgn-cube-license": {
+    "path": "/blv-mgn-cube-license",
+    "title": "BLV mgn Cube - License",
+    "description": "The BLV mgn Cube 3d printer - license and thanks"
+  },
+  "blv-mgn-cube-start": {
+    "path": "/blv-mgn-cube-start",
+    "title": "BLV mgn Cube - Start",
+    "description": "The first page of the BLV mgn Cube 3d printer building guide. Please read carefully and pay attention to the project's requirements."
+  },
+  "blv-mgn-cube-wiring": {
+    "path": "/blv-mgn-cube-wiring",
+    "title": "BLV mgn Cube - Wiring",
+    "description": "The ultimate BLV mgn Cube guide showing you how to wire your BLV mgn Cube 3d printer. check the wiring scheme and follow the guides."
+  },
+  "blv-mgn12-mod-3d-printer": {
+    "path": "/blv-mgn12-mod-3d-printer",
+    "title": "BLV mgn12 mod",
+    "description": "Ben Levi introducing  BLV mgn 12 mod Pro Upgrade project. designed for the popular Ender 3 Pro - 3D printer. The project's goal is to take your beloved Ender 3 Pro 3d printer to the next level.  By using only aluminum parts, mgn12 linear rails, BMG dual drive extruder and more."
+  },
+  "home": {
+    "path": "/",
+    "title": "BLV 3D Printers",
+    "description": "BLV 3D printers are high accuracy, fast, and reliable open-source 3d printers designed by Ben Levi. BLV Projects site provides you all the needed tools, guides, documentation, and knowledge to build your own high performance BLV 3D printer free of charge. Come and Join the BLV 3D printers community."
+  }
+}

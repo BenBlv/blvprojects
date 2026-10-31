@@ -70,7 +70,7 @@ The BLV Ender 3 Pro is an upgrade project for the popular Ender 3 Pro 3D printer
 
 ## Requirements
 
-- [x] An [**Ender 3 Pro**](https://www.banggood.com/custlink/GmK3AGUzdE) (Pro version only)
+- [x] An **Ender 3 Pro** (Pro version only)
 - [x] The aluminum upgrade parts (see the [BOM](bom.md))
 - [x] Technical ability
 - [x] Spare time

@@ -1414,9 +1414,9 @@
 <h2 id="1-update-the-duet-firmware">1. Update the Duet firmware<a class="headerlink" href="#1-update-the-duet-firmware" title="Permanent link">¶</a></h2>
 <p>Duet boards are very well documented, with step-by-step guides for almost every task. Update to the latest RepRap firmware 3.x before calibrating. The Duet 2 WiFi and the Duet 3 use the same update guide.</p>
 <p><a class="md-button" href="https://github.com/Duet3D/RepRapFirmware/releases"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7z"></path></svg></span> Download the firmware</a>
-<a class="md-button" href="https://duet3d.dozuki.com/Wiki/Getting_Started_With_Duet_3#Section_Updating_Duet_3_main_board_firmware">Update guide</a></p>
+<a class="md-button" href="https://docs.duet3d.com/User_manual/RepRapFirmware/Updating_firmware">Update guide</a></p>
 <h2 id="2-copy-the-config-files">2. Copy the config files<a class="headerlink" href="#2-copy-the-config-files" title="Permanent link">¶</a></h2>
-<p>Copy the BLV configuration files to the SD card. If the card is new or empty, first prepare it with <a href="https://duet3d.dozuki.com/Wiki/SD_Card">this guide</a>.</p>
+<p>Copy the BLV configuration files to the SD card. If the card is new or empty, prepare it first as described in the <a href="https://docs.duet3d.com/">Duet documentation</a>.</p>
 <table>
 <thead>
 <tr>
@@ -1441,7 +1441,7 @@
 </table>
 <h2 id="3-connect-to-the-web-interface">3. Connect to the web interface<a class="headerlink" href="#3-connect-to-the-web-interface" title="Permanent link">¶</a></h2>
 <p>The Duet has a built-in web interface with full control of the printer. This guide explains the network setup:</p>
-<p><a class="md-button" href="https://duet3d.dozuki.com/Wiki/Getting_Started_With_Duet_3#Section_Updating_Duet_3_main_board_firmware">Network setup guide</a></p>
+<p><a class="md-button" href="https://docs.duet3d.com/">Network setup guide</a></p>
 <div class="admonition danger">
 <p class="admonition-title">Avoid damaging the hardware</p>
 <ul>
@@ -1457,26 +1457,25 @@
 </ul>
 </div>
 <h2 id="4-configure-your-printer">4. Configure your printer<a class="headerlink" href="#4-configure-your-printer" title="Permanent link">¶</a></h2>
-<p>The provided configuration covers almost everything. You may still want to center the bed, set motor directions, add macro buttons or define temperature presets per filament. The <a href="https://duet3d.dozuki.com/">Duet guides</a> cover all of this:</p>
+<p>The provided configuration covers almost everything. You may still want to center the bed, set motor directions, add macro buttons or define temperature presets per filament. The <a href="https://docs.duet3d.com/">Duet guides</a> cover all of this:</p>
 <ul>
-<li><a href="https://duet3d.dozuki.com/Wiki/Step_by_step_guide"><strong>Full Duet 2 WiFi guide</strong></a></li>
-<li><a href="https://duet3d.dozuki.com/Wiki/Getting_Started_With_Duet_3"><strong>Full Duet 3 guide</strong></a></li>
-<li><a href="https://duet3d.dozuki.com/Wiki/RepRapFirmware_3_overview"><strong>RepRap 3 overview</strong></a>, essential reading</li>
+<li><a href="https://docs.duet3d.com/"><strong>Duet documentation</strong></a>, for both the Duet 2 WiFi and the Duet 3</li>
+<li><a href="https://docs.duet3d.com/User_manual/RepRapFirmware/RepRapFirmware_overview"><strong>RepRap 3 overview</strong></a>, essential reading</li>
 </ul>
 <p><strong>Complete these before moving on:</strong></p>
 <ul>
-<li><a href="https://duet3d.dozuki.com/Wiki/Centering_the_bed_or_setting_the_bed_origin">Center your bed</a></li>
-<li><a href="https://duet3d.dozuki.com/Wiki/Connecting_endstop_switches#Section_Test_endstop_switches">Test your endstop switches</a></li>
-<li><a href="https://duet3d.dozuki.com/Wiki/Connecting_a_Z_probe">Set up a different Z probe</a>, only for other probe types</li>
-<li><a href="https://duet3d.dozuki.com/Wiki/Connecting_PT100_temperature_sensors">Set up a PT100 sensor</a>, only with a PT100</li>
+<li><a href="https://docs.duet3d.com/User_manual/Tuning">Center your bed</a></li>
+<li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Sensors_testing">Test your endstop switches</a></li>
+<li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Z_probe_connecting">Set up a different Z probe</a>, only for other probe types</li>
+<li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Temperature_connecting_PT100">Set up a PT100 sensor</a>, only with a PT100</li>
 </ul>
 <h3 id="stepper-motors">Stepper motors<a class="headerlink" href="#stepper-motors" title="Permanent link">¶</a></h3>
 <p>With the FYSETC parts set you can skip this, since its labeled cables match the FYSETC configuration. With steppers from the BOM or the Blurolls set, the motors will probably turn the wrong way at first. Set them up like this:</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/motors-steppers-note-min-8d41b50a.png" data-desc-position="bottom"><img alt="Stepper motors note" src="../../assets/img/motors-steppers-note-min-8d41b50a.png" width="560"></a></p>
 <ol>
-<li><strong>Identify the coil pairs.</strong> A stepper has 4 wires, 2 per coil. This <a href="https://duet3d.dozuki.com/Wiki/Choosing_and_connecting_stepper_motors#Section_Identifying_the_stepper_motor_phases">short guide</a> and <a href="http://www.youtube.com/watch?v=S0pGKgos498">this video</a> show how to find them.</li>
+<li><strong>Identify the coil pairs.</strong> A stepper has 4 wires, 2 per coil. This <a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Motors_connecting">short guide</a> and <a href="http://www.youtube.com/watch?v=S0pGKgos498">this video</a> show how to find them.</li>
 <li><strong>Connect the steppers</strong> using the original Duet stepper wiring, shown in the bottom right corner of <a href="../wiring/">wiring diagram v3.2</a> under "Duet original steppers wiring".</li>
-<li><strong>Test and configure</strong> them with the <a href="https://duet3d.dozuki.com/Wiki/ConfiguringRepRapFirmwareCoreXYPrinter#Section_Movement_section">Duet documentation</a>. The video shows the expected movement for each test command.</li>
+<li><strong>Test and configure</strong> them with the <a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Motors_configuring">Duet documentation</a>. The video shows the expected movement for each test command.</li>
 </ol>
 <div class="videos" markdown="0"><figure class="yt"><button class="yt-play" data-id="S0pGKgos498" aria-label="Play: Easily identify the leads of a 4-wire stepper motor with a multimeter"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/S0pGKgos498/hqdefault.jpg" alt=""></button><figcaption>Easily identify the leads of a 4-wire stepper motor with a multimeter</figcaption></figure><figure class="yt"><button class="yt-play" data-id="fPW-o5QJiSU" aria-label="Play: BLV mgn Cube 3D printer - steppers test"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/fPW-o5QJiSU/hqdefault.jpg" alt=""></button><figcaption>BLV mgn Cube 3D printer - steppers test</figcaption></figure></div>
 
@@ -1485,10 +1484,10 @@
 
 <p><strong>More guides:</strong></p>
 <ul>
-<li><a href="https://duet3d.dozuki.com/Wiki/Tuning_Stepper_Motor_Drivers">Tuning stepper motor drivers</a> for the Duet's TMC2660 drivers</li>
-<li><a href="https://duet3d.dozuki.com/Wiki/Using_mesh_bed_compensation">Mesh bed compensation</a> to change the mesh settings</li>
-<li><a href="https://duet3d.dozuki.com/Wiki/Bed_levelling_using_multiple_independent_Z_motors">Multiple independent Z motors</a> for true auto leveling</li>
-<li><a href="https://duet3d.dozuki.com/Wiki/Connecting_and_configuring_filament-out_sensors">Filament sensor</a></li>
+<li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Motors_tuning">Tuning stepper motor drivers</a> for the Duet's TMC2660 drivers</li>
+<li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Z_probe_mesh_bed">Mesh bed compensation</a> to change the mesh settings</li>
+<li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Z_probe_auto_levelling">Multiple independent Z motors</a> for true auto leveling</li>
+<li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Sensors_filament">Filament sensor</a></li>
 </ul>
 <h2 id="5-calibrate">5. Calibrate<a class="headerlink" href="#5-calibrate" title="Permanent link">¶</a></h2>
 <p>These calibrations are mandatory. Follow the pictures exactly and work accurately, since they have a large effect on print quality.</p>
@@ -1509,18 +1508,17 @@
 <h2 id="optional-calibrations">Optional calibrations<a class="headerlink" href="#optional-calibrations" title="Permanent link">¶</a></h2>
 <p>Read each guide before enabling the feature:</p>
 <ul>
-<li><a href="https://duet3d.dozuki.com/Wiki/Reducing_Stand-Still_Noise">Reducing stand-still noise</a> for quieter idle motors</li>
-<li><a href="https://duet3d.dozuki.com/Wiki/Stall_detection_and_sensorless_homing">Stall detection and sensorless homing</a></li>
-<li><a href="https://duet3d.dozuki.com/Wiki/Pressure_advance">Pressure advance</a> to compensate for filament and extruder elasticity</li>
-<li><a href="https://duet3d.dozuki.com/Wiki/Setting_up_to_resume_a_print_after_a_power_failure">Resume a print after a power failure</a></li>
-<li><a href="https://duet3d.dozuki.com/Wiki/Accelerometers">Accelerometer (experimental)</a> to measure ringing frequencies for DAA</li>
+<li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Motors_tuning">Reducing stand-still noise</a> for quieter idle motors (see the standstill current setting)</li>
+<li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Sensors_stall_detection">Stall detection and sensorless homing</a></li>
+<li><a href="https://docs.duet3d.com/User_manual/Tuning/Pressure_advance">Pressure advance</a> to compensate for filament and extruder elasticity</li>
+<li><a href="https://docs.duet3d.com/User_manual/Tuning/Resume">Resume a print after a power failure</a></li>
+<li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Sensors_Accelerometer">Accelerometer (experimental)</a> to measure ringing frequencies for DAA</li>
 </ul>
 <h2 id="useful-guides">Useful guides<a class="headerlink" href="#useful-guides" title="Permanent link">¶</a></h2>
 <ul>
-<li><a href="https://duet3d.dozuki.com/Wiki/Macros">Macros</a> in RepRap firmware</li>
-<li><a href="https://duet3d.dozuki.com/Wiki/Using_M581_-_External_Triggers_and_Building_a_Control_Panel">External buttons and a custom web interface panel</a></li>
-<li><a href="https://duet3d.dozuki.com/Wiki/Gcode">G-code dictionary</a> with every G-code RepRapFirmware supports</li>
-<li><a href="https://duet3d.dozuki.com/c/Community_Projects">Duet community projects</a></li>
+<li><a href="https://docs.duet3d.com/User_manual/Tuning/Macros">Macros</a> in RepRap firmware</li>
+<li><a href="https://docs.duet3d.com/User_manual/Tuning/Triggers">External buttons and a custom web interface panel</a></li>
+<li><a href="https://docs.duet3d.com/User_manual/Reference/Gcodes">G-code dictionary</a> with every G-code RepRapFirmware supports</li>
 </ul>
 
 

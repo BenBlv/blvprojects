@@ -7,7 +7,7 @@ description: BLV Ender 3 Pro extras. Smart filament sensor, PEI surface, LEDs, b
 
 ## Smart filament sensor
 
-Why pay $15 for the **SKR [smart filament sensor](http://s.click.aliexpress.com/e/4FrAxFZW)** when a wire and an endstop switch cost $1.5? [This video](http://Youtube.com/watch?v=iFGIKMAGJTk) explains the difference.
+Why pay $15 for the **SKR smart filament sensor** when a wire and an endstop switch cost $1.5? [This video](http://Youtube.com/watch?v=iFGIKMAGJTk) explains the difference.
 
 A switch sensor only detects whether filament is present. If the spool jams or the filament gets stuck, nothing happens and the printer keeps printing air. The smart sensor tracks filament movement with a rotary encoder and pauses the print when the filament stops moving. It is well worth it, especially for long prints of 12 hours or more.
 

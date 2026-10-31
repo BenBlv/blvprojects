@@ -20,17 +20,17 @@ description: BLV Ender 3 Pro upgrade bill of materials. Board, rails, hotend, Z 
 - 1 × [BLTouch auto-leveling sensor](http://s.click.aliexpress.com/e/qBBPL8Yo) / [original BLTouch with bracket](https://s.click.aliexpress.com/e/_Afq0W5)
 - 1 × [transparent BMG extruder](https://s.click.aliexpress.com/e/_A3OmVx) / [Orbiter V2 HQ](https://s.click.aliexpress.com/e/_Aru69x) / [Trianglelab BMG](https://s.click.aliexpress.com/e/_99fl7j) / [DriveKit](https://www.aliexpress.com/item/32904209624.html)
 - Filament sensor:
-    - [SKR smart filament sensor](http://s.click.aliexpress.com/e/4FrAxFZW), works very well with an SKR board only ([why](extras.md#smart-filament-sensor))
+    - SKR smart filament sensor, works very well with an SKR board only ([why](extras.md#smart-filament-sensor))
     - [Simple switch filament sensor](http://s.click.aliexpress.com/e/sdxvnjU8)
 - 1 × [heated bed insulation sticker 235 × 235](http://s.click.aliexpress.com/e/oRLzRr3w), goes under the bed
 - 1 × [high quality PTFE tube](http://s.click.aliexpress.com/e/c0Bjxidi) to replace the stock tube
 - 1 × [4 pcs anti-vibration pads](http://s.click.aliexpress.com/e/kmCfLBuU) under the printer
-- 1 × [5V LED strip](http://s.click.aliexpress.com/e/E4GMRYsg). Choose 1 m, 60 LEDs, IP30 non-waterproof. It is slim and can be cut to fit.
-- 1 × [high quality aluminium handle](http://s.click.aliexpress.com/e/BWIJ2ykg), 90 mm aluminum alloy option
+- 1 × 5V LED strip. Choose 1 m, 60 LEDs, IP30 non-waterproof. It is slim and can be cut to fit.
+- 1 × high quality aluminium handle, 90 mm aluminum alloy option
 - 1 × [yellow strong Creality CR-10 bed springs](http://s.click.aliexpress.com/e/YFNHPjE) to replace the stock springs
-- 1 × [high quality silicone sock for the hotend block](http://s.click.aliexpress.com/e/2CsvqM0s) as a spare
+- 1 × high quality silicone sock for the hotend block as a spare
 - 1 × [22AWG wire, 4/5 wires, 5 m](http://s.click.aliexpress.com/e/btaHHrm0) for the LEDs
-- 1 × [Energetic powder coated PEI sheet](http://s.click.aliexpress.com/e/2lEwXoPO) / [Trianglelab powder coated PEI sheet](http://s.click.aliexpress.com/e/FqxxpVYy)
+- 1 × Energetic powder coated PEI sheet / Trianglelab powder coated PEI sheet
 - [SKR touch LCD screen for the Ender 3 Pro](http://s.click.aliexpress.com/e/k6bTgdas), optional
 
 !!! note "Using the original Z endstop?"
@@ -58,14 +58,14 @@ A better hotend is a recommended upgrade. First decide between Bowden and direct
 
 === "Bowden"
 
-    - [The original Creality hotend](https://s.click.aliexpress.com/e/_9zkfSp) | [cheap hotend clone](http://s.click.aliexpress.com/e/BnnuyFOu)
-    - [High quality hotend by Mellow](http://s.click.aliexpress.com/e/3M2Kbf7w)
+    - [The original Creality hotend](https://s.click.aliexpress.com/e/_9zkfSp) | cheap hotend clone
+    - High quality hotend by Mellow
     - [Excellent quality hotend by Trianglelab](http://s.click.aliexpress.com/e/nOPUd8pS)
     - [Dragon V2 hotend](https://s.click.aliexpress.com/e/_A9Yt1B), excellent results
 
 === "Direct drive"
 
-    [Trianglelab DDE direct drive, 24V full set](http://s.click.aliexpress.com/e/4EpkugHi), a great system.
+    Trianglelab DDE direct drive, 24V full set, a great system.
 
     Its X carriage is very similar to the original Ender carriage. To install the DDE, drill two small holes for M3×6 mm screws in the carriage. It takes about 2 minutes ([how](extras.md#trianglelab-dde)).
 

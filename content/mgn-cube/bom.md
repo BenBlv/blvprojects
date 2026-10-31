@@ -58,7 +58,7 @@ Buying the extrusions from a local supplier is usually cheaper. Use regular Euro
 
 **Brackets:**
 
-- 2 × [T-shape bracket 60×60](http://s.click.aliexpress.com/e/3RhFdTa) to support the Z rail extrusions
+- 2 × T-shape bracket 60×60 to support the Z rail extrusions
 - 14 × [90° corner bracket](https://s.click.aliexpress.com/e/_AbriPg) for 2020/2040
 - 100 × [2020 aluminum brackets](https://s.click.aliexpress.com/e/_A2p4Tg), 20×20 or 20×17
 
@@ -250,11 +250,11 @@ Cover the board with [carbon fiber vinyl](https://s.click.aliexpress.com/e/_DBgN
 - [Braided cable sleeve, Prusa style](http://s.click.aliexpress.com/e/c4TGFoTe)
 - [SSR-25DA solid state relay](http://s.click.aliexpress.com/e/c9BSvYtK) to switch the printer on with a button, with an [SSR heatsink](http://s.click.aliexpress.com/e/bC2PgQK4)
 - [Wago compact connectors](http://s.click.aliexpress.com/e/cpmjKbk8)
-- [Activated carbon filter](http://s.click.aliexpress.com/e/5gNEcdn6) for the large air scrubber
+- Activated carbon filter for the large air scrubber
 - [3/32" G10 hardened steel balls, 500 pcs](http://s.click.aliexpress.com/e/bNxC5T6s), spares for MGN12H carriages
 - [100K NTC 3950 thermistors](http://s.click.aliexpress.com/e/bPgML85K), spares
 - [HEPA filter for iLife robot vacuums](http://s.click.aliexpress.com/e/b0PPT4Co) for the small air scrubber
-- [HEPA filter for Eufy RoboVac 11c](http://s.click.aliexpress.com/e/BpDoZAo) for the large air scrubber
+- HEPA filter for Eufy RoboVac 11c for the large air scrubber
 - [Acoustic foam tiles](https://s.click.aliexpress.com/e/_DC5Z6wn)
 
 **Filaments I used in the project:**
@@ -263,7 +263,7 @@ Cover the board with [carbon fiber vinyl](https://s.click.aliexpress.com/e/_DBgN
 - [Dual color PLA 250 g](https://s.click.aliexpress.com/e/_DFzLWwf) (test prints)
 - [Rainbow silk PLA](https://s.click.aliexpress.com/e/_DC8xPcn) (test prints)
 - NOULEI silk filaments: [store 1](http://s.click.aliexpress.com/e/l3V3Lymy), [store 2](http://s.click.aliexpress.com/e/dAY2Eky0) (test prints)
-- [Silver PLA 1 kg](http://s.click.aliexpress.com/e/0QZwKnO) (test prints)
+- Silver PLA 1 kg (test prints)
 
 **Filament dryers:**
 

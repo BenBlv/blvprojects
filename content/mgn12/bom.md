@@ -33,9 +33,9 @@ description: BLV mgn12 mod bill of materials. Rails, extrusions, screws, hotend,
 | 20 | [M4×10 screw](http://s.click.aliexpress.com/e/cofQXlYU) |
 | 20 | [M4 nut](http://s.click.aliexpress.com/e/b6UeHSTq) |
 | 20 | [M4 washer](http://s.click.aliexpress.com/e/bBzZ8BzO) |
-| 60 | [M3×8 socket head cap screw](http://s.click.aliexpress.com/e/EAtFI4Y) |
-| 4 | [M3×20 socket head cap screw](http://s.click.aliexpress.com/e/EAtFI4Y) |
-| 6 | [M3×20 screw](http://s.click.aliexpress.com/e/EAtFI4Y) |
+| 60 | M3×8 socket head cap screw |
+| 4 | M3×20 socket head cap screw |
+| 6 | M3×20 screw |
 | 1 | [M3×32 screw](http://s.click.aliexpress.com/e/bPa8ju3A) |
 | 40 | [M3 T-nut](http://s.click.aliexpress.com/e/cE4VsD3a) |
 | 4 | [M3 nut](http://s.click.aliexpress.com/e/b6UeHSTq) |
@@ -75,13 +75,13 @@ Two options for the MGN12H rails:
 1. [Trianglelab V6 hotend (1.75, 24V, PTFE)](http://s.click.aliexpress.com/e/caZqu2H6), used in an earlier build
 2. [Mellow hotend set (24V, PTFE)](http://s.click.aliexpress.com/e/bCjYIiV2), my choice
 3. [Blurolls good quality V6 hotend](http://s.click.aliexpress.com/e/ba5TT1gy)
-4. [Cheap V6 hotend clone](http://s.click.aliexpress.com/e/0VAEYg0)
+4. Cheap V6 hotend clone
 
 ## Electronics
 
 - [Duet WiFi clone v1.03 + 4.3" LCD + controller](http://s.click.aliexpress.com/e/cFXVURcM)
 - [All-metal E3D V6 hotend, genuine E3D](https://www.filastruder.com/products/all-metal-e3d-v6-hotend) from Filastruder.com, highly recommended
-- [BMG dual-drive extruder](http://s.click.aliexpress.com/e/AtScdVQ) / [good metal BMG dual extruder](http://s.click.aliexpress.com/e/cmISe6Kc) / [BMG clone extruder](http://s.click.aliexpress.com/e/TVWzdM4)
+- BMG dual-drive extruder / [good metal BMG dual extruder](http://s.click.aliexpress.com/e/cmISe6Kc) / [BMG clone extruder](http://s.click.aliexpress.com/e/TVWzdM4)
 - [1 m Capricorn clone PTFE tube, 1.9 or 2 mm ID](http://s.click.aliexpress.com/e/c0Bjxidi)
 - [Silicone sock](http://s.click.aliexpress.com/e/b3PFQhBw) to keep the nozzle temperature steady
 - [Easy fast wire connectors](http://s.click.aliexpress.com/e/cq30k5Yk)

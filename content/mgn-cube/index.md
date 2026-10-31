@@ -46,7 +46,7 @@ The BLV mgn Cube is an open front CoreXY 3D printer that runs on MGN linear rail
 :   Installing the rails takes about 70% of the build time. It takes precision and a few hours of alignment, and it is worth every minute when the printer runs. To help, the project includes 3D animation videos, PDF guides, sketches and measurements.
 
 **Balanced budget**
-:   The BOM aims for the best value without cutting quality: a top 32-bit board, good stepper motors and reliable sensors. A 5" PanelDue touch screen is optional. You can save $80 and [use a phone or tablet instead](https://duet3d.dozuki.com/Wiki/Duet_Web_Control_Manual) with no loss of features.
+:   The BOM aims for the best value without cutting quality: a top 32-bit board, good stepper motors and reliable sensors. A 5" PanelDue touch screen is optional. You can save $80 and [use a phone or tablet instead](https://docs.duet3d.com/User_manual/Reference/Duet_Web_Control_Manual) with no loss of features.
 
 ## Upgrades
 

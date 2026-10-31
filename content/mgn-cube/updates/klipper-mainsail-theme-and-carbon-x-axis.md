@@ -19,7 +19,7 @@ back in July, I tried 4 different carbon services found on [Aliexpress](https://
 
 finally, I asked [mellow](https://s.click.aliexpress.com/e/_AMCl4g), sent him the plans. two weeks later he sent me a video of the BLV Carbon X-axis:
 
-<video controls preload="metadata" style="max-width:100%;width:520px" src="../../files/BLV-Klipper-Mainsail-theme.mp4"></video>
+<video controls preload="metadata" style="max-width:100%;width:280px" src="../../files/BLV-Klipper-Mainsail-theme.mp4"></video>
 
 I don't have it yet and I have not tested it, Most of you are familiar with [Mellow's](https://s.click.aliexpress.com/e/_AMCl4g)high-quality products. Hope to get it soon and test it. I have some concerns about the thickness of the tube and a deep fear the rivet will be loose over time without Epoxy or a thicker tube. My backup plan is a safe solution - having Only holes without a Rivet and using a long Jig to Hold the M3 nuts. need to test it first... If it will survive my tests, I will ask [Mellow](https://s.click.aliexpress.com/e/_AMCl4g)to add it to his store.
 

@@ -7,23 +7,23 @@ description: Download the BLV mgn Cube project files (with or without the Metal 
 
 ## Download the project files
 
-The project has had several updates, add-ons and improvements since its release. To make it easy to pick the right files, there are two downloads - choose by whether you have the [Metal Kit](https://benlevi8.wixsite.com/blvprojects/post/new-metal-kit-upgrade-blv-mgn-cube).
+The project received several updates, add-ons and improvements after its release. There are two downloads, depending on whether you build with the [Metal Kit](https://benlevi8.wixsite.com/blvprojects/post/new-metal-kit-upgrade-blv-mgn-cube) parts.
 
 <div class="grid cards" markdown>
 
--   **I have the Metal Kit**
+-   **With the Metal Kit**
 
     ---
 
-    A lighter version of the original project ZIP, without the files you don't need with the [Metal Kit](https://benlevi8.wixsite.com/blvprojects/post/new-metal-kit-upgrade-blv-mgn-cube). Print only the [hotend setup and the front panels](#3d-printing-the-parts); all other parts are optional.
+    A lighter version of the project files without the parts the Metal Kit replaces. You only print the hotend setup and the front panels. All other printed parts are optional.
 
     [:material-download: Download - 35.5 MB](download:BLV-mgn-Cube-V1.15-Metal-Kit.zip){ .md-button .md-button--primary }
 
--   **I don't have the Metal Kit**
+-   **Without the Metal Kit**
 
     ---
 
-    The original project file with all the printable parts: documents, drawings, print profile, **CAD files**, printable **STL files** and more.
+    The complete original project with every printable part, documents, drawings, the print profile, **CAD files** and **STL files**.
 
     [:material-download: Download - 50.8 MB](download:BLV-mgn-Cube-V1.15.zip){ .md-button .md-button--primary }
 
@@ -34,10 +34,10 @@ The project has had several updates, add-ons and improvements since its release.
 | Folder | Contents |
 | --- | --- |
 | **Documents** | PDF files with most of the information needed for the project |
-| **Firmware** | SD card content for the Duet / RepRap board: **Duet 2 WiFi** - the original configuration (firmware 2.xx+) · **Duet 3** - basic configuration (RepRap 3.xx+) |
+| **Firmware** | SD card content for Duet boards. **Duet 2 WiFi:** the original configuration (RepRap 2.xx and later). **Duet 3:** a basic configuration (RepRap 3.xx and later). |
 | **Frame Panels** | All the measurements for making enclosure panels |
-| **open source** | The original CAD files, including a few new add-ons and upgrades |
-| **Slicing Profiles** | Simplify3D profile. Cura has a built-in BLV mgn Cube profile. (A PrusaSlicer profile was planned.) |
+| **open source** | The original CAD files, including several add-ons and upgrades |
+| **Slicing Profiles** | Simplify3D profile. Cura includes a built-in BLV mgn Cube profile. |
 | **STL files to print** | All the STL files, including optional add-ons, upgrades and custom mounts - see below |
 
 ??? info "STL folders in detail"
@@ -46,62 +46,57 @@ The project has had several updates, add-ons and improvements since its release.
     | Bed Holder For Anet E12 Bed | Bed carriage mounts for the Anet E12 heated bed |
     | Bed Holder For CR-10 Bed | Bed carriage mounts for the Creality CR-10 heated bed |
     | Biqu H2 extruder adapter For Metal kit | BIQU H2 extruder adapter and fan mount for the Metal Kit |
-    | BLV optic Led cable concept | Concept add-on that reflects the Duet indicator lights to the front - no soldering |
+    | BLV optic Led cable concept | Concept add-on that carries the Duet status lights to the front, no soldering needed |
     | Chimera front plate adapter | For the Chimera hotend |
     | Direct Drive | Direct drive upgrade |
-    | Frame wires Holder | Printed wire clip for 2040/2020 extrusions - 3 sizes |
+    | Frame wires Holder | Printed wire clip for 2040 and 2020 extrusions, 3 sizes |
     | Front Panel | All STL and PDF files for the front panel |
-    | Hotend Setup for Metal kit | The new hotend setup for the Metal Kit - more upgrades in the community remixes |
+    | Hotend Setup for Metal kit | The hotend setup for the Metal Kit. More options are in the community remixes. |
     | Jigs | Main installation jig + 2 jigs for fixing rails on 2020 and 2040 |
     | Nozzle cleaner - Brass Brush | For the BIQU H2 extruder |
     | Nozzle cleaner - new silicone wiper | For the BIQU H2 extruder |
     | Optional - Air scrabber | Small air scrubbers that filter printing fumes |
     | Optional - BIG Air scrabber | Big, effective air scrubbers |
-    | Original Bowden Hotend | The original full hotend setup (not for the Metal Kit) |
+    | Original Bowden Hotend | The original hotend setup, not compatible with the Metal Kit |
     | Side LED diffusers | Files for the side-mounted LED lights |
     | Trianglelab Matrix adapter For Metal kit | Trianglelab Matrix extruder adapter for the Metal Kit |
     | Twin fans Bowden Hotend | Upgraded part cooling with dual 4010 blowers |
-    | Zesty Nimble | Adapter for the Zesty Nimble extruder - left and right versions |
-    | ... | and all the other STL files |
+    | Zesty Nimble | Adapter for the Zesty Nimble extruder, left and right versions |
+    | ... | All other STL files |
 
 ## 3D printing the parts
 
-How you print the parts has a huge impact on how they work, so follow the instructions closely: orientation, number of walls, printing angle, filament type and even print speed all matter. Most parts are designed to print without supports.
-
-??? question "Can I buy a kit of printed parts?"
-    Not everyone has a printer available or the time to print all the parts. Print services are usually expensive because they charge by print time. A cheaper option: an AliExpress store sells [BLV mgn Cube printed parts](https://s.click.aliexpress.com/e/_996qwz) in green PETG with 80% infill - a good solution if you have neither the time nor a printer.
-
-    [3D printed parts for BLV mgn Cube](https://s.click.aliexpress.com/e/_996qwz){ .md-button }
+How you print the parts has a large effect on how well they work. Orientation, wall count, filament type and even print speed all matter. Most parts print without supports.
 
 ### Filament
 
-The parts must handle stress, pushing forces and heat.
+The parts carry loads and work near heat, so choose a strong filament.
 
 | Filament | Notes |
 | --- | --- |
 | **PETG** | What I used |
-| **PETG Carbon** | Very rigid; needs a hardened steel nozzle |
-| ABS | Needs an enclosure; toxic fumes |
+| **PETG Carbon** | Very rigid, requires a hardened steel nozzle |
+| ABS | Requires an enclosure, releases toxic fumes |
 | PA12 | MJF / SLS printed |
 
-!!! danger "Don't use PLA / PLA+"
-    The parts will deform from the heat inside the printer.
+!!! danger "Don't use PLA or PLA+"
+    The heat inside the printer deforms PLA parts.
 
 ### Print settings
 
 - At least **6 outer walls / perimeters**
 - **7 bottom** layers and **7 top** layers
-- Most parts need **80%+ infill** - the sketches below show the exact infill for each part
+- Most parts need **80% infill or more**. The sketches below show the exact value for each part.
 
 ### Orientation
 
-The orientation of a part on the bed has a huge effect on its strength. The image shows exactly how to place every part. Some parts need supports, such as the tensioner idler holder - check before you hit print. Labels like X90 or Y-90 are the rotation to apply to the part.
+Orientation has a large effect on the strength of a part. The image shows how to place every part on the bed. A few parts need supports, for example the tensioner idler holder, so check before printing. Labels such as X90 or Y-90 give the rotation to apply.
 
 ![Print orientation of all the parts](../assets/img/orinetation-1d97169f.jpg)
 
 ## Parts descriptions
 
-Each sketch shows a set of parts with the part name, material and infill. If a sketch contradicts the settings above, the settings above win (6 walls, 7 bottom, 7 top layers).
+Each sketch shows a group of parts with the name, material and infill of every part. Where a sketch differs from the settings above, follow the settings above (6 walls, 7 bottom and 7 top layers).
 
 <div class="gallery" markdown>
 ![Front panel](../assets/img/blv-mgn-cube-front-panel-7bd15118.jpg)

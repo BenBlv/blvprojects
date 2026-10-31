@@ -5,41 +5,41 @@ description: The first page of the BLV mgn Cube building guide - the build steps
 
 # Start here
 
-This page is the road map of the build. Read it once before you order anything, then follow the guide pages in order: [BOM](bom.md) → [Download & Print](download-and-print.md) → [Assembly](assembly.md) → [Wiring](wiring.md) → [Calibrations](calibrations.md).
+This page is the road map of the build. Read it once before ordering anything, then follow the guide pages in order: [BOM](bom.md), [Download & Print](download-and-print.md), [Assembly](assembly.md), [Wiring](wiring.md) and [Calibrations](calibrations.md).
 
 ## What you need
 
-- [x] Passion for 3D printing
+- [x] A passion for 3D printing
 - [x] 3D printing knowledge
 - [x] Technical ability
 - [x] Spare time
-- [x] Budget
+- [x] A budget
 
 ## The build, step by step
 
-1. **Read, understand and prepare yourself**
-   Read the project description and the "more info" links, watch the 3D animations and explore the printer in the [3D viewer](index.md#explore-in-3d). Make sure you understand the printer structure before you start.
+1. **Prepare.**
+   Read the project description and the linked material, watch the 3D animations and explore the printer in the [3D viewer](index.md#explore-in-3d). Make sure you understand the structure before you start.
 
-2. **Get the parts**
-   The waiting is the most frustrating part. Make sure you have all the parts in the [BOM](bom.md), plus spare T-nuts, screws and so on. If you use your own electronics, make sure you know how to configure the firmware for your board.
+2. **Get the parts.**
+   Waiting for parts is the most frustrating stage. Check that you have everything in the [BOM](bom.md), plus spare T-nuts and screws. If you use your own electronics, make sure you know how to configure the firmware for your board.
 
-3. **Build**
-   This is not as easy as a pre-made kit. Prepare all the tools you need and use a good corner alignment tool - a precise structure is crucial for excellent prints. The provided jigs make the assembly much easier. Tap the holes in the extrusion ends and check whether they take M5 or M6 screws (it depends on the extrusion maker). Take your time fixing the rails to the extrusions: this [quick video by 3D Distributed](http://youtube.com/watch?v=iX0U1ADH0MY) shows an easy way to align parallel rails. And reward yourself after the rails are in - you deserve it :)
+3. **Build.**
+   Prepare the tools and use a good corner alignment tool. A precise frame is the basis of good prints. The printed jigs make the assembly much easier. Tap the holes in the extrusion ends and check whether they take M5 or M6 screws, since this depends on the extrusion maker. Take your time with the rails. This [short video by 3D Distributed](http://youtube.com/watch?v=iX0U1ADH0MY) shows an easy way to align parallel rails. Reward yourself when the rails are in, you deserve it.
 
-4. **Electronics installation**
-   Install the electronics carefully. Check every connection against the [wiring diagram](wiring.md), don't take shortcuts, and use the right tools and parts. The power cable is the last thing to connect.
+4. **Install the electronics.**
+   Check every connection against the [wiring diagram](wiring.md), avoid shortcuts and use the right tools and parts. Connect the power cable last.
 
-5. **Software, tests and calibrations**
-   Update the Duet WiFi board to the latest firmware, copy the provided config to the micro SD card, insert it and power up. The Mini IR sensor should blink 4 times right after power-up. Don't move the axes before you check the endstops. Home the printer: it should move to the left and then to the rear - if not, check the motor wiring and config. Calibrate the Z height and check the temperature readings. Run a **PID calibration** for both the bed and the hotend - this is very important, otherwise your prints will fail. If everything looks good, load filament and print a calibration cube. Details are on the [Calibrations](calibrations.md) page.
+5. **Test and calibrate.**
+   Update the Duet WiFi to the latest firmware, copy the provided configuration to the micro SD card, insert it and power up. The Mini IR sensor should blink 4 times at power-up. Check the endstops before you move any axis. When you home the printer it should move left and then to the rear. If it doesn't, check the motor wiring and the configuration. Calibrate the Z height and check the temperature readings. Run a **PID calibration** for both the bed and the hotend. This step is essential, without it prints will fail. When everything looks right, load filament and print a calibration cube. Details are on the [Calibrations](calibrations.md) page.
 
-6. **Print**
-   Enjoy your printer and give it some love when needed :) Grease the rails with synthetic grease with PTFE or sewing machine oil. Keep the rails clean and the belts tight. Clean the PEI build plate with alcohol after every print. If you use the air scrubber, replace the HEPA filter when needed.
+6. **Print and maintain.**
+   Grease the rails with a synthetic PTFE grease or sewing machine oil. Keep the rails clean and the belts tight. Clean the PEI plate with alcohol after every print. If you built the air scrubber, replace the HEPA filter when needed.
 
-7. **Post an "I made one"**
-   Show the world your new 3D printer and be proud of your creation :) I would really appreciate it if you upload pictures of your build. Knowing that the project helped you build your own printer makes all the hard work and the many hours worth it.
+7. **Share your build.**
+   I would really appreciate an "I made one" photo. Knowing the project helped you build your own printer makes all the hours worth it.
 
-8. **Remix and share**
-   I am 100% sure there are many ways to make this printer even better - that is why the source files are included. Make it better and share your remixes with this awesome community :)
+8. **Remix and share.**
+   There are many ways to make this printer better, which is why the source files are included. Improve it and share your remixes with the community.
 
 ## Change log
 

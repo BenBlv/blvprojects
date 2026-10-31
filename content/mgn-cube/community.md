@@ -1,20 +1,20 @@
 ---
 title: Community remixes - BLV mgn Cube
-description: BLV mgn Cube community upgrades, remixes and add-ons - hotends, tool changers, enclosures, triple Z and more from the BLV community.
+description: Upgrades, remixes and add-ons for the BLV mgn Cube made by the community. Hotends, tool changers, enclosures, triple Z and more.
 ---
 
 # Community remixes
 
-The whole idea of the project is to give back to the 3D community - and the community gave back many upgrades, remixes and add-ons. Whenever I found a cool BLV mgn Cube upgrade, remix or add-on - or you shared one with me on [Discord](https://discord.gg/zY4GBfuzC4) or [Facebook](https://www.facebook.com/groups/BenLevi) - I added it here. Thank you all for sharing!
+The project started as a way to give back to the 3D printing community, and the community answered with many upgrades, remixes and add-ons. This page collects the ones I found or that were shared with me on [Discord](https://discord.gg/zY4GBfuzC4) and [Facebook](https://www.facebook.com/groups/BenLevi). Thank you all for sharing.
 
-More remixes on the community sites:
+More remixes are listed on the community sites:
 
 [PrusaPrinters remixes](https://www.prusaprinters.org/prints/46738-blv-mgn-cube-3d-printer-by-ben-levi/remixes){ .md-button }
 [Thingiverse remixes](https://www.thingiverse.com/search?q=BLV+mgn+Cube&type=things&sort=relevant){ .md-button }
 
 ## Featured remixes
 
-62 community projects - click a card to open it on Thingiverse or Printables.
+62 community projects. Click a card to open it on Thingiverse or Printables. The descriptions are written by the authors.
 
 <div class="mods">
 <a class="mod" href="https://www.thingiverse.com/thing:5428192" target="_blank" rel="noopener"><img class="no-lightbox" src="https://cdn.thingiverse.com/assets/74/21/e7/a6/7d/card_preview_56248ba0ceee39419ac56de2430e9dc.jpg" alt="Bo li - klicky mosquito upgrade" loading="lazy"><b>Bo li - klicky mosquito upgrade</b><i>Bo Li</i><span>suitable BLV Metal KIT, Sherpa extruder, mellow mosquito volcano extrusion head, optional support Klicky or bltouch probe</span></a>

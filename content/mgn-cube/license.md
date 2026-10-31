@@ -7,7 +7,7 @@ description: BLV mgn Cube license (Creative Commons BY-NC-SA) and thanks.
 
 ## License
 
-**BLV mgn Cube - 3D Printer** by [BLV](https://www.thingiverse.com/BLV) (Ben Levi) is licensed under the [Creative Commons - Attribution - Non-Commercial - Share Alike](http://creativecommons.org/licenses/by-nc-sa/3.0/) license.
+**BLV mgn Cube 3D Printer** by [BLV](https://www.thingiverse.com/BLV) (Ben Levi) is licensed under the [Creative Commons Attribution Non-Commercial Share Alike](http://creativecommons.org/licenses/by-nc-sa/3.0/) license.
 
 <div class="icons" markdown>
 ![Share alike](../assets/img/chooser-sa-1ad13f0b.png){ .no-lightbox }
@@ -16,15 +16,15 @@ description: BLV mgn Cube license (Creative Commons BY-NC-SA) and thanks.
 ![Attribution](../assets/img/chooser-by-af904843.png){ .no-lightbox }
 </div>
 
-There are no conditions other than the license terms.
+No conditions apply beyond the license terms.
 
 ## Thank you
 
-- My heartfelt thanks to my lovely wife for encouraging and supporting me throughout the project. It wasn't easy, I know... I love you and appreciate everything.
-- Huge thanks and appreciation for supporting this project to Peter (Blurolls store), the Mellow store and FYSETC.com.
-- **This great community, for making this place my second home :) Thank you!**
+- To my wife, for her encouragement and support throughout the project. I know it wasn't easy. I love you and appreciate everything you do.
+- To Peter (Blurolls store), the Mellow store and FYSETC.com, for supporting the project.
+- **To this community, for becoming my second home. Thank you!**
 
-You don't have to, but if you insist - a [small donation will be greatly appreciated](https://www.paypal.me/BenBLV). Thank you :)
+If you would like to support the work, a [small donation](https://www.paypal.me/BenBLV) is always appreciated.
 
 ![Ben Levi](../assets/img/ben-levi-bfbf2637.jpg){ width="160" .no-lightbox }
 

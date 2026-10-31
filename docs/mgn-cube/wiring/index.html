@@ -3,7 +3,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="BLV mgn Cube wiring diagrams for Duet 2 WiFi, Duet 3 and the FYSETC kit - fans, Neopixel rings, BLTouch and power relay.">
+        <meta name="description" content="BLV mgn Cube wiring diagrams for Duet 2 WiFi, Duet 3 and the FYSETC parts set. Fans, Neopixel rings, BLTouch and the power relay.">
       
       
         <meta name="author" content="Ben Levi">
@@ -1142,43 +1142,43 @@
 
 
 <h1 id="wiring">Wiring<a class="headerlink" href="#wiring" title="Permanent link">¶</a></h1>
-<p>Wiring is a critical step - double check every wire you install. It takes about 3 hours, sometimes more. With the FYSETC kit it takes about an hour: the kit has an optimized wiring diagram, all cables ready, stepper wires in the right order, labeled and with plugs, and a unique PCB for the Neopixel rings (5 minutes, plug and play, based on the original Neopixel project). <strong>Make sure you follow the diagram for your setup.</strong></p>
+<p>Wiring is a critical step, so double check every wire. It usually takes about 3 hours. With the FYSETC parts set it takes about an hour, since that set came with an optimized diagram, ready-made labeled cables with plugs, stepper wires in the correct order and a plug-and-play PCB for the Neopixel rings. <strong>Follow the diagram that matches your setup.</strong></p>
 <div class="admonition warning">
 <p class="admonition-title">Before you start</p>
 <ul>
-<li>Wire the printer with the AC plug <strong>disconnected</strong> from any power source.</li>
-<li>Crimp every cable that goes into the PSU (FYSETC kit cables are pre-crimped).</li>
+<li>Wire the printer with the AC plug <strong>disconnected</strong>.</li>
+<li>Crimp every cable that goes into the power supply.</li>
 <li>Don't mix negative and positive wires.</li>
 <li>Double check every wire.</li>
 </ul>
 </div>
-<p>Click any diagram to enlarge it.</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><input id="__tabbed_1_2" name="__tabbed_1" type="radio"><input id="__tabbed_1_3" name="__tabbed_1" type="radio"><div class="tabbed-labels"><label for="__tabbed_1_1">Duet 2 WiFi</label><label for="__tabbed_1_2">Duet 3 6HC</label><label for="__tabbed_1_3">FYSETC kit only</label></div>
+<p>Click a diagram to enlarge it.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><input id="__tabbed_1_2" name="__tabbed_1" type="radio"><input id="__tabbed_1_3" name="__tabbed_1" type="radio"><div class="tabbed-labels"><label for="__tabbed_1_1">Duet 2 WiFi</label><label for="__tabbed_1_2">Duet 3 6HC</label><label for="__tabbed_1_3">FYSETC parts set</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/duetwifi-wiring-v3-2-min-726cd8fc.jpg" data-desc-position="bottom"><img alt="Duet WiFi wiring v3.2" src="../../assets/img/duetwifi-wiring-v3-2-min-726cd8fc.jpg"></a></p>
-<p><strong>12V fans on a 24V system</strong> - if your fans are rated 12V, this is the right way to wire them on 24V without damaging the board or the fans:</p>
+<p><strong>12V fans on a 24V system.</strong> If your fans are rated for 12V, wire them like this to avoid damaging the board or the fans:</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/wiring-12v-fan-on-24v-system-min-b60ba6b7.jpg" data-desc-position="bottom"><img alt="12V fans on a 24V system" src="../../assets/img/wiring-12v-fan-on-24v-system-min-b60ba6b7.jpg" width="560"></a></p>
-<p><strong>Neopixel rings</strong> - installed on the front panel, they show the printer status with animations.</p>
+<p><strong>Neopixel rings.</strong> The rings on the front panel show the printer status with animations.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/neopixel-wiring-v2-2b-0e2f25f7.jpg" data-desc-position="bottom"><img alt="Neopixel wiring v2.2b" src="../../assets/img/neopixel-wiring-v2-2b-0e2f25f7.jpg" width="560"></a></p>
 <p>Arduino code for the rings:</p>
 <ul>
-<li><a href="https://github.com/mule1972/NeoPixelBLVmgn">Most recent code by Claus Noack</a> - confirmed working</li>
+<li><a href="https://github.com/mule1972/NeoPixelBLVmgn">Latest code by Claus Noack</a>, confirmed working</li>
 <li><a href="https://github.com/mimasx/BLV_NeoPixelIntegration">First alpha version by Mimasx</a></li>
 </ul>
 </div>
 <div class="tabbed-block">
-<p>If you have the Duet 3 board, this is your wiring diagram:</p>
+<p>Wiring diagram for the Duet 3 board:</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/ben-levi-duet-3-wiring-39114e2e.jpg" data-desc-position="bottom"><img alt="Duet 3 wiring" src="../../assets/img/ben-levi-duet-3-wiring-39114e2e.jpg"></a></p>
 </div>
 <div class="tabbed-block">
-<p><strong>Optimized wiring for the FYSETC kit:</strong></p>
+<p><strong>Optimized wiring for the FYSETC parts set:</strong></p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/general-3f911e31.jpg" data-desc-position="bottom"><img alt="FYSETC general wiring" src="../../assets/img/general-3f911e31.jpg"></a></p>
-<p><strong>BLTouch</strong> - the FYSETC kit comes with a BLTouch auto-leveling sensor:</p>
+<p><strong>BLTouch.</strong> The FYSETC set uses a BLTouch auto-leveling sensor:</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/blv-kit-fysetc-bltouch-402ee7f9.jpg" data-desc-position="bottom"><img alt="FYSETC BLTouch wiring" src="../../assets/img/blv-kit-fysetc-bltouch-402ee7f9.jpg" width="560"></a></p>
-<p><strong>Power button - relay module:</strong></p>
+<p><strong>Power button with relay module:</strong></p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/psu-ba3b3d91.jpg" data-desc-position="bottom"><img alt="PSU relay wiring" src="../../assets/img/psu-ba3b3d91.jpg" width="560"></a></p>
-<p><strong>FYSETC BLV Neopixel module</strong> - a 5-minute install. All cables are ready, the Neopixels come with soldered pins, and the 2-pin and 3-pin plugs can't go wrong. Piece of cake!</p>
+<p><strong>FYSETC BLV Neopixel module.</strong> A 5-minute install. The cables are ready, the rings come with soldered pins, and the 2-pin and 3-pin plugs only fit one way.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/blv-neopixle-wiring-43d764cd.jpg" data-desc-position="bottom"><img alt="BLV Neopixel module wiring" src="../../assets/img/blv-neopixle-wiring-43d764cd.jpg" width="560"></a></p>
 </div>
 </div>

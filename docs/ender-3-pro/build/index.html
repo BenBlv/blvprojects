@@ -3,7 +3,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="BLV Ender 3 Pro build guide - assembly videos and instructions, belts, build volume adjustment and moving the PSU for dual Z.">
+        <meta name="description" content="BLV Ender 3 Pro build guide. Assembly videos and instructions, belts, build volume adjustment and moving the PSU for dual Z.">
       
       
         <meta name="author" content="Ben Levi">
@@ -931,10 +931,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#dual-z-move-the-psu" class="md-nav__link">
+  <a href="#dual-z-moving-the-psu" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Dual Z - move the PSU
+        Dual Z: moving the PSU
       
     </span>
   </a>
@@ -1281,10 +1281,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#dual-z-move-the-psu" class="md-nav__link">
+  <a href="#dual-z-moving-the-psu" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Dual Z - move the PSU
+        Dual Z: moving the PSU
       
     </span>
   </a>
@@ -1310,7 +1310,7 @@
 
 <h1 id="build-guide">Build guide<a class="headerlink" href="#build-guide" title="Permanent link">¶</a></h1>
 <h2 id="assembly-videos">Assembly videos<a class="headerlink" href="#assembly-videos" title="Permanent link">¶</a></h2>
-<div class="videos" markdown="0"><figure class="yt"><button class="yt-play" data-id="RGLydw9Z-Pk" aria-label="Play: BLV Ender 3 Pro Project - disassembly steps"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/RGLydw9Z-Pk/hqdefault.jpg" alt=""></button><figcaption>BLV Ender 3 Pro Project - disassembly steps</figcaption></figure><figure class="yt"><button class="yt-play" data-id="2qyT3RMo_xo" aria-label="Play: BLV Ender 3 Pro - Z axis and extruder assembly"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/2qyT3RMo_xo/hqdefault.jpg" alt=""></button><figcaption>BLV Ender 3 Pro - Z axis and extruder assembly</figcaption></figure><figure class="yt"><button class="yt-play" data-id="Ezdl2pPzPiA" aria-label="Play: BLV Ender 3 Pro - bed assembly"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/Ezdl2pPzPiA/hqdefault.jpg" alt=""></button><figcaption>BLV Ender 3 Pro - bed assembly</figcaption></figure><figure class="yt"><button class="yt-play" data-id="jtvkmLhM9FM" aria-label="Play: BLV Ender 3 Pro - X carriage assembly"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/jtvkmLhM9FM/hqdefault.jpg" alt=""></button><figcaption>BLV Ender 3 Pro - X carriage assembly</figcaption></figure></div>
+<div class="videos" markdown="0"><figure class="yt"><button class="yt-play" data-id="RGLydw9Z-Pk" aria-label="Play: Disassembly steps"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/RGLydw9Z-Pk/hqdefault.jpg" alt=""></button><figcaption>Disassembly steps</figcaption></figure><figure class="yt"><button class="yt-play" data-id="2qyT3RMo_xo" aria-label="Play: Z axis and extruder assembly"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/2qyT3RMo_xo/hqdefault.jpg" alt=""></button><figcaption>Z axis and extruder assembly</figcaption></figure><figure class="yt"><button class="yt-play" data-id="Ezdl2pPzPiA" aria-label="Play: Bed assembly"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/Ezdl2pPzPiA/hqdefault.jpg" alt=""></button><figcaption>Bed assembly</figcaption></figure><figure class="yt"><button class="yt-play" data-id="jtvkmLhM9FM" aria-label="Play: X carriage assembly"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/jtvkmLhM9FM/hqdefault.jpg" alt=""></button><figcaption>X carriage assembly</figcaption></figure></div>
 
 <h2 id="assembly-instructions">Assembly instructions<a class="headerlink" href="#assembly-instructions" title="Permanent link">¶</a></h2>
 <div class="gallery">
@@ -1321,19 +1321,19 @@
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-a641b5fa.jpg" data-desc-position="bottom"><img alt="Rails position" src="../../assets/img/img-a641b5fa.jpg"></a></p>
 </div>
 <h2 id="belts">Belts<a class="headerlink" href="#belts" title="Permanent link">¶</a></h2>
-<p>The original Creality belt is too flexible and hurts print quality. The kit comes with a fiberglass-reinforced GT2 6 mm belt, which is much better. The X-axis belt is clamped at a length of <strong>785 mm</strong> (the belt between the clamps, not including the brass clamps). If you need to replace a belt, you can lock both ends with a zip tie.</p>
+<p>The original Creality belt is too flexible and reduces print quality. Use a fiberglass-reinforced GT2 6 mm belt instead. The X axis belt is clamped at a length of <strong>785 mm</strong>, measured between the clamps and not including the brass clamps. When replacing a belt, both ends can be locked with a zip tie.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/y-axis-31700401.jpg" data-desc-position="bottom"><img alt="Y axis belt" src="../../assets/img/y-axis-31700401.jpg"></a></p>
 <h3 id="build-volume-adjustment">Build volume adjustment<a class="headerlink" href="#build-volume-adjustment" title="Permanent link">¶</a></h3>
-<p>To keep the original build volume, change <code>Y_MIN_POS</code> in Marlin's <strong>Configuration.h</strong>. My calculation came to <strong>-9.15</strong>; adjust it to your needs. The picture shows where to find it.</p>
+<p>To keep the original build volume, change <code>Y_MIN_POS</code> in Marlin's <strong>Configuration.h</strong>. My value was <strong>-9.15</strong>, adjust it to your setup. The picture shows where to find it.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/adjustments-biuld-volum-02fdbc91.png" data-desc-position="bottom"><img alt="Build volume adjustment" src="../../assets/img/adjustments-biuld-volum-02fdbc91.png"></a></p>
-<h2 id="dual-z-move-the-psu">Dual Z - move the PSU<a class="headerlink" href="#dual-z-move-the-psu" title="Permanent link">¶</a></h2>
-<p>With the dual Z option, the PSU has to move:</p>
+<h2 id="dual-z-moving-the-psu">Dual Z: moving the PSU<a class="headerlink" href="#dual-z-moving-the-psu" title="Permanent link">¶</a></h2>
+<p>The dual Z option requires moving the PSU:</p>
 <ol>
 <li>Disconnect the PSU from the wall.</li>
 <li>Disconnect the PSU from the printer.</li>
 <li>Partly remove the plastic cover from the PSU.</li>
 <li>Drill M5 holes as shown below.</li>
-<li>Insert 3 × M5 8 mm button head screws + T-nuts.</li>
+<li>Insert 3 × M5 8 mm button head screws with T-nuts.</li>
 <li>Put the plastic cover back on the frame and tighten the screws.</li>
 <li>Put the PSU back and lock it to the cover.</li>
 </ol>

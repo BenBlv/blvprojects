@@ -104,7 +104,7 @@
 .md-typeset img { border-radius: 4px; }
 .md-typeset .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: .4rem; margin: 1em 0; }
 .md-typeset .gallery > p { display: contents; }
-.md-typeset .gallery a, .md-typeset .gallery p { margin: 0; display: block; }
+.md-typeset .gallery a { margin: 0; display: block; }
 .md-typeset .gallery img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; border: 1px solid var(--blv-line); }
 .md-typeset .icons { display: flex; gap: .4rem; align-items: center; margin: .6rem 0; }
 .md-typeset .icons > p { display: contents; }
@@ -153,3 +153,5 @@
 .md-typeset .feature-list li { break-inside: avoid; }
 .md-typeset .changelog { columns: 2 18rem; column-gap: 2rem; font-size: .66rem; }
 .md-typeset .changelog li { break-inside: avoid; }
+.md-typeset .about { max-width: 40rem; margin: 0 auto; }
+.md-typeset .about .home-sign { margin: 1.4rem 0 1.2rem; }

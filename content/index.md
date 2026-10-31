@@ -1,6 +1,6 @@
 ---
 title: BLV 3D Printers
-description: BLV 3D printers are high accuracy, fast and reliable open-source 3D printers designed by Ben Levi. Guides, assembly videos, BOM, CAD files and all the information to build your own - free of charge.
+description: BLV 3D printers are accurate, fast and reliable open-source 3D printers designed by Ben Levi. Guides, assembly videos, BOM and CAD files to build your own, free of charge.
 hide:
   - navigation
   - toc
@@ -10,9 +10,9 @@ hide:
 <div markdown>
 # BLV 3D Printers
 
-<p class="lead">Open-source 3D printers by Ben Levi - an archive of the BLV mgn Cube, BLV Ender 3 Pro and BLV mgn12 projects.</p>
+<p class="lead">Open-source 3D printers by Ben Levi. An archive of the BLV mgn Cube, BLV Ender 3 Pro and BLV mgn12 projects.</p>
 
-I'm an open-source 3D printer developer. The BLV projects are my way of saying "thank you" to the 3D community I admire. Here you'll find guides, assembly videos, instructions, BOM, sketches, original CAD files and all the information you need to build your own BLV 3D printer. BLV projects are non-profit and free for non-commercial use.
+I design open-source 3D printers, and the BLV projects are my way of thanking the 3D printing community. This site has the guides, assembly videos, BOMs, sketches and original CAD files needed to build a BLV printer. The projects are non-profit and free for non-commercial use.
 
 <div class="home-sign">
 <img class="avatar no-lightbox" src="assets/img/ben-levi-8e903eef.png" alt="Ben Levi">
@@ -21,7 +21,7 @@ I'm an open-source 3D printer developer. The BLV projects are my way of saying "
 </div>
 </div>
 
-<img class="photo no-lightbox" src="assets/img/home-hero-97ea63d4.jpg" alt="BLV mgn Cube - X axis and hotend">
+<img class="photo no-lightbox" src="assets/img/home-hero-97ea63d4.jpg" alt="BLV mgn Cube X axis and hotend">
 </div>
 
 ## The projects
@@ -34,7 +34,7 @@ I'm an open-source 3D printer developer. The BLV projects are my way of saying "
 
     ---
 
-    An open front CoreXY printer on MGN12 rails - 300 × 300 bed, RepRap or Klipper, up to 500 mm/s. The main BLV project: 1.78M downloads.
+    An open front CoreXY printer on MGN12 rails with a 300 × 300 bed, RepRap or Klipper and speeds up to 500 mm/s. The main BLV project, with 1.78M downloads.
 
     [Overview](mgn-cube/index.md) · [Start here](mgn-cube/start.md) · [Download](mgn-cube/download-and-print.md)
 
@@ -44,7 +44,7 @@ I'm an open-source 3D printer developer. The BLV projects are my way of saying "
 
     ---
 
-    An upgrade mod for the Ender 3 Pro: all-aluminum parts, MGN12 linear rails and a BMG dual drive extruder.
+    An upgrade for the Ender 3 Pro with all-aluminum parts, MGN12 linear rails and a BMG dual drive extruder.
 
     [Overview](ender-3-pro/index.md) · [BOM](ender-3-pro/bom.md) · [Build guide](ender-3-pro/build.md)
 
@@ -54,7 +54,7 @@ I'm an open-source 3D printer developer. The BLV projects are my way of saying "
 
     ---
 
-    Turns an Anet A8 / Prusa i3 into an accurate, fast printer with MGN12 rails on an aluminum frame. AM8 compatible.
+    Turns an Anet A8 or Prusa i3 into an accurate, fast printer with MGN12 rails on an aluminum frame. AM8 compatible.
 
     [Overview](mgn12/index.md) · [BOM](mgn12/bom.md) · [Print & assemble](mgn12/build.md)
 
@@ -68,4 +68,4 @@ I'm an open-source 3D printer developer. The BLV projects are my way of saying "
 [:fontawesome-brands-tiktok: TikTok](https://www.tiktok.com/@benleviblv){ .md-button }
 [:material-heart: Donate](https://www.paypal.com/paypalme/BenBLV){ .md-button .md-button--primary }
 
-Looking for news and posts? The [updates blog](https://benlevi8.wixsite.com/blvprojects/blog) is still on the old site.
+News and posts from the project years are on the [updates blog](https://benlevi8.wixsite.com/blvprojects/blog) on the old site.

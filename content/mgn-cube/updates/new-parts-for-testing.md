@@ -1,47 +1,47 @@
 ---
 title: "New 3D printer parts for testing"
-description: "So lately I tested parts before adding to the BOM list. looking to add more links of quality parts and i found - Mellow store at Aliexpress. first, It"
+description: "I test parts before adding them to the BOM list. Looking for more quality parts, I found the Mellow store on AliExpress."
 ---
 
 [← All updates](index.md){ .back-link }
 
 # New 3D printer parts for testing
 
-So lately I tested parts before adding to the BOM list. looking to add more links of quality parts and i found - **Mellow** store at Aliexpress. first, It's very important to me to mention I paid the full amount for the parts without any discount or so - in short, no one paid me to write it.
+I test parts before adding them to the BOM list. While looking for more links to quality parts, I found the **Mellow** store on AliExpress. First, it's very important to me to mention that I paid the full price for the parts without any discount. In short, no one paid me to write this.
 
 !yt hZ4hPYj_TOo
 
-### All metal BMG dual drive extruder
+### All-metal BMG dual drive extruder
 
-After two weeks using it, i honestly think it's the best extruder i have used. most of the previous extruders failed to align the filament to the center.  
-Only Mellow all-metal, Trianglelab, and Sealand BMG extruders managed to align the Filament to the center correctly. it's CNC machined, accurate and very reliable.  
-Since it weighs almost twice then a regular one, i would recommend you to use it only on Bowden setup. although it will perform exactly as a regular one - I really like using it due to his robust shell.
+After two weeks of using it, I honestly think it's the best extruder I have used. Most of the previous extruders failed to align the filament to the center. Only the Mellow all-metal, Trianglelab and Sealand BMG extruders aligned the filament to the center correctly. It's CNC machined, accurate and very reliable. Since it weighs almost twice as much as a regular one, I recommend using it only in a Bowden setup. It performs exactly like a regular one, but I really like using it because of its robust shell.
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/8a11fc21968a.jpg)
 ![](../../assets/img/posts/000a06c115a3.jpg)
 </div>
 
-### Ruby Nozzle 0.4 / 1.75
+### Ruby nozzle 0.4 / 1.75
 
-i had to print a carbon mount. Before that I used a Steel nozzle - it worked but steel act a bit different than a brass nozzle (Thermo reaction delay). so i decided to test the Mellow's Ruby nozzle. the throat polished, edges are chamfered. had the best experience printing carbon - defiantly a keep! in a safe 🤣
+I had to print a carbon mount. Before that I used a steel nozzle. It worked, but steel behaves a bit differently than brass (thermal reaction delay). So I decided to test Mellow's ruby nozzle. The throat is polished and the edges are chamfered. I had the best experience printing carbon with it, definitely a keeper (in a safe 🤣).
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/ebb35d4961f6.jpg)
 ![](../../assets/img/posts/0b6da915eeb1.jpg)
 </div>
 
-### 623zz flanged Ball bearings
+### 623ZZ flanged ball bearings
 
-these are very important! unfortunately, few members bought an expensive bearing from amazon and got trash which gave them a really bad experience and low-quality printing. I had before the 0.05+/- bearings and decided to try the +/-0.005 tolrance (option 3) - excellent bearings highly recommended. almost none exist free play an the screw.
+These are very important. Unfortunately, a few members bought expensive bearings from Amazon and got junk, which gave them a really bad experience and low-quality prints. I previously had the +/-0.05 bearings and decided to try the +/-0.005 tolerance (option 3). They are excellent bearings and highly recommended, with almost no free play on the screw.
 
 ![](../../assets/img/posts/b0e025df6591.jpg)
 
-### the other parts:
+### The other parts
 
-was surprised to see how well the brass block was made, however, I have not tested it yet since it's much heavier than the aluminum block i use. Take a look at the photos of the aluminum block - it's an art, i really pleased with the quality and especially excited to see sensor/heater combo - the sensor has a crimped case!  
-The nozzles are also high quality (not tested yet the steel).  
-I checked also the new GT2 pulleys, you will immediately notice the perfect edges, the teeth angle and the polish it's an improvement but no noticeable difference with the print quality. however, i do think it worth the price.
+I was surprised to see how well the brass block was made. However, I haven't tested it yet, since it's much heavier than the aluminum block I use. Take a look at the photos of the aluminum block. It's a work of art. I'm really pleased with the quality, and especially excited to see the sensor and heater combo, because the sensor has a crimped case.
+
+The nozzles are also high quality (I haven't tested the steel one yet).
+
+I also checked the new GT2 pulleys. You will immediately notice the perfect edges, the tooth angle and the polish. It's an improvement, although there is no noticeable difference in print quality. Still, I do think they are worth the price.
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/060ae08f9024.jpg)
@@ -52,10 +52,10 @@ I checked also the new GT2 pulleys, you will immediately notice the perfect edge
 ![](../../assets/img/posts/8572c0fefcc7.jpg)
 </div>
 
-I updated the BOM links and since i know a few will ask:
+I updated the BOM links, and since I know a few of you will ask:
 
-- [All metal BMG extruder](http://s.click.aliexpress.com/e/cmISe6Kc)
+- [All-metal BMG extruder](http://s.click.aliexpress.com/e/cmISe6Kc)
 - [Ruby nozzle](http://s.click.aliexpress.com/e/FhCK6i4)
-- [F623ZZ Flange Ball Bearings (3 option](http://s.click.aliexpress.com/e/WJXxClE))
-- [hotend kit (24V teflon)](http://s.click.aliexpress.com/e/bCjYIiV2)
-- [4m Gates 6mm GT2 Fiber Glass Reinforced Belt](http://s.click.aliexpress.com/e/lMixbe0)
+- [F623ZZ flanged ball bearings (option 3)](http://s.click.aliexpress.com/e/WJXxClE)
+- [Hotend kit (24V, PTFE)](http://s.click.aliexpress.com/e/bCjYIiV2)
+- [4m Gates 6mm GT2 fiberglass reinforced belt](http://s.click.aliexpress.com/e/lMixbe0)

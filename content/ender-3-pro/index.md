@@ -25,7 +25,6 @@ The BLV Ender 3 Pro is an upgrade project for the popular Ender 3 Pro 3D printer
 !!! info "Kits are no longer sold"
     The ready-made BLV Ender 3 Pro aluminum kits are no longer available. The drawings and files are still here, so the parts can be made by a CNC service for personal use.
 
-
 ## Why build it
 
 <div class="why" markdown>
@@ -48,13 +47,12 @@ The upgrade was tested for over 700 hours of printing before release.
 
 1. **Prepare.** Read the project description, watch the 3D animation videos and make sure you understand the structure.
 2. **Get the parts.** Order everything in the [BOM](bom.md), plus spare T-nuts and screws, and prepare the tools.
-3. **Build.** A precise frame is the basis of good prints, and several YouTube videos show how to align the Ender 3 Pro frame. Use the printed jigs when installing the MGN rails, they make the assembly much easier. Take your time fixing the rails to the extrusions. This [short video by 3D Distributed](http://youtube.com/watch?v=iX0U1ADH0MY) shows an easy way to align parallel rails.
+3. **Build.** A precise frame is the basis of good prints, and several YouTube videos show how to align the Ender 3 Pro frame. Use the printed jigs when installing the MGN rails. They make the assembly much easier. Take your time fixing the rails to the extrusions. This [short video by 3D Distributed](http://youtube.com/watch?v=iX0U1ADH0MY) shows an easy way to align parallel rails.
 4. **Install the electronics.** For the SKR Mini E3 V1.2 board there is a good [YouTube installation guide](https://www.youtube.com/watch?v=VxCBDyvFSgA). The Duet WiFi 1.04 board is also an option.
-
 5. **Software, tests and calibration.** This step needs some experience, or one of the many YouTube guides on calibrating the Ender 3 Pro. I recommend a fresh Marlin build instead of the original firmware. Don't skip: wiring and endstop check, firmware update, extruder and feed rate calibration, hotend and bed PID, and the probe Z offset.
 6. **Print and maintain.** Grease the rails with white lithium grease or light sewing machine oil. Keep the rails clean and the belts tight. Clean the PEI plate with alcohol after every print, and lightly scuff new sheets with brass wool.
 7. **Share your build.** Post an "I made one" photo. Knowing the project helped you makes all the hours worth it.
-8. **Remix and share.** The source file is included so you can improve the design. Please share your remixes with the community.
+8. **Remix and share.** The source files are included so you can improve the design. Please share your remixes with the community.
 9. **Commercial use.** Read the [legal license](license.md#legal-license) first.
 
 !!! note "Requirements"

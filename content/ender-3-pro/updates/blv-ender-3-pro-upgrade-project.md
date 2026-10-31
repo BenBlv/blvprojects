@@ -1,6 +1,6 @@
 ---
 title: "BLV Ender 3 Pro upgrade project"
-description: "Hi friends, after a lot of hard work the new open source project is alive. This upgrade will boost up your Ender 3 Pro performance. Your Ender 3 Pro w"
+description: "After a lot of hard work, the new open-source project is alive. This upgrade will boost your Ender 3 Pro's performance."
 ---
 
 [← All updates](index.md){ .back-link }
@@ -9,38 +9,38 @@ description: "Hi friends, after a lot of hard work the new open source project i
 
 ![](../../assets/img/posts/cf15f9499ac5.jpg)
 
-Hi friends, after a lot of hard work the new open source project is alive. This upgrade will boost up your Ender 3 Pro performance. Your Ender 3 Pro will be more silent, rigid, accurate and provide high quality prints. No more worn out POM wheels.. no more eccentric adjustments, no more lose / free play on-axis. Just pure accurate motion on all the axis using Linear rails!
+Hi friends, after a lot of hard work, the new open-source project is alive. This upgrade will boost your Ender 3 Pro's performance. Your Ender 3 Pro will be quieter, more rigid and more accurate, and it will produce high-quality prints. No more worn-out POM wheels, no more eccentric nut adjustments, no more loose axes or free play. Just pure, accurate motion on all axes using linear rails!
 
-Instead of using elastic 3d printed parts as adapters, I designed 16 parts that are **fully aluminum CNC machined** for maximum rigid structure.
+Instead of using flexible 3D printed parts as adapters, I designed 16 parts that are **fully CNC machined from aluminum** for a structure that is as rigid as possible.
 
-As always, the projects will be **Open-source** ☺️ and I trying my best to make it affordable and accessible to all. by giving all my hard work (200+ hours) for free (non-profit project) to the manufacturer and saving the development cost - the manufacturers are willing to produce the kit for cheap.
+As always, the project is **open source** ☺️ and I'm trying my best to make it affordable and accessible to all. By giving all my hard work (200+ hours) to the manufacturer for free (it's a non-profit project) and saving them the development cost, the manufacturers are willing to produce the kit cheaply.
 
-**Some of the features:**
+#### Some of the features
 
-- all the parts are aluminum anodized parts!
-- Linear rails on all the axis (X,Y,Z).
-- easy installation (assembly 1.5h top).
+- All parts are anodized aluminum
+- Linear rails on all axes (X, Y, Z)
+- Easy installation (1.5 hours of assembly at most)
 - Dual drive extruder
-- Option for Dual Z (extra stepper / single stepper with dual TR8).
-- new and improved Y carriage
-- Direct drive option (Triangelab DDE setup with V6)
+- Dual Z option (an extra stepper, or a single stepper with dual TR8 lead screws)
+- New and improved Y carriage
+- Direct drive option (Trianglelab DDE setup with a V6)
 - Mosquito adapter (work in progress)
-- dedicated hotend led lighting
-- SKR mini E3 (tmc 2209) or original creality board.
-- all CAD files are available.
-- SKR filament smart sensor support
-- Currently testing the kit on CR-10/Ender 3 (regular) without the Bed.
-- and more...
+- Dedicated hotend LED lighting
+- SKR Mini E3 (TMC2209) or the original Creality board
+- All CAD files are available
+- BTT smart filament sensor support
+- Testing the kit on the CR-10 / Ender 3 (regular) without the bed
+- And more
 
-Guys as always, I made a 3d assembly video, instructions, and more useful data.
+As always, I made a 3D assembly video, instructions and more useful information.
 
-Have fun 🤩
+Have fun!
 
-### LINKS
+### Links
 
-- [**Project link**](../index.md)
-- [**link for the Aluminium Kit (from Blurolls)**](http://s.click.aliexpress.com/e/dC4nTB6C)
-- [**Kit for the Ender 3 (Regular - not the pro) without the Bed**](http://s.click.aliexpress.com/e/5aTdbQ8o)[setup](http://s.click.aliexpress.com/e/5aTdbQ8o)
+- [**Project page**](../index.md)
+- [**Aluminum kit (from Blurolls)**](http://s.click.aliexpress.com/e/dC4nTB6C)
+- [**Kit for the Ender 3 (regular, not the Pro) without the bed**](http://s.click.aliexpress.com/e/5aTdbQ8o) ([setup](http://s.click.aliexpress.com/e/5aTdbQ8o))
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/cf15f9499ac5.jpg)

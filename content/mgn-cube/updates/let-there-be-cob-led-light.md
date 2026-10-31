@@ -1,37 +1,39 @@
 ---
 title: "Let there be COB LED light"
-description: "After a long time using the LED strip to illuminate the printing area, I wondered how I could make the LEDs sexier, hidden, and without having to prin"
+description: "After a long time using an LED strip to light the print area, I wondered how to make the LEDs sexier and hidden, without having to print parts."
 ---
 
 [← All updates](index.md){ .back-link }
 
 # Let there be COB LED light
 
-After a long time using the LED strip to illuminate the printing area, I wondered how I could make the LEDs sexier, hidden, and without having to print parts. Also, I was tired of seeing uneven light shining from the diffuser due to the large distance between each LED and LED.
+After a long time using an LED strip to light the print area, I wondered how I could make the LEDs sexier and hidden, without having to print parts. I was also tired of the uneven light shining through the diffuser because of the large gap between one LED and the next.
 
-So I started researching again and finally came up with another type of LED that more suitable for the BLV mgn Cube 3d printer - COB LED STRIP.
+So I started researching again and finally found another type of LED strip that is more suitable for the BLV mgn Cube 3D printer: the COB LED strip.
 
 ![](../../assets/img/posts/161f6da46095.jpg)
 
-In COB Strip the light-emitting diodes are much smaller than the standard LED strip, which allows a larger amount of light-emitting diodes to be inserted into the strip. In a standard LED strip you will find about 60 LEDs per meter, whereas in COB you will find 360 LEDs per meter. This is 6x times more than a standard strip. This advantage makes it possible to create a uniform light diffusion. Another advantage is the fact that it's manufactured so that the LEDs have a layer of silicone that acts as a diffuser and helps to evenly distribute the light.
+In a COB strip the light-emitting diodes are much smaller than in a standard LED strip, which allows many more of them to fit on the strip. A standard LED strip has about 60 LEDs per meter, whereas a COB strip has 360 LEDs per meter. That is 6 times more than a standard strip, and it makes uniform light diffusion possible. Another advantage is that the LEDs are covered with a layer of silicone that acts as a diffuser and helps distribute the light evenly.
 
 ![](../../assets/img/posts/d85be1624523.jpg)
 
-Also, using a smaller size diode allows the strip to be narrower. I chose an 8mm width. This allowed me to insert the COB strip into the extrusion channel easily. the COB strip can be cut every 50mm and the intensity of the light can be adjusted too.
+The smaller diodes also allow the strip to be narrower. I chose an 8 mm width, which let me insert the COB strip into the extrusion channel easily. The COB strip can be cut every 50 mm, and the light intensity can be adjusted too.
 
-The first two strips I ordered from different stores on Aiexpress made me disappointed and I almost gave up. Eventually, I found a [**reliable store**](https://s.click.aliexpress.com/e/_9i94Go) that sold quality COB strips. I chose from product listing options: **6000K Cool White** + **24v 360 LEDs** + **2 meters**. The strips came well packaged, met the specifications, and gave the feeling that this is indeed a high-quality COB strip.
+The first two strips I ordered from different stores on AliExpress disappointed me, and I almost gave up. Eventually I found a [**reliable store that sells quality COB strips**](https://s.click.aliexpress.com/e/_9i94Go). From the listing options I chose **6000K Cool White**, **24V 360 LEDs** and **2 meters**. The strips came well packaged, met the specifications and felt like high-quality COB strips.
 
-I cut the COB strip according to the marking, (every 50mm) to the appropriate length with scissors and soldered two 26AWG wires. If you do not want or can't solder, you can use [**this fast connector**](https://s.click.aliexpress.com/e/_9II1fw) (choose the "For 8 mm PCB" option). I then threaded the stip easily into the upper aluminum extrusion channels. The electrical wires can be connected in 2 ways:
+I cut the COB strip to the right length with scissors, following the markings (every 50 mm), and soldered on two 26 AWG wires. If you can't or don't want to solder, you can use [**this quick connector**](https://s.click.aliexpress.com/e/_9II1fw) (choose the "For 8 mm PCB" option). Then I threaded the strip easily into the upper aluminum extrusion channels. The wires can be connected in 2 ways:
 
 - Direct connection to a 24V PSU
-- Duet Fan output - If you choose to connect the COB to a fan outlet, you will be able to control the COB strip intensity by using a slider in the duet's control panel.
+- Duet fan output - if you connect the COB strip to a fan output, you can control its intensity with a slider in the Duet control panel
 
-In my case, I'm using Fysetc amazing [**Duet 3 6HC board**](https://s.click.aliexpress.com/e/_A1uWxz). so I had to define the lights as a FAN output by adding this line to the **Config.g** file:
+In my case I'm using FYSETC's amazing [**Duet 3 6HC board**](https://s.click.aliexpress.com/e/_A1uWxz), so I had to define the lights as a fan output by adding these lines to the **config.g** file:
 
-M950 F2 C"out9" Q500   
+```
+M950 F2 C"out9" Q500
 M106 P2 S0.2 H-1 C"Lights"
+```
 
-Then I connected the COB LED's strip wires to **OUT9** port on the Duet3 6HC board.
+Then I connected the COB LED strip wires to the **OUT9** port on the Duet 3 6HC board.
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/84429b5e29c8.jpg)
@@ -39,9 +41,9 @@ Then I connected the COB LED's strip wires to **OUT9** port on the Duet3 6HC boa
 ![](../../assets/img/posts/aa711c3434be.jpg)
 </div>
 
-I must note that I am very pleased with the end result, the lighting is very efficient, looks good and I have the ability to control the intensity of the lighting through the panel. I could not have asked for anything better. I very much hope this will help those of you who want to add lighting to your printer.
+I am very pleased with the end result. The lighting is very efficient, it looks good and I can control its intensity from the panel. I could not have asked for anything better. I really hope this helps those of you who want to add lighting to your printer.
 
-In these pictures you can be impressed by the streams I installed, by the way, these are prints made with the help of [**BIQU's amazing H2 extruder**](https://s.click.aliexpress.com/e/_AgqcYp) (I will review it very soon).
+In these pictures you can see the strips I installed. By the way, the prints in them were made with [**BIQU's amazing H2 extruder**](https://s.click.aliexpress.com/e/_AgqcYp).
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/518f9c92e692.jpg)

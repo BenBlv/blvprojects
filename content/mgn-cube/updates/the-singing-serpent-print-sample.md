@@ -1,6 +1,6 @@
 ---
 title: "The Singing Serpent print sample"
-description: "Today I printed the &quot;Adalinda: The Singing Serpent&quot; and i made a video + a few photos Printed with Gold Silk 195C/60C 60 mm/s without support. Model: "
+description: "I printed \"Adalinda: The Singing Serpent\" in gold silk PLA (195°C/60°C, 60 mm/s, no supports) and made a video and a few photos."
 ---
 
 [← All updates](index.md){ .back-link }
@@ -9,15 +9,13 @@ description: "Today I printed the &quot;Adalinda: The Singing Serpent&quot; and 
 
 !yt exeUR__tco8 | Printing with gold silk PLA
 
-Today I printed the "Adalinda: The Singing Serpent"  
-and i made a video + a few photos  
-Printed with Gold Silk  
-195C/60C  
-60 mm/s  
-without support.  
-Model: Adalinda [The Singing Serpent](https://www.thingiverse.com/thing:246198)
+I printed "Adalinda: The Singing Serpent" and made a video and a few photos.
 
-Filament I used: NOULEI Gold Silk PLA: [**Link**](http://s.click.aliexpress.com/e/bgV8dvqu)
+- Model: Adalinda [The Singing Serpent](https://www.thingiverse.com/thing:246198)
+- Filament: [**NOULEI Gold Silk PLA**](http://s.click.aliexpress.com/e/bgV8dvqu)
+- Temperature: 195°C nozzle / 60°C bed
+- Speed: 60 mm/s
+- No supports
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/cfb365564c8e.jpg)

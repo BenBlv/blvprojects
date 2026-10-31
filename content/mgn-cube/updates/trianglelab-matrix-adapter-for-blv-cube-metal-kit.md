@@ -1,20 +1,20 @@
 ---
 title: "Trianglelab Matrix adapter for the Metal Kit"
-description: "Hello my friends, for a long time I have been considering whether to purchase the E3D HEMERA extruder. To my great joy, a new extruder from Trianglela"
+description: "For a long time I considered buying the E3D Hemera extruder. Then Trianglelab released the Matrix, which is similar to the Hemera but costs much less."
 ---
 
 [← All updates](index.md){ .back-link }
 
 # Trianglelab Matrix adapter for the Metal Kit
 
-Hello my friends, for a long time I have been considering whether to purchase the [E3D HEMERA](https://e3d-online.com/products/e3d-hemera-direct-kit-1-75mm) extruder. To my great joy, a new extruder from Trianglelab appeared - [**MATRIX**](https://s.click.aliexpress.com/e/_ANs1Ql) , which is identical in most of its properties to HEMERA but costs much less and high quality.
+For a long time I have been considering whether to buy the [E3D Hemera](https://e3d-online.com/products/e3d-hemera-direct-kit-1-75mm) extruder. To my great joy, a new extruder from Trianglelab appeared: the [**Matrix**](https://s.click.aliexpress.com/e/_ANs1Ql). It is identical to the Hemera in most of its properties, but it costs much less and is still high quality.
 
 ![](../../assets/img/posts/80b57e9f9b02.jpg)
 
-The main reasons why I so wanted to try the Matrix are:
+The main reasons I wanted to try the Matrix so much are:
 
-- **Short filament path** - The distance between the wheels to the nozzle is 26mm. This is a huge advantage when printing soft and flexible materials. Beyond that the retraction distance is significantly smaller (mine set ot 0.6mm). Also, a much lower value can be entered at [pressure advance](https://docs.duet3d.com/)feature on Reprap FW which mines way more accurate extrusions and faster printing experience.
-- **Bi-metal heatbreak** - The combination of two different materials in the heatbreak creates a state of very efficient thermal separation compared to other extruders. The hitbreak tube is made of two different materials with different thermal conductivity. This creates an excellent buffer between the heat block and the part that should always be cold - the dual gears that push the filament inwards.
+- **Short filament path.** The distance between the drive wheels and the nozzle is 26mm. This is a huge advantage when printing soft and flexible materials. Beyond that, the retraction distance is significantly smaller (mine is set to 0.6mm). A much lower value can also be used for the [pressure advance](https://docs.duet3d.com/) feature in RepRap Firmware, which means more accurate extrusion and faster printing.
+- **Bi-metal heatbreak.** The heatbreak tube is made of two different materials with different thermal conductivity. This creates very efficient thermal separation compared to other extruders, and an excellent buffer between the heat block and the part that should always stay cold: the dual gears that push the filament in.
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/c77c0e1099eb.jpg)
@@ -22,11 +22,11 @@ The main reasons why I so wanted to try the Matrix are:
 ![](../../assets/img/posts/77ceabdc12c3.jpg)
 </div>
 
-Of course I did not refer to dual gear drive with **1:3 gear proportion** and other features, because it has already become almost standard. The only downside of this setup is the weight. For me, the total weight of the Hotend and extruder was about 360 grams. It is **heavier** than other extruders, on the other hand the performance can be very surprising..
+I'm not even counting the dual gear drive with a **1:3 gear ratio** and the other features, because they have almost become standard. The only downside of this setup is the weight. For me, the total weight of the hotend and extruder was about 360 grams. It is **heavier** than other extruders, but on the other hand, the performance can be very surprising.
 
-As you can see, I was immediately tempted and purchased the new MATRIX extruder. After a pretty long time using the Matrix extruder with my [**BLV mgn Cube**](../index.md) 3d printer (upgraded to [**Metal kit**](new-metal-kit-upgrade-blv-mgn-cube.md)), I feel quite comfortable writing an objective opinion about it.
+As you can see, I was immediately tempted and bought the new Matrix extruder. After using it for a pretty long time on my [**BLV mgn Cube**](../index.md) 3D printer (upgraded with the [**Metal Kit**](new-metal-kit-upgrade-blv-mgn-cube.md)), I feel quite comfortable writing an objective opinion about it.
 
-The new extruder came well packaged and all components are marked in separate bags with detail stickers. In addition, a page was attached detailing the entire contents of the package, including a QR code that refers to a [neat assembly guide](https://drive.google.com/drive/folders/1K_Jj4JfczDlKiNnwk-SYakOIQqm4zllD). They even added a Matrix step (CAD) file in case anyone would be interested in modeling mounts and extras. I must note that Trianglab always attaches all the necessary components to their products as well as detailed instructions. all included, whether it's shrinks, adpaters, wires or just zipties. **Well done**!
+The new extruder came well packaged, with all components in separate bags marked with detailed stickers. A page listing the entire contents of the package was also included, with a QR code that leads to a [neat assembly guide](https://drive.google.com/drive/folders/1K_Jj4JfczDlKiNnwk-SYakOIQqm4zllD). They even added a Matrix STEP (CAD) file in case anyone wants to model mounts and extras. I must note that Trianglelab always includes all the necessary components with their products, as well as detailed instructions. Everything is included, whether it's heat shrinks, adapters, wires or just zip ties. **Well done!**
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/0f489b86bcbb.jpg)
@@ -35,7 +35,7 @@ The new extruder came well packaged and all components are marked in separate ba
 ![](../../assets/img/posts/a25015adeb38.jpg)
 </div>
 
-This is what it looks like shortly before mounting on the X-axis:
+This is what it looks like shortly before mounting it on the X axis:
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/8997ec327334.jpg)
@@ -46,7 +46,7 @@ This is what it looks like shortly before mounting on the X-axis:
 
 ### Print test
 
-I guess by this point you already want to see print results. So for those who can not resist, I added here some pictures of objects printed with the Trianglelab Matrix extruder. By the way, I really like print this cube, it's quite funny that it comes out more accurate when printed using a BLV printer.
+I guess by now you already want to see some print results. So for those who can't resist, here are some pictures of objects printed with the Trianglelab Matrix extruder. By the way, I really like printing this cube. It's quite funny that it comes out more accurate when printed on a BLV printer.
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/b1aeff72c6e8.jpg)
@@ -56,7 +56,7 @@ I guess by this point you already want to see print results. So for those who ca
 
 ### Installing the extruder
 
-Although the [**MATRIX**](https://s.click.aliexpress.com/e/_ANs1Ql)is very similar to the HEMERA, the dimensions are slightly different so I preferred to create an adapter for the BLV Metal Kit. When I created the adapter, I referred to the nozzle location and tried to find the most optimal location. Some of the considerations were maintain a proper center of gravity and not lose of the build plate size.
+Although the [**Matrix**](https://s.click.aliexpress.com/e/_ANs1Ql) is very similar to the Hemera, the dimensions are slightly different, so I preferred to design an adapter for the BLV Metal Kit. When I designed the adapter, I focused on the nozzle position and tried to find the optimal location. Some of the considerations were keeping a proper center of gravity and not losing build plate area.
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/60aba64e7403.jpg)
@@ -64,47 +64,48 @@ Although the [**MATRIX**](https://s.click.aliexpress.com/e/_ANs1Ql)is very simil
 ![](../../assets/img/posts/e74ca9786fc7.jpg)
 </div>
 
-The MATRIX adapter is [**available for download below**](#viewer-6bdjg). I uploaded also the source file (step file), so that it will be easy for you to add features and make changes as you wish. In order to assemble the adapter you will need the following components:
+The Matrix adapter is available in the **download section** below. I also uploaded the source file (STEP file), so you can easily add features and make changes as you wish. To assemble the adapter, you will need the following components:
 
-- [BLV mgn Cube 3dp printer](../index.md)+ [Metal Kit](new-metal-kit-upgrade-blv-mgn-cube.md) upgrade
-- [BLV Matrix adapter](#viewer-d47dn) - printed from **PETG/ASA/ABS** with **80%+ infill**.
+- [BLV mgn Cube 3D printer](../index.md) with the [Metal Kit](new-metal-kit-upgrade-blv-mgn-cube.md) upgrade
+- BLV Matrix adapter, printed in **PETG/ASA/ABS** with **80%+ infill**
 - [Trianglelab Matrix extruder](https://s.click.aliexpress.com/e/_ANs1Ql)
-- 3 X M3 8mm Hex Flat head screws
-- 1 X M3 16mm Hex Flat head screws
-- 2 X M3 8mm Hex Socket head screws
-- 3 X M3 16mm Hex Socket head screws
-- 3 X M3 washers
+- 3 x M3 8mm hex flat head screws
+- 1 x M3 16mm hex flat head screw
+- 2 x M3 8mm hex socket head screws
+- 3 x M3 16mm hex socket head screws
+- 3 x M3 washers
 
-In order to assemble the adapter, use these instructions:
+Follow these instructions to assemble the adapter:
 
 ![](../../assets/img/posts/a900ac4f27c9.jpg)
 
-**Layers fan**
+### Layer fan
 
-I temporarily chose to use a [James Tongue](https://www.thingiverse.com/thing:4042492/files) fan as a layered fan, but I changed the bracket to fit the Trianglelab Matrix extruder so the nozzle would be placed right in the middle. the modified fan mount available in the download section below.
+For now I chose to use a [James Tongue](https://www.thingiverse.com/thing:4042492/files) fan duct as the layer fan, but I modified the bracket to fit the Trianglelab Matrix extruder so the nozzle sits right in the middle. The modified fan mount is available in the download section below.
 
-### Download Section
+### Download section
 
-BLV matrix v1.1.5.zipDownload ZIP • 179KB
+File: BLV matrix v1.1.5.zip (ZIP, 179KB)
 
-File description
+File description:
 
-- BLV matrix adapter for metal kit.step - adapter source file.
+- BLV matrix adapter for metal kit.step - adapter source file
+- BLV matrix adapter for metal kit.stl - the Matrix adapter file to print
+- BLV matrix fan adapter.step - fan mount source file
+- BLV matrix fan adapter.stl - if you are using the [James Tongue](https://www.thingiverse.com/thing:4042492/files) fan bracket, print this file
 
-- BLV matrix adapter for metal kit.stl - This is the matrix adapter file to printed.
-- BLV matrix fan adapter.step - If you are using [James Tongue](https://www.thingiverse.com/thing:4042492/files) fan bracket, print this file.
-- BLV matrix fan adapter.stl - Fan mount source file.
+### Firmware changes (RRF3)
 
-### Changes to be made in FIRMWARE (RRF3):
+To use the Matrix, you have to change the following lines in the config.g file on your Duet. Please mind that these lines are for RRF3.
 
-To use the MATRIX you have to Change the following lines in the Config.g file on your Duet. please mind that the following lines are for RRF3 version.
+- **Thermistor:** change the thermistor settings to match the Matrix thermistor. In the **M308** line, change the T, B and C values to: **T107537 B4725 C7.06e-8**
+- **E-steps:** for me, the default e-steps from the Trianglelab manual were wrong, so I calibrated my Matrix extruder to find the most accurate setting. I advise you to calibrate your extruder too. I had to change the e-steps value in the **M92** line to: **E324.214**
+- **Stepper driver:** invert your extruder drive direction by changing the S value to S0 or S1 in the M569 line.
+- **Probe position:** for the mini IR sensor, the offset values in the G31 line are: **X16.795 Y25.4**
 
-- **Thermistor:** change the Thermistor setting to match the matrix thermistor. under **M308** line chnage the T, B and C value to this: **T107537 B4725 C7.06e-8**
-- **Esteps:** for me the default Esteps according Trianglelab manual were wrong, so i calibrated it and found that the most accurate setting for my matrix extruder. i advice you to calibrate your extruder too. for me i had to change the esteps value to: **E324.214** under **M92** line.
-- **Stepper Drive**: Invert your Extruder drive direction by changing the S value to S0 or S1 under M569 line.
-- **Probe position**: For the Mini IR sensor the offset values under G31 line are: **X16.795 Y25.4IMPORTANT**: please re-calibrate your Z offset right after changing the hotend.
+**Important:** re-calibrate your Z offset right after changing the hotend.
 
-**More prints**
+### More prints
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/90cff1588259.jpg)
@@ -118,10 +119,8 @@ To use the MATRIX you have to Change the following lines in the Config.g file on
 
 ### Final conclusion
 
-My personal experience with the new Matrix extruder has been very positive. I highly recommend the extruder to anyone who wants an extruder that has all in one package. Although it is quite heavy, you gain consistent extrusion, short retraction and excellent printing experience. If I could change anything, then I would start with a small stepper as Nema 14 combined with high gear ratio. but over all i really like it.
+My personal experience with the new Matrix extruder has been very positive. I highly recommend it to anyone who wants an all-in-one extruder package. Although it is quite heavy, you get consistent extrusion, short retractions and an excellent printing experience. If I could change anything, I would start with a smaller stepper, such as a NEMA14, combined with a higher gear ratio. But overall, I really like it.
 
-**Note**: i will probably test the **BX H2 extruder** next (219g) with 1:7 ratio gear.
+**Note:** I will probably test the **BIQU H2 extruder** (219g) with its 7:1 gear ratio next.
 
-**Links:**
-
-[Trinanglelab Matrix extruder](https://s.click.aliexpress.com/e/_ANs1Ql)
+Get the [Trianglelab Matrix extruder](https://s.click.aliexpress.com/e/_ANs1Ql) on AliExpress.

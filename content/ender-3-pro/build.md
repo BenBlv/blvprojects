@@ -26,7 +26,7 @@ description: BLV Ender 3 Pro build guide. Assembly videos and instructions, belt
 
 The original Creality belt is too flexible and reduces print quality. Use a fiberglass-reinforced GT2 6 mm belt instead. The X axis belt is clamped at a length of **785 mm**, measured between the clamps and not including the brass clamps. When replacing a belt, both ends can be locked with a zip tie.
 
-**Build volume.** To keep the original build volume, change `Y_MIN_POS` in Marlin's **Configuration.h**. My value was **-9.15**, adjust it to your setup. The picture shows where to find it.
+**Build volume.** To keep the original build volume, change `Y_MIN_POS` in Marlin's **Configuration.h**. My value was **-9.15**. Adjust it to your setup. The picture shows where to find it.
 
 <div class="gallery big" markdown>
 ![Y axis belt](../assets/img/y-axis-31700401.jpg)

@@ -1,23 +1,23 @@
 ---
 title: "Silicone wiper and nozzle cleaner (beta)"
-description: "After replacing my nuzzle with Mellow&#x27;s Ruby nuzzle, i found under my lab microscope that the old nuzzle&#x27;s hole shape heavily destroyed by the brass b"
+description: "After replacing my nozzle with Mellow's Ruby nozzle, I found under my lab microscope that the old nozzle's hole was heavily damaged by the brass brush."
 ---
 
 [← All updates](index.md){ .back-link }
 
 # Silicone wiper and nozzle cleaner (beta)
 
-After replacing my nuzzle with Mellow's Ruby nuzzle, i found under my lab microscope that the old nuzzle's hole shape heavily destroyed by the brass brush. under a lab microscope and found it was heavily damaged by the brass brush.  
-So, the best solution is using a silicone wiper, but it's pretty difficult to find one that will be available for anyone anywhere. oh wait we do have one - The cheap accessible V6 hotend silicone sock :) till now I have seen someone using it (please correct me if i am wrong).
+After replacing my nozzle with Mellow's Ruby nozzle, I looked at the old nozzle under my lab microscope and found that the shape of its hole had been heavily damaged by the brass brush.
 
-### How to make:
+So the best solution is a silicone wiper, but it's pretty difficult to find one that is available to anyone, anywhere. Oh wait, we do have one: the cheap, easy-to-find V6 hotend silicone sock. As far as I know, nobody has used it this way yet (please correct me if I'm wrong).
 
-- Grab a V6 silicone sock and cut it as I have done in the pics
-- insert it to it's place and lock the two parts with an M3x10 screw and M3 nut.
-- install it with the original cleaner mount.
+### How to make it
 
-The files are available inside BLV mgn Cube 3D Printer project (files section)  
-Hope you would like it
+- Grab a V6 silicone sock and cut it as shown in the pictures.
+- Insert it into place and lock the two parts together with an M3x10 screw and an M3 nut.
+- Install it with the original cleaner mount.
+
+The files are available in the BLV mgn Cube 3D printer project files. I hope you like it.
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/670d3bbdbf29.jpg)

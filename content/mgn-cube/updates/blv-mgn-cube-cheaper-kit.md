@@ -1,14 +1,14 @@
 ---
 title: "A cheaper BLV mgn Cube kit?"
-description: "As you know I try my best and assist as much as I can here and also on Facebook private msgs (BLV Group). recently, similar requests have come up and "
+description: "Following many similar requests, I asked the Sealand store to make a cheaper (lite) version of the BLV mgn Cube kit."
 ---
 
 [← All updates](index.md){ .back-link }
 
 # A cheaper BLV mgn Cube kit?
 
-As you know I try my best and assist as much as I can here and also on Facebook private msgs (BLV Group). recently, similar requests have come up and I asked the Sealand Store to make a cheaper version of the BLV mgn Cube kit.
+As you know, I try my best to help as much as I can, both here and in private messages on Facebook (BLV group). Many similar requests came up, so I asked the Sealand store to make a cheaper version of the BLV mgn Cube kit.
 
-Update: He released the new cheaper (lite) Kit: [LINK](http://s.click.aliexpress.com/e/rEgD8U0C)
+Update: the store released the new [cheaper BLV mgn Cube lite kit](http://s.click.aliexpress.com/e/rEgD8U0C).
 
 ![](../../assets/img/posts/8312e9bdaae2.jpg)

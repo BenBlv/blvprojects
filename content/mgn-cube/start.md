@@ -13,7 +13,7 @@ This page is the road map of the build. Read it once before ordering anything, t
 ## The build, step by step
 
 1. **Prepare.**
-   Read the project description and the linked material, watch the 3D animations and explore the printer in the [3D viewer](index.md#explore-in-3d). Make sure you understand the structure before you start.
+   Read the project description and the linked material, watch the 3D animations and explore the printer in the [3D viewer](index.md#specifications). Make sure you understand the structure before you start.
 2. **Get the parts.**
    Waiting for parts is the most frustrating stage. Check that you have everything in the [BOM](bom.md), plus spare T-nuts and screws. If you use your own electronics, make sure you know how to configure the firmware for your board.
 3. **Build.**
@@ -21,7 +21,7 @@ This page is the road map of the build. Read it once before ordering anything, t
 4. **Install the electronics.**
    Check every connection against the [wiring diagram](wiring.md), avoid shortcuts and use the right tools and parts. Connect the power cable last.
 5. **Test and calibrate.**
-   Update the Duet WiFi to the latest firmware, copy the provided configuration to the micro SD card, insert it and power up. The Mini IR sensor should blink 4 times at power-up. Check the endstops before you move any axis. When you home the printer it should move left and then to the rear. If it doesn't, check the motor wiring and the configuration. Calibrate the Z height and check the temperature readings. Run a **PID calibration** for both the bed and the hotend. This step is essential, without it prints will fail. When everything looks right, load filament and print a calibration cube. Details are on the [Calibrations](calibrations.md) page.
+   Update the Duet board to the latest firmware, copy the provided configuration to the micro SD card, insert it and power up. The Mini IR sensor should blink 4 times at power-up. Check the endstops before you move any axis. When you home the printer it should move left and then to the rear. If it doesn't, check the motor wiring and the configuration. Calibrate the Z height and check the temperature readings. Run a **PID calibration** for both the bed and the hotend. This step is essential. Without it, prints will fail. When everything looks right, load filament and print a calibration cube. Details are on the [Calibrations](calibrations.md) page.
 6. **Print and maintain.**
    Grease the rails with a synthetic PTFE grease or sewing machine oil. Keep the rails clean and the belts tight. Clean the PEI plate with alcohol after every print. If you built the air scrubber, replace the HEPA filter when needed.
 7. **Share your build.**

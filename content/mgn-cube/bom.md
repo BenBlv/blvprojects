@@ -127,7 +127,7 @@ Start by choosing the firmware: Klipper or RepRap.
 - 1 × [Mean Well LRS-350-24 (24V)](https://s.click.aliexpress.com/e/_DnBS6k7) and 1 × [Mean Well LRS-350-48 (48V)](https://s.click.aliexpress.com/e/_DnBS6k7). The 48V HV TMC5160 setup needs [both power supplies](https://www.aliexpress.com/store/product/BLV-MGN-Cube-3d-printer-good-quality-power-supply-Geniune-Meanwell-PSU-SE-450-24-24V18/2808029_32988813396.html).
 - 2 × [KW11-3Z 3-pin endstop switch](http://s.click.aliexpress.com/e/xaJ9E2y)
 - 1 × [300 mm bed heat insulation](http://s.click.aliexpress.com/e/HdBbxLw)
-- 3 × [WS2812 NeoPixel ring, 16 LEDs](https://s.click.aliexpress.com/e/_Dd3f9GJ), black
+- 3 × [WS2812 Neopixel ring, 16 LEDs](https://s.click.aliexpress.com/e/_Dd3f9GJ), black
 - 1 × [14AWG silicone wire, 5 m, black and red](http://s.click.aliexpress.com/e/c5ts2wZS)
 - 1 × [22AWG cable, 4 or 5 wires, 5 m](http://s.click.aliexpress.com/e/btaHHrm0)
 - 1 × [16 mm momentary switch with LED, 110/220V](http://s.click.aliexpress.com/e/cOgjjw4g), power icon
@@ -167,7 +167,7 @@ Start by choosing the firmware: Klipper or RepRap.
 - [8 mm aluminum 7075 plate, 310 × 310 mm](https://s.click.aliexpress.com/e/_Dmsq70n)
 - [Silicone heater pad 310 × 310, 750W, with adhesive](https://s.click.aliexpress.com/e/_DD6ifvp). Choose 220V, 120V or 24V.
 - [Thumb wheels](http://s.click.aliexpress.com/e/bKMV1NCy), M4
-- [PEI spring steel sheet](https://s.click.aliexpress.com/e/_DCVXv3H), 310 without a magnetic base
+- [PEI spring steel sheet](https://s.click.aliexpress.com/e/_DCVXv3H), 310 mm, without a magnetic base
 - [Solid silicone spacers](https://s.click.aliexpress.com/e/_Dn3AjbV) to replace the bed springs
 
 ## Mechanics and more
@@ -258,8 +258,8 @@ The walls are a cheap semi-enclosure that keeps the chamber warm and quiet. Use 
 - [Copper wire terminal set](http://s.click.aliexpress.com/e/tAR0say)
 - [JST connector pairs, 10 pcs](http://s.click.aliexpress.com/e/bcEVk7rK) for Dupont wires
 - [Dupont connector housing kit](http://s.click.aliexpress.com/e/chftfcwG)
-- [Desiccant for a dry box](https://s.click.aliexpress.com/e/_DeihM7v), the best one I tested
+- [Desiccant for a dry box](https://s.click.aliexpress.com/e/_DeihM7v), the best I tested
 - [Mitutoyo 500-196-20 digital caliper](https://s.click.aliexpress.com/e/_DD8IAqf)
 - [Cable organizer](https://s.click.aliexpress.com/e/_DnCWVdh)
 - [Pinecil BB2 soldering iron](https://s.click.aliexpress.com/e/_DlzKPjH)
-- [Belt tension gauge](https://www.thingiverse.com/thing:2230598), a printed tool
+- [Belt tension gauge](https://www.thingiverse.com/thing:2230598), a 3D printed tool

@@ -1,24 +1,24 @@
 ---
 title: "Printing TPU on the BLV mgn Cube"
-description: "So, i tried to print TPU (flexible) filament with my bowden setup. It came out not bad considering my Bowden is 65cm~. used a non brand TPU that I bou"
+description: "I tried printing flexible TPU filament with my Bowden setup. It came out not bad, considering my Bowden tube is about 65cm long."
 ---
 
 [← All updates](index.md){ .back-link }
 
 # Printing TPU on the BLV mgn Cube
 
-### Flexibale Materail
+### Flexible material
 
 !yt LhgKHLzi2Hk
 
-So, i tried to print TPU (flexible) filament with my bowden setup. It came out not bad considering my Bowden is 65cm~.  
-used a non brand **TPU** that I bought locally and BMG clone extruder.  
-most importantly, the hand isn't mine, i asked a friend to hold it :)
+I tried to print TPU (flexible) filament with my Bowden setup. It came out not bad, considering my Bowden tube is about 65cm long. I used an unbranded **TPU** that I bought locally and a BMG clone extruder. Most importantly, the hand isn't mine. I asked a friend to hold it :)
 
-Hotend: 200C  
-Bed: 60C  
-Speed: 30 mm/s  
-all retractions, wipe coast settings - disabled.
+My settings:
+
+- Hotend: 200°C
+- Bed: 60°C
+- Speed: 30 mm/s
+- Retraction, wipe and coast: all disabled
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/df9cf154062e.jpg)

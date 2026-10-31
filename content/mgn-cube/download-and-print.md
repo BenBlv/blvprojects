@@ -38,7 +38,7 @@ The project received several updates, add-ons and improvements after its release
 | **Frame Panels** | All the measurements for making enclosure panels |
 | **open source** | The original CAD files, including several add-ons and upgrades |
 | **Slicing Profiles** | Simplify3D profile. Cura includes a built-in BLV mgn Cube profile. |
-| **STL files to print** | All the STL files, including optional add-ons, upgrades and custom mounts - see below |
+| **STL files to print** | All the STL files, including optional add-ons, upgrades and custom mounts, listed below |
 
 ??? info "STL folders in detail"
     | Folder | Description |

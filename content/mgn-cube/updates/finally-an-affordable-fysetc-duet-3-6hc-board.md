@@ -1,23 +1,35 @@
 ---
 title: "An affordable Duet 3 6HC board"
-description: "I have been fantasizing for a long time about buying the Duet3 in order to use it as a board for my BLV mgn Cube 3D printer. The Duet3 6HC is actually"
+description: "For a long time I have been fantasizing about buying the Duet 3 6HC for my BLV mgn Cube 3D printer. FYSETC finally made it affordable."
 ---
 
 [← All updates](index.md){ .back-link }
 
 # An affordable Duet 3 6HC board
 
-### Duet3 6HC board
+### Duet 3 6HC board
 
-I have been fantasizing for a long time about buying the [**Duet3**](https://www.duet3d.com/Duet3Mainboard6HC) in order to use it as a board for my BLV mgn Cube 3D printer. The Duet3 6HC is actually the new generation of the well known Duet wifi board running Reprap 3 FW. It has all the hottest features, excellent specifications, and the best documentation you can wish for a 3d printer board. Equipped with a fast 32 Bit processor, High-speed bus for Raspberry PI (SBC), 6 X Trinamic 5160 stepper drivers, 10 PWM outputs, 9 IO ports for endstops, probes, sensors, 4 Thermistor or PT1000 inputs, 2 CAN-FD buses for expansion boards (Up to 24 steppers), built-in Ethernet port, and running Duet web Access interface + RRF3 FW. There is much more to expand but these are the main features.
+For a long time I have been fantasizing about buying the [**Duet 3**](https://www.duet3d.com/Duet3Mainboard6HC) to use as the board for my BLV mgn Cube 3D printer. The Duet 3 6HC is the new generation of the well-known Duet WiFi board, running RepRap Firmware 3. It has all the hottest features, excellent specifications and the best documentation you could wish for in a 3D printer board. The main features are:
+
+- Fast 32-bit processor
+- High-speed bus for a Raspberry Pi (SBC)
+- 6 x Trinamic TMC5160 stepper drivers
+- 10 PWM outputs
+- 9 IO ports for endstops, probes and sensors
+- 4 thermistor or PT1000 inputs
+- 2 CAN-FD buses for expansion boards (up to 24 steppers)
+- Built-in Ethernet port
+- Duet Web Control interface and RRF3 firmware
+
+There is much more, but these are the main points.
 
 ### So where's the problem?
 
-225$ not including shipping is pretty much money, at least for me. Assuming my needs remain unchanged and given the insane price, the Duet 3 just wasn’t an option and it's a shame.
+$225, not including shipping, is a lot of money, at least for me. Given my needs and the insane price, the Duet 3 just wasn't an option, and that's a shame.
 
-### finally!
+### Finally
 
-All this was true until recently Fysetc decided to produce the Duet3 6HC. We should remember the Duet3 is an open source-based. When I saw the [**Duet3 6HC**](https://s.click.aliexpress.com/e/_A1uWxz) listing on Aliexpress, I was excited, since I realized there is now another source from which I can get the Duet 3 6HC at an excellent price that made it attractive to me. [**145$**](https://s.click.aliexpress.com/e/_A1uWxz) for one of the best 3d printer boards on the market is just amazing! 80$ less!! Within a short time from the moment I saw the listing page, it was already deep in my order list and I started counting days.
+All this was true until FYSETC decided to produce the Duet 3 6HC. Remember that the Duet 3 is open source. When I saw the [**Duet 3 6HC**](https://s.click.aliexpress.com/e/_A1uWxz) listing on AliExpress, I was excited, because I realized there was now another source for the Duet 3 6HC at a price that made it attractive to me. [**$145**](https://s.click.aliexpress.com/e/_A1uWxz) for one of the best 3D printer boards on the market is just amazing, and that's $80 less. Shortly after I saw the listing, it was already deep in my order list and I started counting the days.
 
 ### Unboxing
 
@@ -27,16 +39,16 @@ All this was true until recently Fysetc decided to produce the Duet3 6HC. We sho
 ![](../../assets/img/posts/a47ce7721f9f.jpg)
 </div>
 
-I ordered the Duet 3 6HC and out of curiosity also the 3HC expansion board. The boards came well packed, wrapped in an antistatic bubble bag and carton packaging. I must point out that They did a good job and included everything needed to install the board in both the mainboard and the expansion board. For some reason nowhere is it stated what comes with the board. I have prepared for you a complete list of all the components I received with the board:
+I ordered the Duet 3 6HC and, out of curiosity, also the 3HC expansion board. The boards came well packed, wrapped in an antistatic bubble bag and a carton box. I must point out that they did a good job and included everything needed to install both the mainboard and the expansion board. For some reason, nowhere is it stated what comes with the board, so I prepared a complete list of all the components I received:
 
-- Duet3 6HC clone board
-- Pack of 2.54mm Molex KK connectors and shells for most of the components.
-- Pack of BVH-21T-P1.1B (JST) connectors and shells for steppers and heaters.
-- Crimping pins for high current connectors
-- \0.5m CAN cable
-- 16GB sd card for Raspberry (if you are using one)
-- 8GB sd card for FW config
-- Raspberry cable
+- Duet 3 6HC clone board
+- Pack of 2.54mm Molex KK connectors and shells for most of the components
+- Pack of BVH-21T-P1.1B (JST) connectors and shells for steppers and heaters
+- Crimping pins for the high current connectors
+- 0.5m CAN cable
+- 16GB SD card for the Raspberry Pi (if you are using one)
+- 8GB SD card for the firmware and config
+- Raspberry Pi cable
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/fcf4c0ffaa43.jpg)
@@ -44,11 +56,11 @@ I ordered the Duet 3 6HC and out of curiosity also the 3HC expansion board. The 
 ![](../../assets/img/posts/4ccf3afaa766.jpg)
 </div>
 
-As someone who has seen quite a few boards, I can say that this is a high-quality PCB. All components were properly soldered, the board was washed properly, and tested. I must say that the connectors provided by Fyestc are among the best I have ever worked with. using this [**cheap SN-28B Crimping Tool**](http://s.click.aliexpress.com/e/ctVlu2Gs) I got really nice crimp results, better than my original old Duet.
+As someone who has seen quite a few boards, I can say that this is a high-quality PCB. All components were properly soldered, and the board was properly washed and tested. The connectors provided by FYSETC are among the best I have ever worked with. Using this [**cheap SN-28B crimping tool**](http://s.click.aliexpress.com/e/ctVlu2Gs), I got really nice crimps, better than on my original old Duet.
 
-Before fixing the board on the back panel, I recommend updating the Duet3 and making sure the FW is running properly. You can find all the needed information about updating to the latest version [**here**](https://docs.duet3d.com/). The latest firmware version can be downloaded from [**here**](https://github.com/Duet3D/RepRapFirmware/releases).
+Before fixing the board to the back panel, I recommend updating the Duet 3 and making sure the firmware runs properly. You can find all the information you need about updating to the latest version in the [**Duet 3D documentation**](https://docs.duet3d.com/). The latest firmware can be downloaded from the [**RepRapFirmware releases page**](https://github.com/Duet3D/RepRapFirmware/releases).
 
-I had to drill new holes on the rear panel since the new Duet3 6HC is much bigger than the old Duetwifi. Therefore it is worth checking that there is enough space in the back of the panel. For your convenience, I have attached a basic wiring diagram of the board as I installed it. Note that I have yet not added the power button. Also in this version, I have used an inductive sensor and an AC heated bed.
+I had to drill new holes in the rear panel, since the Duet 3 6HC is much bigger than the old Duet WiFi. So it is worth checking that there is enough space on the back panel. For your convenience, here is a basic wiring diagram of the board as I installed it. Note that I haven't added the power button yet. Also, in this version I used an inductive sensor and an AC heated bed.
 
 ![](../../assets/img/posts/39114e2e519b.jpg)
 
@@ -62,27 +74,27 @@ And this is what it looks like after installation:
 
 ### Configuration
 
-About a week before It arrived, I sat down and read most of the Duet3 documentation. I highly recommend you do the same. All documentation is available [**here**](https://docs.duet3d.com/). For your convenience, I have prepared a basic config from which you can start configuring your own system. Note that in Config I used the new BIQU H2 extruder. therefore, the endstops and probe locations should be changed according to your BLV cube 3d printer settings.
+Before the board arrived, I sat down and read most of the Duet 3 documentation, and I highly recommend you do the same. It is all available in the [**Duet 3D documentation**](https://docs.duet3d.com/). For your convenience, I prepared a basic config you can start from when configuring your own system. Note that this config uses the new BIQU H2 extruder, so the endstop and probe locations should be changed according to your BLV Cube 3D printer settings.
 
-My Duet3 config files are available here:
+My Duet 3 config files:
 
-Basic Duet3 6HC config by Ben Levi.zipDownload ZIP • 5KB
+File: Basic Duet3 6HC config by Ben Levi.zip (ZIP, 5KB)
 
-You can also check **David Husolo** [**Duet RRF3 configurations**](https://github.com/armysolo/BLV?fbclid=IwAR0-mR3bgpyxTPCFCVhUZgBWfTpTGOmq77aLlfcxRdvNA5OaHYBYkjqmsJw) on his Github for Both BLV AM8 and BLV mgn Cube. I would like to take this opportunity to thank David for his tremendous efforts in the community.
+You can also check out **David Husolo**'s [**Duet RRF3 configurations**](https://github.com/armysolo/BLV?fbclid=IwAR0-mR3bgpyxTPCFCVhUZgBWfTpTGOmq77aLlfcxRdvNA5OaHYBYkjqmsJw) on his GitHub for both the BLV AM8 and the BLV mgn Cube. I would like to take this opportunity to thank David for his tremendous efforts in the community.
 
-### conclusion
+### Conclusion
 
-I guess a lot of people are asking themselves, is it worth upgrading the board to Duet3 6HC? After all, Duet 3 6HC will function almost exactly like the old DuetWifi, which costs less. This was true until Fysetc put their Duet 3 up for sale for 145$ which is about $ 80 less than the duet officially. In terms of features, Since the Duet3 has a more powerful processor and Double precision floating point, I allow myself not to rely on the TMC drivers auto interpolation and I set my own desired micro-steps settings. We must keep in mind that while using auto interpolation, the driver will rarely reach 256 microsteps, however, we can force it to use a higher amount of microsteps, it will provide quieter motion, higher accuracy, and fantastic print quality. The new TMC5160 keeps surprise me with every print.
+I guess a lot of people are asking themselves whether it is worth upgrading to the Duet 3 6HC. After all, the Duet 3 6HC will function almost exactly like the old Duet WiFi, which costs less. That was true until FYSETC put their Duet 3 up for sale for $145, about $80 less than the official Duet. In terms of features, since the Duet 3 has a more powerful processor and double precision floating point, I allowed myself not to rely on the TMC drivers' auto interpolation and set my own micro-step settings. Keep in mind that with auto interpolation the driver will rarely reach 256 microsteps. If we force it to use a higher number of microsteps, it provides quieter motion, higher accuracy and fantastic print quality. The TMC5160 keeps surprising me with every print.
 
-Those of you who use 3 Z axes auto-leveling, will be happy to hear that Duet 3 has 6 stepper drivers. That is, from now on you don't need to add an expansion card for 3 axis auto-leveling. The only downside for me in Duet 3 is the lack of a WIFI module. True, wireless module makes it slower to work with compared to the Duet3 Ethernet cable, but much more convenient.
+Those of you who use 3 Z axes for auto leveling will be happy to hear that the Duet 3 has 6 stepper drivers. That means you no longer need an expansion card for 3-axis auto leveling. The only downside of the Duet 3 for me is the lack of a WiFi module. True, a wireless module is slower than the Duet 3's Ethernet cable, but it's much more convenient.
 
-After testing it for more than a month I can say with complete confidence that overall I am very pleased with the board and without a doubt, it is one of the best boards I have ever worked with. The prints come out super great, Duet's crazy web interface has become a must-have feature for me. recommended!
+After testing it for more than a month, I can say with complete confidence that overall I am very pleased with the board. Without a doubt, it is one of the best boards I have ever worked with. The prints come out great, and Duet's fantastic web interface has become a must-have feature for me. Recommended!
 
-Here some sample prints using the Duet3 6HC board:
+Here are some sample prints made with the Duet 3 6HC board.
 
-Printed using [**Biqu H2 direct drive extruder**](https://s.click.aliexpress.com/e/_AgqcYp)
+Printed using the [**BIQU H2 direct drive extruder**](https://s.click.aliexpress.com/e/_AgqcYp).
 
-Filament: [**Noulei PLA Silk filament**](https://s.click.aliexpress.com/e/_Ag1rDK), [**Prusament PLA silver galaxy**](https://shop.prusa3d.com/en/prusament/712-prusament-pla-galaxy-silver-1kg.html)
+Filament: [**Noulei silk PLA filament**](https://s.click.aliexpress.com/e/_Ag1rDK) and [**Prusament PLA Galaxy Silver**](https://shop.prusa3d.com/en/prusament/712-prusament-pla-galaxy-silver-1kg.html).
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/f9261a092485.jpg)
@@ -93,14 +105,14 @@ Filament: [**Noulei PLA Silk filament**](https://s.click.aliexpress.com/e/_Ag1rD
 ![](../../assets/img/posts/1e0bad7198f2.jpg)
 </div>
 
-Hope you enjoyed reading
+I hope you enjoyed reading.
 
-Sincerely
+Sincerely,
 
 Ben Levi
 
 ![](../../assets/img/posts/8e903eef96c1.png)
 
-**Edit**: Unfortunately, I received requests to delete the post. Some people in the industry think that open source is not really open source but a source to double their money. Sorry, but thanks to open source even the average person can afford an Arduino for example. I will make this clear again, My main goal is to make it all affordable for everyone. My sincere apologies to all those who do not think so. In addition, claims were made that I may be received board for "free" - I am sorry but I paid like any other person (photo attached).
+**Edit**: Unfortunately, I received requests to delete this post. Some people in the industry think that open source is not really open source, but a way to double their money. Sorry, but thanks to open source, even the average person can afford an Arduino, for example. I will make this clear again: my main goal is to make it all affordable for everyone. My sincere apologies to everyone who disagrees. In addition, some claimed that I may have received the board for free. I'm sorry, but I paid for it like anyone else, as the photo below shows.
 
 ![](../../assets/img/posts/dbcf6c7605b9.jpg)

@@ -157,8 +157,6 @@
 /* ---------- Lists ---------- */
 .md-typeset .feature-list ul { columns: 2 13rem; column-gap: 2rem; }
 .md-typeset .feature-list li { break-inside: avoid; }
-.md-typeset .changelog { columns: 2 18rem; column-gap: 2rem; font-size: .66rem; }
-.md-typeset .changelog li { break-inside: avoid; }
 .md-typeset .about { max-width: 40rem; margin: 0 auto; }
 .md-typeset .about .home-sign { margin: 1.4rem 0 1.2rem; }
 
@@ -210,3 +208,7 @@
 .md-typeset .download > .admonition-title::before { background-color: var(--blv-accent); -webkit-mask-image: var(--md-admonition-icon--note); mask-image: var(--md-admonition-icon--note); }
 .md-typeset video { border-radius: 6px; display: block; margin: .6em 0; }
 .md-typeset .posts .mod span { line-height: 1.4; max-height: calc(4.2em + .65rem); }
+
+/* Home page: one centered reading column */
+.md-typeset:has(.home-hero) { max-width: 44rem; margin: 0 auto; padding-top: 1.5rem; }
+.md-typeset .home-hero { grid-template-columns: 1fr; }

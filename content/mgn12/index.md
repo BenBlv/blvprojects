@@ -40,7 +40,7 @@ Low and mid range printers usually move on linear bearings or Delrin wheels beca
     - instead of 2 × 340 mm 2040 extrusions → 4 × 364 mm 2040 extrusions
     - [longer 400 mm threaded rods](http://s.click.aliexpress.com/e/bcAVj7LS)
 
-    Not all the AM8 parts are needed, see [what to print](build.md#what-to-print).
+    Not all the AM8 parts are needed. See [what to print](build.md#what-to-print).
 3. **Anet [AM8](https://www.thingiverse.com/thing:2263216) freestyle with the BLV mgn12 mod.** The parts are modular and can be fitted as you like. For a custom size with a bigger bed or a taller Z axis, choose the extrusion lengths and attach the parts to them.
 
 !!! note "Requirements"

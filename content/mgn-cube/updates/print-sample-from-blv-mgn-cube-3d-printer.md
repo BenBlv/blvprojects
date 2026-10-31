@@ -1,15 +1,13 @@
 ---
 title: "Print samples"
-description: "i am adding few print samples of models i printed using my BLV mgn Cube 3D printer"
+description: "A few print samples of models I printed with my BLV mgn Cube 3D printer."
 ---
 
 [← All updates](index.md){ .back-link }
 
 # Print samples
 
-i am adding few print samples of models i printed using my BLV mgn Cube 3D printer
-
-Enjoy.
+Here are a few print samples of models I printed with my BLV mgn Cube 3D printer. Enjoy!
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/a2ae1b906bd4.jpg)

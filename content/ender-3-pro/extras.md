@@ -9,7 +9,7 @@ description: BLV Ender 3 Pro extras. Smart filament sensor, PEI surface, LEDs, b
 
 === "Smart filament sensor"
 
-    Why pay $15 for the **SKR smart filament sensor** when a wire and an endstop switch cost $1.5? [This video](http://Youtube.com/watch?v=iFGIKMAGJTk) explains the difference.
+    Why pay $15 for the **SKR smart filament sensor** when a wire and an endstop switch cost $1.50? [This video](http://Youtube.com/watch?v=iFGIKMAGJTk) explains the difference.
 
     A switch sensor only detects whether filament is present. If the spool jams or the filament gets stuck, nothing happens and the printer keeps printing air. The smart sensor tracks filament movement with a rotary encoder and pauses the print when the filament stops moving. It is well worth it, especially for long prints of 12 hours or more.
 
@@ -34,7 +34,7 @@ description: BLV Ender 3 Pro extras. Smart filament sensor, PEI surface, LEDs, b
     3. Connect both strips together and check the connection.
     4. Then either:
         - connect them to a simple RGB LED controller and use the IR remote, or
-        - connect them to the SKR Mini E3 LED pins and configure it.
+        - connect them to the SKR Mini E3 LED pins and configure them in the firmware.
 
     <div class="gallery big" markdown>
     ![LED installation](../assets/img/led-installation-f824b3f9.jpg)

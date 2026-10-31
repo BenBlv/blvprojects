@@ -11,12 +11,12 @@ By now you should have all the parts, and the most exciting stage begins. It nee
 
 <div class="cols" markdown>
 
-- [Wire cutter](http://s.click.aliexpress.com/e/IacurE0)
+- [Cable cutter](http://s.click.aliexpress.com/e/IacurE0)
 - [Allen tool set](https://s.click.aliexpress.com/e/_AVjzFR)
 - Set of torque screwdrivers
 - [Tapping tools](http://s.click.aliexpress.com/e/cZgqyEje)
 - Protractor
-- [Aluminium 90° clamps](https://s.click.aliexpress.com/e/_9G4v1T) for squaring the frame
+- [Aluminum 90° corner clamps](https://s.click.aliexpress.com/e/_9G4v1T) for squaring the frame
 - [PTFE tube cutter](https://s.click.aliexpress.com/e/_97OrJF)
 - [SN-28B Dupont crimping tool](http://s.click.aliexpress.com/e/ctVlu2Gs)
 
@@ -52,7 +52,7 @@ FYSETC produced a series of [step-by-step videos](updates/new-metal-kit-upgrade-
 
 ### Main frame
 
-Prepare the tools and the aluminium extrusions. Print the installation jig (`Jig_Main.stl`), preferably two of them, to place the extrusions exactly where they belong. Measure each profile and sort them by length before you start. The drawings show where each profile goes.
+Prepare the tools and the aluminum extrusions. Print the installation jig (`Jig_Main.stl`), preferably two of them, to place the extrusions exactly where they belong. Measure each profile and sort them by length before you start. The drawings show where each profile goes.
 
 <div class="gallery" markdown>
 ![Main frame drawing](../assets/img/img-0d276046.jpg)
@@ -134,7 +134,7 @@ Work through the tabs in order.
 
 === "Y axis"
 
-    Installing the Y axis parts. Smooth the bearing seats as much as possible and follow the markings on the parts.
+    This video shows how to install the Y axis parts. Smooth the bearing seats as much as possible and follow the markings on the parts.
 
     !yt EoqUOeLqJvc | BLV mgn Cube - Y axis assembly
 

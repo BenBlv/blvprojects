@@ -68,7 +68,7 @@ description: BLV mgn12 mod parts to print from this project and from the AM8, ma
 - [Devin's knob with a fine-tuning dial](https://www.myminifactory.com/object/44169)
 - [PapaJohn88's mount for the Anet A6 LCD](https://www.thingiverse.com/thing:2382917) (recommended by artistebot)
 - [Handle for AM8](https://www.thingiverse.com/thing:2409747)
-- Green PVC electrical tube for the extruder wires, 13 mm (1/2"), also called "split wire loom". It is sold in electrical shops and [online here](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20180712230700&SearchText=Split+Wire+Loom) [or here](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dtools&field-keywords=Split+Wire+Loom&tag=tv-auto-20)
+- Green PVC electrical tube for the extruder wires, 13 mm (1/2"), also called "split wire loom". It is sold in electrical shops and online on [AliExpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20180712230700&SearchText=Split+Wire+Loom) or [Amazon](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dtools&field-keywords=Split+Wire+Loom&tag=tv-auto-20)
 
 </div>
 

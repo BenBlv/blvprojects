@@ -45,9 +45,9 @@ The Duet has a built-in web interface with full control of the printer, from any
 
 ## 4. Configure your printer
 
-The provided configuration covers almost everything. You may still want to center the bed, set motor directions, add macro buttons or define temperature presets per filament. The [Duet guides](https://docs.duet3d.com/) cover all of this:
+The provided configuration covers almost everything. You may still want to center the bed, set motor directions, add macro buttons or define temperature presets per filament. The [Duet guides](https://docs.duet3d.com/) cover all of this.
 
-Start with the [**RepRap 3 overview**](https://docs.duet3d.com/User_manual/RepRapFirmware/RepRapFirmware_overview), it is essential reading. Then complete these before moving on:
+Start with the [**RepRap 3 overview**](https://docs.duet3d.com/User_manual/RepRapFirmware/RepRapFirmware_overview), which is essential reading. Then complete these before moving on:
 
 <div class="cols" markdown>
 
@@ -65,7 +65,6 @@ With the FYSETC parts set you can skip this, since its labeled cables match the 
 1. **Identify the coil pairs.** A stepper has 4 wires, 2 per coil. This [short guide](https://docs.duet3d.com/User_manual/Connecting_hardware/Motors_connecting) and [this video](http://www.youtube.com/watch?v=S0pGKgos498) show how to find them.
 2. **Connect the steppers** using the original Duet stepper wiring, shown in the bottom right corner of [wiring diagram v3.2](wiring.md) under "Duet original steppers wiring".
 3. **Test and configure** them with the [Duet documentation](https://docs.duet3d.com/User_manual/Connecting_hardware/Motors_configuring). The video shows the expected movement for each test command.
-
 4. **Check the directions.** In the third video I press the jog buttons. Your printer should move the same way.
 
 !yt S0pGKgos498 | Identify the leads of a 4-wire stepper with a multimeter

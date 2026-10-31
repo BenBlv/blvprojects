@@ -1,19 +1,19 @@
 ---
 title: "Affordable genuine HIWIN linear rails"
-description: "I Have finally saved enough and bought a set of Genuine HIWIN mgn12H 400mm rails + carriages from Blurolls Lu (Aliexpress Store)."
+description: "I finally saved enough and bought a set of genuine HIWIN MGN12H 400 mm rails and carriages from Blurolls Lu (AliExpress store)."
 ---
 
 [← All updates](index.md){ .back-link }
 
 # Affordable genuine HIWIN linear rails
 
-I Have finally saved enough and bought a set of Genuine HIWIN mgn12H 400mm rails + carriages from **Blurolls Lu** (Aliexpress Store).
+I finally saved enough and bought a set of genuine HIWIN MGN12H 400 mm rails and carriages from **Blurolls Lu** (AliExpress store).
 
 !yt HQoGXPk7drw | Genuine HIWIN MGN rails for the BLV mgn Cube
 
-Although my cheap Chinese rails are pretty good these Hiwin rails are way better. Only one word can describe them - Perfection !!!  
-It was well-packed, the rails were very clean. The motion as expected is very smooth yet rigid! Don't expect it to just fall when tilted.. it won't! If it's too smooth then you are in trouble, you will have too much free movements while twisting the carriage. At the end of the video, I tried to twist it and its so rigid! Great quality and worth every single penny. I Bought them from [**HERE**](http://s.click.aliexpress.com/e/cTl59jr2)  
-Please mind that i paid for the rails set like everyone else. also, no one paid me to write it or something like that.
+My cheap Chinese rails are pretty good, but these HIWIN rails are way better. Only one word can describe them: perfection! The set was well packed and the rails were very clean. As expected, the motion is very smooth, yet rigid. Don't expect the carriage to just fall when the rail is tilted, because it won't. If it is too smooth, you are in trouble, since you will have too much free movement when twisting the carriage. At the end of the video I tried to twist it, and it's so rigid! Great quality and worth every single penny. I bought them from the [**Blurolls Lu store on AliExpress**](http://s.click.aliexpress.com/e/cTl59jr2).
+
+Please note that I paid for the rail set like everyone else, and no one paid me to write this.
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/4415db99927f.jpg)

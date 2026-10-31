@@ -84,29 +84,29 @@ Two options for the MGN12H rails:
 - BMG dual-drive extruder / [good metal BMG dual extruder](http://s.click.aliexpress.com/e/cmISe6Kc) / [BMG clone extruder](http://s.click.aliexpress.com/e/TVWzdM4)
 - [1 m Capricorn clone PTFE tube, 1.9 or 2 mm ID](http://s.click.aliexpress.com/e/c0Bjxidi)
 - [Silicone sock](http://s.click.aliexpress.com/e/b3PFQhBw) to keep the nozzle temperature steady
-- [Easy fast wire connectors](http://s.click.aliexpress.com/e/cq30k5Yk)
+- [Quick wire connectors](http://s.click.aliexpress.com/e/cq30k5Yk)
 - [Spring steel sheet 220 × 220 + PEI sheet + magnetic sheet](http://s.click.aliexpress.com/e/bCPuecSU)
 
 ## Optional
 
 - [1 m corrugated tube](http://s.click.aliexpress.com/e/VAVZHrw)
-- [Mayitr black braided cable sleeve, like Prusa](http://s.click.aliexpress.com/e/c4TGFoTe)
+- [Braided cable sleeve, Prusa style](http://s.click.aliexpress.com/e/c4TGFoTe)
 - [DC step-down module LM2596](http://s.click.aliexpress.com/e/bcYGSi5K), for 12V fans or an LED strip
 - [5 m LED strip 5050, 60 LEDs/m, 44-key, waterproof](http://s.click.aliexpress.com/e/bLv0LorW)
 - [Wago compact wiring connector](http://s.click.aliexpress.com/e/cpmjKbk8)
 - [500 pcs 3/32" G10 hardened steel balls for MGN12H rails](http://s.click.aliexpress.com/e/bNxC5T6s) (replacement)
 - [100K NTC 3950 thermistors](http://s.click.aliexpress.com/e/bPgML85K) (replacement if broken)
 - [Brass brush for cleaning the hotend](http://s.click.aliexpress.com/e/bqN5yqrQ)
-- [440 pcs set of M3 socket cap head DIN912 screws](http://s.click.aliexpress.com/e/bEBhHo8s)
+- [440-piece set of M3 DIN912 socket head screws](http://s.click.aliexpress.com/e/bEBhHo8s)
 
 ## Tools
 
 - [Cable cutter](http://s.click.aliexpress.com/e/IacurE0)
 - [Tapping kit M3, M4, M5, M6](http://s.click.aliexpress.com/e/cZgqyEje), mainly for the corner holes
 - [PTFE tube cutter](http://s.click.aliexpress.com/e/c5dDYfHW)
-- [Wire copper terminal set](http://s.click.aliexpress.com/e/tAR0say)
-- [Dehumidifier (moisture absorber) for your dry box](http://s.click.aliexpress.com/e/bjLAMD48), the best I tested
+- [Copper wire terminal set](http://s.click.aliexpress.com/e/tAR0say)
+- [Desiccant for your dry box](http://s.click.aliexpress.com/e/bjLAMD48), the best I tested
 - [Stainless steel digital caliper](http://s.click.aliexpress.com/e/brCQyMCY)
 - [Cable organizer](http://s.click.aliexpress.com/e/cLxQo5m0)
 - [TS100 soldering iron](http://s.click.aliexpress.com/e/ckuQtA1w), my favorite
-- [Belt tension meter, 3D printed tool](https://www.thingiverse.com/thing:2230598)
+- [Belt tension gauge](https://www.thingiverse.com/thing:2230598), a 3D printed tool

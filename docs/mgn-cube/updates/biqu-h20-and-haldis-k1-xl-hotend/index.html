@@ -1,0 +1,1582 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="I wanted to share with you my first impressions or shall I say unboxing of a few Hotend-extruder setups I'm testing. I'm sure it's going to be interes">
+      
+      
+        <meta name="author" content="Ben Levi">
+      
+      
+        <link rel="canonical" href="https://www.blvprojects.com/mgn-cube/updates/biqu-h20-and-haldis-k1-xl-hotend/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/img/blv-logo-6da88bb8.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>BIQU H2O and Haldis K1-XL hotend - BLV Projects</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#biqu-h2o-and-haldis-k1-xl-hotend" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+  <span class="archive-note">This is an archive of the BLV open-source 3D printer projects. The projects are no longer updated, but every guide, file and video is here.</span>
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="BLV Projects" class="md-header__button md-logo" aria-label="BLV Projects" data-md-component="logo">
+      
+  <img src="../../../assets/img/blv-logo-6da88bb8.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BLV Projects
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              BIQU H2O and Haldis K1-XL hotend
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  BLV mgn Cube
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../ender-3-pro/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  BLV Ender 3 Pro
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../mgn12/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  BLV mgn12 mod
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../about/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  About
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="BLV Projects" class="md-nav__button md-logo" aria-label="BLV Projects" data-md-component="logo">
+      
+  <img src="../../../assets/img/blv-logo-6da88bb8.png" alt="logo">
+
+    </a>
+    BLV Projects
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BLV mgn Cube
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    BLV mgn Cube
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Start here
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bom/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BOM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../download-and-print/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Download &amp; Print
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wiring/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wiring
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Calibrations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community remixes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project updates
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    License &amp; Thanks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../ender-3-pro/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BLV Ender 3 Pro
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    BLV Ender 3 Pro
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ender-3-pro/bom/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BOM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ender-3-pro/build/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Build guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ender-3-pro/extras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tips &amp; extras
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ender-3-pro/updates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project updates
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ender-3-pro/license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    License &amp; Thanks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../mgn12/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BLV mgn12 mod
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    BLV mgn12 mod
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mgn12/bom/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BOM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mgn12/build/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Print &amp; assemble
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mgn12/updates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project updates
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mgn12/license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    License &amp; Thanks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../news/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    About
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About me
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#biqu-h2o-new-extruder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BIQU H2O - new extruder
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#biqu-water-colling-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BIQU Water Colling System
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#haldis-k1-xl-new-hotend-with-a-unibody-nozzle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Haldis K1-XL new hotend with a unibody nozzle
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#biqu-hermit-crab-tool-changer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BIQU Hermit Crab - tool changer?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p><a class="back-link" href="../">← All updates</a></p>
+<h1 id="biqu-h2o-and-haldis-k1-xl-hotend">BIQU H2O and Haldis K1-XL hotend<a class="headerlink" href="#biqu-h2o-and-haldis-k1-xl-hotend" title="Permanent link">¶</a></h1>
+<p>I wanted to share with you my first impressions or shall I say unboxing of a few Hotend-extruder setups I'm testing. I'm sure it's going to be interesting 😉. As you know, I try to be very thorough. To reach full conclusions about an extruder or a particular component - it takes me about two full months of non-stop printing. In the meantime, I allow myself only to write about initial impressions.</p>
+<h3 id="biqu-h2o-new-extruder">BIQU H2O - new extruder<a class="headerlink" href="#biqu-h2o-new-extruder" title="Permanent link">¶</a></h3>
+<p>I can sum up all the paragraphs about the <a href="https://s.click.aliexpress.com/e/_AVr4sD">BIQU H2O</a> below in one word: <strong>beautiful</strong>!</p>
+<p>The new <a href="https://s.click.aliexpress.com/e/_AVr4sD">BIQU H2O</a> came a few weeks ago, But I was too busy working on the <a href="../blv-metal-kit-ii-blv-carbon-new-stock-and-more/">BLV Metal Kit II</a>. If I only knew what I'm missing... I have not been so impressed with an extruder for a long time.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/b96530028ebf.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/b96530028ebf.jpg"></a></p>
+<p>You're probably asking, <strong>why do I even need a water-cooled extruder?</strong></p>
+<p>Although I am not a fan of ABS printing and most of the time I print PLA, PETG, flex, etc. I have small children and a closed enclosure will keep odors, and particles away from them. inside the enclosure, the temperatures are much higher than without It, which may make it difficult to print using common types of filaments. part of this solution is also the use of water cooling.</p>
+<p>Now let's get back to the <a href="https://s.click.aliexpress.com/e/_AVr4sD">new H2O extruder</a>. I'm sure you have already seen my first <a href="../the-new-biqu-h2-extruder-review/">review of the original H2 extruder</a>. A lot of improvements have been implemented in the new extruder, And it looks like someone out there in BIQU did his homework. It is equipped with a high-temperature resistant motor (180c). Stainless Steel gear (according to the spec), I just wish it was <strong>Hardened</strong> Stainless Steel. They added a Max31865 module to support the provided PT-100 sensor, which is a much more accurate temperature sensor for high temps. one more important thing is that the Bi-Metal heartbreak is made of copper and titanium, Not aluminum. as you know, aluminum over time can damage your water cooling system.</p>
+<p>another thing that I really like is the sleek look. Everything is symmetrical, with clean lines, very elegant! The cool RGB LEDs illuminating the water chamber are lovely. I almost forgot to mention that the <a href="https://s.click.aliexpress.com/e/_AVr4sD">New H2O</a> is very small. It is even smaller than the previous H2 by 11.6 mm. and if we are comparing both of them, the new H2O weights only 224g !! Please, check the photos attached below, notice the hub wheel's window that has been added</p>
+<div class="gallery big">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/d9ffbee4c265.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/d9ffbee4c265.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/6214508a5365.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/6214508a5365.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/c5e7006102fd.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/c5e7006102fd.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/2d038ccd262b.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/2d038ccd262b.jpg"></a></p>
+</div>
+<p>here's the full list of accessories that came inside the package:</p>
+<ul>
+<li>BIQU yellow ducky - Without it, I would probably have opened a dispute 🤣</li>
+<li>Full assembly manual including FW settings.</li>
+<li><a href="https://s.click.aliexpress.com/e/_AVr4sD">Biqu H2O</a> - fully assembled</li>
+<li>Copper-nickel plated heating block <em>(assembled)</em></li>
+<li>Hardened steel 0.4 nozzle <em>(assembled)</em></li>
+<li>Bi-Metal copper and titanium <em>(assembled)</em></li>
+<li>fittings / connectors for id4/od6 pipes.</li>
+<li>KJH 04-M6 Pneumatic Connector for the PTFE tube</li>
+<li>high-quality PT-100 temperature sensor</li>
+<li>MAX 31865 StepStick module (for the PT-100)</li>
+<li>JST connector + terminals</li>
+<li>orange silicone sock</li>
+<li>24V 70W heater cartridge</li>
+<li>long motor cable</li>
+<li>RGB LEDs cable</li>
+<li>screws</li>
+<li>all the needed tools</li>
+</ul>
+<div class="gallery big">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/c0969eebd0e1.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/c0969eebd0e1.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/858b78d8596a.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/858b78d8596a.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/904dcdb8c233.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/904dcdb8c233.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/bfbf296e6ae5.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/bfbf296e6ae5.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/bb5159da726b.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/bb5159da726b.jpg"></a></p>
+</div>
+<p><strong>So does it print well?</strong></p>
+<p>In the <strong>meantime I'm getting fantastic results</strong>, I've not had any problems. But I have to postpone the full conclusions until I reach a minimum of 300 hours of printing. I used the previous BIQU H2 adapter and it works great! so far I <strong>am absolutely in love with this extruder.</strong></p>
+<p><strong>BIQU - you got me!</strong></p>
+<h3 id="biqu-water-colling-system">BIQU Water Colling System<a class="headerlink" href="#biqu-water-colling-system" title="Permanent link">¶</a></h3>
+<p>a few days later, I realized I had thrown away all the water cooling systems issued in my old computers. luckily BIQU offered <a href="https://s.click.aliexpress.com/e/_AVr4sD">a new 24V water cooling system</a> that was supposed to be suitable for the new <a href="https://s.click.aliexpress.com/e/_AVr4sD">BIQU H2O</a>. even though it was ordered before the extruder, the water cooling system arrived before the extruder.</p>
+<div class="gallery big">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/1370e542275f.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/1370e542275f.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/abdff05128b6.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/abdff05128b6.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/41904fb48519.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/41904fb48519.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/b42390fef895.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/b42390fef895.jpg"></a></p>
+</div>
+<p>The water cooling system was packed nicely, including all the needed accessories and even more than needed. it has all the tools you need including a liquid funnel. the most important part is the pump. In this case, it's the 12V <a href="https://s.click.aliexpress.com/e/_AFztCH">SysCooling P67D pump</a> - Very reliable. Max flow: 500L/H, ceramic bearings - 50k lifetime, 25~27DB sound level, G1/4 thread connectors. Biqu included 3 types of flexible tubes, brackets, double side stickers, pipe diameter reducers (for other types of extruders), tools, connectors, screws, and a power adapter.</p>
+<p>Overall it looks good, but there is definitely something to improve:</p>
+<ul>
+<li>The pump is 12V, so they used an <a href="https://s.click.aliexpress.com/e/_A8xo7f">LM2596 buck converter</a> converting 24V to 12V. The <a href="https://s.click.aliexpress.com/e/_A8xo7f">LM2596</a> is a very cheap convertor and in my experience, it tends to fail after prolonged use. However, it's easy to find it because it's very common and costs only 3$.</li>
+<li>springs fitting - my friend <strong>David Husolo</strong> turn my attention to the fact that the kit uses clamps that are notorious for leaking. so I found and used a spare fitting from my PC water cooling system.</li>
+<li>Coolant - No coolant liquid was provided with the system. So if you have decided to purchase it, make sure to get a proper Coolant.</li>
+</ul>
+<div class="gallery big">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/b65b595a72c1.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/b65b595a72c1.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/f7abb25e52b1.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/f7abb25e52b1.jpg"></a></p>
+</div>
+<p>Please don't get me wrong, I really liked the water cooling system. Two years ago I purchased from another manufacturer a water cooling system. a month later the pump stopped working. Of course, they refused to replace the pump. However, with the BIQU system, I am more confident since I have had quite a successful experience with SysCooling pumps, and I also know BIQU has good customer service.</p>
+<p><strong>Final conclusion?</strong></p>
+<p>there is no chance that I am writing now final conclusion - only after checking the system for a long time - at least two months. I want to make sure there is no leakage, the pump won't fail over time, and make sure indeed it satisfies my requirements. In the meantime I can tell you that it works great for now, is relatively quiet and I get a very effective cooling! very!</p>
+<h3 id="haldis-k1-xl-new-hotend-with-a-unibody-nozzle">Haldis K1-XL new hotend with a unibody nozzle<a class="headerlink" href="#haldis-k1-xl-new-hotend-with-a-unibody-nozzle" title="Permanent link">¶</a></h3>
+<p>So I got one of the first early birds of <a href="https://s.click.aliexpress.com/e/_AeA133">Haldis K1-XL new hotend</a> for testing.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/a5f1004f29ed.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/a5f1004f29ed.jpg"></a></p>
+<p>Haldis is a relatively new manufacturer entering the 3D printer market but despite being new, I must note their high production quality. Unlike few other stores, they produce everything in-house. This gives them many advantages, including the ability to develop products themselves in a short time. The <a href="https://s.click.aliexpress.com/e/_AeA133">new Haldis K1-XL Hotend</a> is a good example of that. a unique unibody Nozzle that has its obvious advantage - the ability to replace nozzle quickly. how quickly you are asking? in order to answer it, just hit the play button below</p>
+<div class="videos single" markdown="0"><figure class="yt"><button class="yt-play" data-id="1uGRFWeUHuM" aria-label="Play: YouTube video"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/1uGRFWeUHuM/hqdefault.jpg" alt=""></button></figure></div>
+
+<p>The K1-XL has the same size as a regular V6 but with a unique structure. ostensibly, it looks like some sort of dragon + mosquito combination. But the truth is that it's very different. <a href="https://s.click.aliexpress.com/e/_AeA133">The K1-Xl has a Bi-metal unibody nozzle</a>. which means the whole nozzle and filament path including the heatsink can be replaced in a matter of seconds. Very convenient - no need to start disassembling parts to open a blockage. No more fear of screwing the nozzle too hard or of breaking the HeatBreak - I love this approach. Also, I was surprised to find a very small and new temperature sensor, it is very refreshing. You can see it in the picture on the left.</p>
+<div class="gallery big">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/405829bb82b7.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/405829bb82b7.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/88b734298de0.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/88b734298de0.jpg"></a></p>
+</div>
+<p>Now if we refer to the nozzle itself, It's a copper-nickel plated nozzle with an integrated Heatsink on its upper part. At the bottom there is a thread - the whole nozzle assembly is screwed into the thick heated cylinder and that's it. Please note, that the heated element is thick and my doubts about heat dissipation turned out to be true, it seems that the red heatsink is not sufficient. I think it will be hard to deal with high temperatures. BTW, In the end, I had to use a <a href="https://s.click.aliexpress.com/e/_AOiAov">Gdstime 4020 dual ball bearing fan</a> to get optimal results.</p>
+<p><strong>So what came in the package?</strong></p>
+<p>Unlike other manufacturers, here there is no fancy packaging. Everything came packed in bubble wrap and plastic bags. Could be because this is the first batch of the <a href="https://s.click.aliexpress.com/e/_AeA133">Haldis K1-XL.</a></p>
+<ul>
+<li><a href="https://s.click.aliexpress.com/e/_AeA133">Mainframe with an integrated thermistor</a> (which type?)</li>
+<li>Ceramic heating element - (without connectors?)</li>
+<li>2 x Bi-metal unibody 0.4mm copper nickel-plated nozzle</li>
+<li>Orange silicone sock</li>
+<li>Ptfe lockers/clips</li>
+</ul>
+<div class="gallery big">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/1a6863751eb5.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/1a6863751eb5.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/96b117fe8dd4.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/96b117fe8dd4.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/446ba3959b76.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/446ba3959b76.jpg"></a></p>
+</div>
+<p>Unfortunately, for this price, I would expect it to come with fancy packaging, some tools like a socket screwdriver, a detailed manual, connectors, and appropriate cables. Also, the listing is missing a lot of information about the heating element, type of thermistor, and materials.</p>
+<p><strong>important note about something that bothers me -lack of information. I recommend every manufacturer that sells 3D parts, to give full details on the material type of each component, sensor type, heater type, maximum temperature range, optimal slicing/FW settings, etc. it will help the consumer in deciding whether to purchase the product or how to use it. The less data you provide - the greater your customers' concerns and failures while using your products.</strong></p>
+<p>Anyway, let's continue...</p>
+<p>Besides the sufficient heat dissipation, I noticed that the Ceramic heater is too wide. even after heating the block up to 260c and after the metal expanded - it was too loose. This has tremendous significance - there is no efficient heat transfer between the heating element and the heating block. The manufacturer suggested using Thermal paste, in order to fill the gap between them. I tried that - the temperature jumps on the graph got smaller, but still, it was not enough in my opinion.</p>
+<p><strong>Overall, I think the K1-XL idea is beautiful and very refreshing</strong>. The production quality is excellent. however, it requires a rigorous test that examines how everything works together and a beta testing group - before releasing it to customers. If you could guide the manufacturer then I would change a few things:</p>
+<ul>
+<li>fix the gap between the ceramic heater and the metal - (like <a href="https://s.click.aliexpress.com/e/_AE8CzL">Trianglelab CHC heater</a>)</li>
+<li>provide more details: spec list, measurements and etc.</li>
+<li>add tools, connectors</li>
+<li>make a nice packaging suitable for the price</li>
+</ul>
+<p>Here is a nice photo of the <a href="https://s.click.aliexpress.com/e/_ALWey1">Trianglelab Rapido</a>, <a href="https://s.click.aliexpress.com/e/_AeA133">Haldis K1-XL</a>, <a href="https://s.click.aliexpress.com/e/_ASClVX">Orbiter V2</a>, and the <a href="https://s.click.aliexpress.com/e/_AVr4sD">BIQU H2O</a></p>
+<p>I know... <strong>the BIQU is so small and yet it's both extruder and hotend</strong>🤩</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/82c875b87025.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/82c875b87025.jpg"></a></p>
+<p><strong>Final conclusion?</strong></p>
+<p>unfortunately, I had to take it off. I get unstable temperatures because of the ceramic heater issue, which can impact print quality. I very much hope that this will be resolved in the near future, as I really liked the idea of a unibody nozzle.</p>
+<h3 id="biqu-hermit-crab-tool-changer">BIQU Hermit Crab - tool changer?<a class="headerlink" href="#biqu-hermit-crab-tool-changer" title="Permanent link">¶</a></h3>
+<p><strong>Samuel Gonzalez</strong> from the BLV Facebook group <a href="https://www.facebook.com/groups/BenLevi/posts/979539799440223/">shared with us his plan to adapt</a> the <a href="https://s.click.aliexpress.com/e/_A7ZUhT">BIQU Hermit Tool changer</a> to the BLV Cube 3d printer a few months ago.</p>
+<div class="gallery big">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/b6c7871b018e.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/b6c7871b018e.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/5267b17f1ad9.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/5267b17f1ad9.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/f1d79ea78383.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/f1d79ea78383.jpg"></a></p>
+</div>
+<p>later he posted an awesome video regarding the <a href="https://s.click.aliexpress.com/e/_A7ZUhT">BIQU Hermit</a> tool changer on his BLV Cube printer:</p>
+<div class="videos single" markdown="0"><figure class="yt"><button class="yt-play" data-id="hwoDO2xHcK4" aria-label="Play: YouTube video"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/hwoDO2xHcK4/hqdefault.jpg" alt=""></button></figure></div>
+
+<p>Inspired by him I decided to order <a href="https://s.click.aliexpress.com/e/_A7ZUhT">BIQU Hermit crab</a> for testing. I only open the box and made dry testing without mounting it on the printer yet. many modifications need to be made in order for it to be fitted to the printer. I was very impressed with the reliability of the locking mechanism. But I have 2 main concerns that keep me from continuing to explore this possibility:</p>
+<ol>
+<li><strong>The weight</strong> - both the backplate and the front plate are made of aluminum. and they weigh quite a lot. I have a suggestion for BIQU that might help make it much lighter. A lot of weight can be removed from both plates - by using a thick PCB plate instead of aluminum. you can keep the central locking mechanism made of aluminum. The bonus is that you will have even more space for lot more electronic components.</li>
+<li><strong>Offset</strong> - by using the Hermit, the hotend must move forward 30mm and that's a lot.</li>
+</ol>
+<p>Anyway, regarding the product itself. As usual, BIQU continues to provide very high-quality products, great packaging, and a detailed manual in a way that even a 10-year-old child can put it together and his dad will help him with settings - which are also included in the manual.</p>
+<div class="gallery big">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/2015f64c427e.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/2015f64c427e.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/2fe60d60876b.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/2fe60d60876b.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/4f9e508061b5.jpg" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/4f9e508061b5.jpg"></a></p>
+</div>
+<p>I hope you enjoyed reading. I promise to share my findings in my search after the perfect setup of the new BLV Cube update.</p>
+<p><strong>Sincerely</strong></p>
+<p>Ben Levi</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/img/posts/8e903eef96c1.png" data-desc-position="bottom"><img alt="" src="../../../assets/img/posts/8e903eef96c1.png"></a></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © Ben Levi · BLV Projects · <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA</a> - free for non-commercial use
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://www.facebook.com/groups/BenLevi" target="_blank" rel="noopener" title="BLV Facebook group" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120 82.7 220.8 194.2 248.5V334.2h-52.8V256h52.8v-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287v175.9C413.8 494.8 512 386.9 512 256"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.youtube.com/c/BenLevi0" target="_blank" rel="noopener" title="YouTube" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.paypal.com/paypalme/BenBLV" target="_blank" rel="noopener" title="Donate" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="m241 87.1 15 20.7 15-20.7C296 52.5 336.2 32 378.9 32 452.4 32 512 91.6 512 165.1v2.6c0 112.2-139.9 242.5-212.9 298.2-12.4 9.4-27.6 14.1-43.1 14.1s-30.8-4.6-43.1-14.1C139.9 410.2 0 279.9 0 167.7v-2.6C0 91.6 59.6 32 133.1 32 175.8 32 216 52.5 241 87.1"></path></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes", "navigation.top", "navigation.footer", "navigation.instant", "search.highlight", "search.suggest", "toc.follow", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../../javascripts/extra.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

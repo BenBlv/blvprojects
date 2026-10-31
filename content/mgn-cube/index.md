@@ -11,7 +11,7 @@ description: BLV mgn Cube, an open-source CoreXY 3D printer on MGN12 linear rail
 
 The BLV mgn Cube is an open front CoreXY 3D printer that runs on MGN linear rails. It was designed for accuracy, efficiency and print quality, with one simple goal: to let anyone build a good and reliable 3D printer.
 
-<div class="stats"><span><b>1.78M</b>downloads</span><span><b>6.3M</b>views</span><span><b>29/10/22</b>last update</span></div>
+<div class="stats"><span><b>1.78M</b>downloads</span><span><b>6.3M</b>views</span></div>
 
 [Start building](start.md){ .md-button .md-button--primary }
 [Bill of materials](bom.md){ .md-button }
@@ -68,7 +68,7 @@ The BLV mgn Cube is an open front CoreXY 3D printer that runs on MGN linear rail
 
 </div>
 
-**Upgrades.** Two official upgrades followed the original design, and both are part of the project files. The **[Metal Kit](https://benlevi8.wixsite.com/blvprojects/post/new-metal-kit-upgrade-blv-mgn-cube)** replaces most printed parts with CNC aluminum. The **Blind Joints frame** needs no brackets and assembles in about 20 minutes.
+**Upgrades.** Two official upgrades followed the original design, and both are part of the project files. The **[Metal Kit](updates/new-metal-kit-upgrade-blv-mgn-cube.md)** replaces most printed parts with CNC aluminum. The **Blind Joints frame** needs no brackets and assembles in about 20 minutes.
 
 **Explore in 3D.** Measure and isolate any part in the browser: [full printer](https://a360.co/2FLRqSa) · [frame only](https://a360.co/2DDDBn4) · [panels and walls](https://a360.co/2JGlYZ4).
 

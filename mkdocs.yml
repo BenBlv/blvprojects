@@ -75,6 +75,47 @@ plugins:
         blv-mgn-cube-license.md: mgn-cube/license.md
         blv-ender-3-pro.md: ender-3-pro/index.md
         blv-mgn12-mod-3d-printer.md: mgn12/index.md
+        post/beta-test-frame-wires-holder.md: mgn-cube/updates/beta-test-frame-wires-holder.md
+        post/biqu-h20-and-haldis-k1-xl-hotend.md: mgn-cube/updates/biqu-h20-and-haldis-k1-xl-hotend.md
+        post/blv-enclosure-progress-update.md: news/blv-enclosure-progress-update.md
+        post/blv-ender-3-pro-upgrade-project.md: ender-3-pro/updates/blv-ender-3-pro-upgrade-project.md
+        post/blv-metal-kit-ii-blv-carbon-new-stock-and-more.md: mgn-cube/updates/blv-metal-kit-ii-blv-carbon-new-stock-and-more.md
+        post/blv-mgn-cube-cheaper-kit.md: mgn-cube/updates/blv-mgn-cube-cheaper-kit.md
+        post/blv-mgn-cube-metal-part-beta-testers.md: mgn-cube/updates/blv-mgn-cube-metal-part-beta-testers.md
+        post/blv-mgn-cube-sealand-full-kit-unboxing.md: mgn-cube/updates/blv-mgn-cube-sealand-full-kit-unboxing.md
+        post/cosmetic-upgrade-clear-bmg-extruder.md: ender-3-pro/updates/cosmetic-upgrade-clear-bmg-extruder.md
+        post/design-a-stunning-blog.md: mgn-cube/updates/prototype-metal-parts.md
+        post/dual-layer-fan-blv-mgn-cube.md: mgn-cube/updates/dual-layer-fan-blv-mgn-cube.md
+        post/finally-an-accessible-genuine-hiwin-linear-rails.md: mgn-cube/updates/finally-an-accessible-genuine-hiwin-linear-rails.md
+        post/finally-an-affordable-fysetc-duet-3-6hc-board.md: mgn-cube/updates/finally-an-affordable-fysetc-duet-3-6hc-board.md
+        post/givaway.md: news/bigtreetech-gtr-giveaway.md
+        post/giveaway.md: news/bigtreetech-skr-giveaway.md
+        post/grow-your-blog-community.md: mgn12/updates/building-my-first-project.md
+        post/klipper-mainsail-theme-and-carbon-x-axis.md: mgn-cube/updates/klipper-mainsail-theme-and-carbon-x-axis.md
+        post/klipper-ultra-fast-printing-9000acc-500mm-s.md: mgn-cube/updates/klipper-ultra-fast-printing-9000acc-500mm-s.md
+        post/let-there-be-cob-led-light.md: mgn-cube/updates/let-there-be-cob-led-light.md
+        post/manage-your-blog-from-your-live-site.md: news/duet-wifi-giveaway.md
+        post/metal-kit-ii-update-clearance-sale.md: mgn-cube/updates/metal-kit-ii-update-clearance-sale.md
+        post/move-your-led-s-to-the-front-without-soldering.md: mgn-cube/updates/move-your-led-s-to-the-front-without-soldering.md
+        post/new-3d-printering-parts-for-testing.md: mgn-cube/updates/new-parts-for-testing.md
+        post/new-carbon-cf-x-axis-tube-is-available.md: mgn-cube/updates/new-carbon-cf-x-axis-tube-is-available.md
+        post/new-front-panel-beta.md: mgn-cube/updates/new-front-panel-beta.md
+        post/new-metal-kit-upgrade-blv-mgn-cube.md: mgn-cube/updates/new-metal-kit-upgrade-blv-mgn-cube.md
+        post/new-mic6-350-heated-bed.md: mgn-cube/updates/new-mic6-350-heated-bed.md
+        post/pid-tuning-important.md: mgn-cube/updates/pid-tuning-important.md
+        post/print-sample-from-blv-mgn-cube-3d-printer.md: mgn-cube/updates/print-sample-from-blv-mgn-cube-3d-printer.md
+        post/printed-cable-harness-tube-update-canceled.md: mgn-cube/updates/printed-cable-harness-tube-update-canceled.md
+        post/reninforcment-for-higher-z-axis-blv-mgn-cube.md: mgn-cube/updates/reinforcement-for-higher-z-axis.md
+        post/silicone-wiper-cleaner-beta.md: mgn-cube/updates/silicone-wiper-cleaner-beta.md
+        post/static-neopixel-animation.md: mgn-cube/updates/static-neopixel-animation.md
+        post/the-metal-parts-are-finally-here.md: mgn-cube/updates/the-metal-parts-are-finally-here.md
+        post/the-new-biqu-h2-extruder-review.md: mgn-cube/updates/the-new-biqu-h2-extruder-review.md
+        post/the-singing-serpent-print-sample.md: mgn-cube/updates/the-singing-serpent-print-sample.md
+        post/tpu-experience-with-blv-mgn-cube-3d-printer.md: mgn-cube/updates/tpu-experience-with-blv-mgn-cube-3d-printer.md
+        post/trademarks-and-the-3d-community.md: news/trademarks-and-the-3d-community.md
+        post/trianglelab-matrix-adapter-for-blv-cube-metal-kit.md: mgn-cube/updates/trianglelab-matrix-adapter-for-blv-cube-metal-kit.md
+        post/unboxing-fysetc-blv-mgn-cube-full-kit.md: mgn-cube/updates/unboxing-fysetc-blv-mgn-cube-full-kit.md
+        blog.md: mgn-cube/updates/index.md
 
 markdown_extensions:
   - admonition
@@ -107,6 +148,12 @@ extra:
       link: https://www.paypal.com/paypalme/BenBLV
       name: Donate
 
+not_in_nav: |
+  /mgn-cube/updates/*.md
+  /ender-3-pro/updates/*.md
+  /mgn12/updates/*.md
+  /news/*.md
+
 nav:
   - Home: index.md
   - BLV mgn Cube:
@@ -118,16 +165,21 @@ nav:
       - Wiring: mgn-cube/wiring.md
       - Calibrations: mgn-cube/calibrations.md
       - Community remixes: mgn-cube/community.md
+      - Project updates: mgn-cube/updates/index.md
       - License & Thanks: mgn-cube/license.md
   - BLV Ender 3 Pro:
       - ender-3-pro/index.md
       - BOM: ender-3-pro/bom.md
       - Build guide: ender-3-pro/build.md
       - Tips & extras: ender-3-pro/extras.md
+      - Project updates: ender-3-pro/updates/index.md
       - License & Thanks: ender-3-pro/license.md
   - BLV mgn12 mod:
       - mgn12/index.md
       - BOM: mgn12/bom.md
       - Print & assemble: mgn12/build.md
+      - Project updates: mgn12/updates/index.md
       - License & Thanks: mgn12/license.md
-  - About: about.md
+  - About:
+      - About me: about.md
+      - Community news: news/index.md

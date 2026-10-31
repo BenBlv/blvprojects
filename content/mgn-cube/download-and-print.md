@@ -7,7 +7,7 @@ description: Download the BLV mgn Cube project files, with or without the Metal 
 
 ## Download the project files
 
-The project received several updates, add-ons and improvements after its release. There are two downloads, depending on whether you build with the [Metal Kit](https://benlevi8.wixsite.com/blvprojects/post/new-metal-kit-upgrade-blv-mgn-cube) parts.
+The project received several updates, add-ons and improvements after its release. There are two downloads, depending on whether you build with the [Metal Kit](updates/new-metal-kit-upgrade-blv-mgn-cube.md) parts.
 
 <div class="grid cards" markdown>
 

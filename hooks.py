@@ -17,11 +17,12 @@ YT_LINE = re.compile(r"^!yt\s+([\w-]{11})\s*(?:\|\s*(.*))?$")
 
 
 def _video(vid, title):
-    title = html.escape(title or "YouTube video", quote=True)
+    cap = html.escape(title or "", quote=True)
+    label = cap or "YouTube video"
     return (
-        f'<figure class="yt"><button class="yt-play" data-id="{vid}" aria-label="Play: {title}">'
+        f'<figure class="yt"><button class="yt-play" data-id="{vid}" aria-label="Play: {label}">'
         f'<img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/{vid}/hqdefault.jpg" alt=""></button>'
-        f"<figcaption>{title}</figcaption></figure>"
+        + (f"<figcaption>{cap}</figcaption>" if cap else "") + "</figure>"
     )
 
 

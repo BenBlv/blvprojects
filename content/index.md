@@ -37,4 +37,4 @@ Not sure where to start? The **BLV mgn Cube** is a complete printer built from s
 [:fontawesome-brands-youtube: YouTube](https://www.youtube.com/c/BenLevi0){ .md-button }
 [:material-heart: Donate](https://www.paypal.com/paypalme/BenBLV){ .md-button .md-button--primary }
 
-News and posts from the project years are on the [updates blog](https://benlevi8.wixsite.com/blvprojects/blog) on the old site.
+Posts from the project years are on each project's **Project updates** page and in the [community news](news/index.md).

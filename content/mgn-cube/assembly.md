@@ -33,11 +33,11 @@ There are three complete guides. Choose one and follow it from start to finish.
 | --- | --- |
 | [**FYSETC step-by-step videos**](#fysetc-step-by-step-video-guide) | The whole printer in 7 videos: frame, electronics, mechanics and printed parts. Recommended even with the Metal Kit. |
 | [**David Husolo's step-by-step guide**](https://www.ifixit.com/Device/BLV_MGN_Cube) (iFixit) | Every step and component in detail, written for the FYSETC parts set by a very talented community member |
-| [**The original project guide**](#the-original-assembly-guide) (below, and the [original guide post](https://benlevi8.wixsite.com/blvprojects/post/new-metal-kit-upgrade-blv-mgn-cube)) | Animated videos and written text in several parts, including the FYSETC parts |
+| [**The original project guide**](#the-original-assembly-guide) (below, and the [original guide post](updates/new-metal-kit-upgrade-blv-mgn-cube.md)) | Animated videos and written text in several parts, including the FYSETC parts |
 
 ## FYSETC step-by-step video guide
 
-FYSETC produced a series of [step-by-step videos](https://benlevi8.wixsite.com/blvprojects/post/new-metal-kit-upgrade-blv-mgn-cube) that show in detail how to build the whole printer. Many thanks to the FYSETC team for this excellent guide.
+FYSETC produced a series of [step-by-step videos](updates/new-metal-kit-upgrade-blv-mgn-cube.md) that show in detail how to build the whole printer. Many thanks to the FYSETC team for this excellent guide.
 
 !yt OTl3H-6wCEU | Full frame assembly - the Blind Joints frame
 !yt -2VnD1bWH-g | Video guide - step 1
@@ -80,7 +80,7 @@ Prepare the tools and the aluminium extrusions. Print the installation jig (`Jig
 
 ### Metal Kit or printed parts?
 
-Assembling the [Metal Kit](https://benlevi8.wixsite.com/blvprojects/post/new-metal-kit-upgrade-blv-mgn-cube) is quite different from assembling printed parts. With metal parts, follow the next section. With printed parts, [continue to the belt system](#belt-system).
+Assembling the [Metal Kit](updates/new-metal-kit-upgrade-blv-mgn-cube.md) is quite different from assembling printed parts. With metal parts, follow the next section. With printed parts, [continue to the belt system](#belt-system).
 
 ### Metal Kit assembly
 
@@ -214,7 +214,7 @@ Many of the best hotend solutions came from the community, including a BLV Cube 
 
     A 24V bed heats more slowly than an AC bed but is safe to use. The FYSETC parts set came with a magnetic aluminum bed and a BuildTak-like glass surface, which is flat and easy to handle. The original Blurolls set came with a PCB bed, which I recommend less because it tends to warp at high temperatures.
 
-    These pictures show the FYSETC bed (see my [FYSETC unboxing](https://benlevi8.wixsite.com/blvprojects/post/unboxing-fysetc-blv-mgn-cube-full-kit)). The bed parts are also listed in the [BOM](bom.md#heated-bed-8-mm-plate). Install the magnetic surface layers in exactly the order shown.
+    These pictures show the FYSETC bed (see my [FYSETC unboxing](updates/unboxing-fysetc-blv-mgn-cube-full-kit.md)). The bed parts are also listed in the [BOM](bom.md#heated-bed-8-mm-plate). Install the magnetic surface layers in exactly the order shown.
 
     <div class="gallery" markdown>
     ![FYSETC heated bed](../assets/img/blv-heated-bed-fysetc-6-1be132e7.jpg)

@@ -200,3 +200,13 @@
 /* hero image keeps its size (overrides the generic image cap) */
 .md-typeset .hero img { width: 150px !important; max-height: 170px; }
 @media (max-width: 700px) { .md-typeset .hero img { width: 90px !important; max-height: 100px; } .md-typeset .hero > p, .md-typeset .hero > a { order: -1; } }
+
+/* ---------- Project updates ---------- */
+.md-typeset .posts { grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); }
+.md-typeset .posts .mod span { -webkit-line-clamp: 3; }
+.md-typeset .back-link { font-size: .62rem; color: var(--blv-muted); display: inline-block; margin-bottom: .3rem; }
+.md-typeset .admonition.download, .md-typeset details.download { border-color: var(--blv-accent); }
+.md-typeset .download > .admonition-title, .md-typeset .download > summary { background-color: var(--md-accent-fg-color--transparent); }
+.md-typeset .download > .admonition-title::before { background-color: var(--blv-accent); -webkit-mask-image: var(--md-admonition-icon--note); mask-image: var(--md-admonition-icon--note); }
+.md-typeset video { border-radius: 6px; display: block; margin: .6em 0; }
+.md-typeset .posts .mod span { line-height: 1.4; max-height: calc(4.2em + .65rem); }

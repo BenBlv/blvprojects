@@ -76,9 +76,7 @@ And this is what it looks like after installation:
 
 Before the board arrived, I sat down and read most of the Duet 3 documentation, and I highly recommend you do the same. It is all available in the [**Duet 3D documentation**](https://docs.duet3d.com/). For your convenience, I prepared a basic config you can start from when configuring your own system. Note that this config uses the new BIQU H2 extruder, so the endstop and probe locations should be changed according to your BLV Cube 3D printer settings.
 
-My Duet 3 config files:
-
-File: Basic Duet3 6HC config by Ben Levi.zip (ZIP, 5KB)
+My Duet 3 configuration files are included in the [BLV mgn Cube project files](../download-and-print.md), in the `Firmware/Duet 3` folder (`Basic Duet3 6HC config by Ben Levi.zip`).
 
 You can also check out **David Husolo**'s [**Duet RRF3 configurations**](https://github.com/armysolo/BLV?fbclid=IwAR0-mR3bgpyxTPCFCVhUZgBWfTpTGOmq77aLlfcxRdvNA5OaHYBYkjqmsJw) on his GitHub for both the BLV AM8 and the BLV mgn Cube. I would like to take this opportunity to thank David for his tremendous efforts in the community.
 

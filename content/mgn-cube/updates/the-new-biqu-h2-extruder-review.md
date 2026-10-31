@@ -106,7 +106,7 @@ After several hours of design work and simulations, I was able to get a bracket 
 
 ![](../../assets/img/posts/4b290ffbadc8.jpg)
 
-File: BLV Cube Metal H2 adapter.zip (ZIP, 442KB)
+The bracket is included in the [BLV mgn Cube project files](../download-and-print.md): the STL files are in `STL files to print/Biqu H2 extruder adapter For Metal kit` and the STEP files are in `open source/Biqu H2 adapter For Metal kit`.
 
 The files are licensed under the Creative Commons - Attribution - Non-Commercial - Share Alike license.
 

@@ -85,7 +85,7 @@ For now I chose to use a [James Tongue](https://www.thingiverse.com/thing:404249
 
 ### Download section
 
-File: BLV matrix v1.1.5.zip (ZIP, 179KB)
+The adapter and the fan adapter are included in the [BLV mgn Cube project files](../download-and-print.md): the STL files are in `STL files to print/Trianglelab Matrix adapter For Metal kit` and the STEP files are in `open source/Trianglelab Matrix adapter for Metal kit`.
 
 File description:
 

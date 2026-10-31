@@ -54,6 +54,4 @@ Before you download the files, please understand that this is not the final vers
 
 The files are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike license](http://creativecommons.org/licenses/by-nc-sa/3.0/).
 
-STL files: BLV Cube new Front Panel STL files - BETA.zip (ZIP, 3.57MB)
-
-Beta CAD file (Fusion 360): BLV Cube_Front panel - BETA.zip (ZIP, 13.04MB)
+The front panel STL files are included in the [BLV mgn Cube project files](../download-and-print.md), in the `STL files to print/Front Panel` folder. The beta Fusion 360 CAD file is no longer available.

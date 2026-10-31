@@ -89,14 +89,14 @@ plugins:
         post/givaway.md: news/bigtreetech-gtr-giveaway.md
         post/giveaway.md: news/bigtreetech-skr-giveaway.md
         post/grow-your-blog-community.md: mgn12/updates/building-my-first-project.md
-        post/klipper-mainsail-theme-and-carbon-x-axis.md: mgn-cube/updates/klipper-mainsail-theme-and-carbon-x-axis.md
-        post/klipper-ultra-fast-printing-9000acc-500mm-s.md: mgn-cube/updates/klipper-ultra-fast-printing-9000acc-500mm-s.md
+        post/klipper-mainsail-theme-and-carbon-x-axis.md: mgn-cube/updates/index.md
+        post/klipper-ultra-fast-printing-9000acc-500mm-s.md: mgn-cube/updates/index.md
         post/let-there-be-cob-led-light.md: mgn-cube/updates/let-there-be-cob-led-light.md
         post/manage-your-blog-from-your-live-site.md: news/duet-wifi-giveaway.md
         post/metal-kit-ii-update-clearance-sale.md: mgn-cube/updates/metal-kit-ii-update-clearance-sale.md
         post/move-your-led-s-to-the-front-without-soldering.md: mgn-cube/updates/move-your-led-s-to-the-front-without-soldering.md
         post/new-3d-printering-parts-for-testing.md: mgn-cube/updates/new-parts-for-testing.md
-        post/new-carbon-cf-x-axis-tube-is-available.md: mgn-cube/updates/new-carbon-cf-x-axis-tube-is-available.md
+        post/new-carbon-cf-x-axis-tube-is-available.md: mgn-cube/updates/index.md
         post/new-front-panel-beta.md: mgn-cube/updates/new-front-panel-beta.md
         post/new-metal-kit-upgrade-blv-mgn-cube.md: mgn-cube/updates/new-metal-kit-upgrade-blv-mgn-cube.md
         post/new-mic6-350-heated-bed.md: mgn-cube/updates/new-mic6-350-heated-bed.md

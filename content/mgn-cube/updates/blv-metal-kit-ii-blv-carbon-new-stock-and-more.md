@@ -51,7 +51,7 @@ I also want to make the front plate of the X carriage completely flat, so it wil
 
 You left me speechless.
 
-Within a few hours, all of Mellow's [BLV carbon X-axis](new-carbon-cf-x-axis-tube-is-available.md) stock was gone. Unfortunately, he managed to produce only 43 pieces right before the Chinese holiday. He already let me know that once they are back from the holiday, they will start making new stock. A few lucky [community members](https://www.facebook.com/groups/BenLevi/posts/1008187499908786/) have already received the carbon tube and [uploaded videos](https://www.facebook.com/groups/BenLevi/posts/996745121053024/?comment_id=1005181043542765), and I was very impressed. I got feedback on the first 30 pieces from the beta test, and it's really good.
+Within a few hours, all of Mellow's BLV carbon X-axis stock was gone. Unfortunately, he managed to produce only 43 pieces right before the Chinese holiday. He already let me know that once they are back from the holiday, they will start making new stock. A few lucky [community members](https://www.facebook.com/groups/BenLevi/posts/1008187499908786/) have already received the carbon tube and [uploaded videos](https://www.facebook.com/groups/BenLevi/posts/996745121053024/?comment_id=1005181043542765), and I was very impressed. I got feedback on the first 30 pieces from the beta test, and it's really good.
 
 <div class="gallery big" markdown>
 ![](../../assets/img/posts/f4a7a930e99c.png)

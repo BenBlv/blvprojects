@@ -1,0 +1,2059 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="BLV mgn Cube assembly guide - frame, Metal Kit and printed parts, belt system, axes, hotends, air scrubbers, lights and linear rail tips, with videos.">
+      
+      
+        <meta name="author" content="Ben Levi">
+      
+      
+        <link rel="canonical" href="https://www.blvprojects.com/mgn-cube/assembly/">
+      
+      
+        <link rel="prev" href="../download-and-print/">
+      
+      
+        <link rel="next" href="../wiring/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/img/blv-logo-6da88bb8.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Assembly - BLV mgn Cube - BLV Projects</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Poppins";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#assembly" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+  <span class="archive-note">This is an archive of the BLV open-source 3D printer projects. The projects are no longer updated, but every guide, file and video is here.</span>
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="BLV Projects" class="md-header__button md-logo" aria-label="BLV Projects" data-md-component="logo">
+      
+  <img src="../../assets/img/blv-logo-6da88bb8.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BLV Projects
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Assembly - BLV mgn Cube
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  BLV mgn Cube
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../ender-3-pro/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  BLV Ender 3 Pro
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../mgn12/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  BLV mgn12 mod
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../about/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  About
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="BLV Projects" class="md-nav__button md-logo" aria-label="BLV Projects" data-md-component="logo">
+      
+  <img src="../../assets/img/blv-logo-6da88bb8.png" alt="logo">
+
+    </a>
+    BLV Projects
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked="">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BLV mgn Cube
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    BLV mgn Cube
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Start here
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bom/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BOM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../download-and-print/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Download &amp; Print
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assembly
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#choose-your-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Choose your guide
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fysetc-step-by-step-video-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FYSETC step-by-step video guide
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-original-assembly-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The original assembly guide
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The original assembly guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#main-frame" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Main frame
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metal-kit-or-printed-parts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Metal Kit or printed parts?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metal-kit-assembly" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Metal Kit assembly
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#belt-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Belt system
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#front-belt-tensioners" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Front belt tensioners
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#y-axis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Y axis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#z-axis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Z axis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#front-panels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Front panels
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rear-corners" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rear corners
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hotend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hotend
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#optional-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optional components
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Optional components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reinforcement-for-taller-z-builds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reinforcement for taller Z builds
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#air-scrubbers-hepa-activated-carbon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Air scrubbers - HEPA + activated carbon
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#magnetic-heated-bed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Magnetic heated bed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#internal-lights-cob-led-strip" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Internal lights - COB LED strip
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linear-rails-assembly-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linear rails - assembly tips
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Linear rails - assembly tips">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cleaning-and-lubricating" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cleaning and lubricating
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wiring/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wiring
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../calibrations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Calibrations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community remixes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    License &amp; Thanks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../ender-3-pro/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BLV Ender 3 Pro
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    BLV Ender 3 Pro
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ender-3-pro/bom/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BOM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ender-3-pro/build/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Build guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ender-3-pro/extras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tips &amp; extras
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ender-3-pro/license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    License &amp; Thanks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../mgn12/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BLV mgn12 mod
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    BLV mgn12 mod
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mgn12/bom/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BOM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mgn12/build/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Print &amp; assemble
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mgn12/license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    License &amp; Thanks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#choose-your-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Choose your guide
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fysetc-step-by-step-video-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FYSETC step-by-step video guide
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-original-assembly-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The original assembly guide
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The original assembly guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#main-frame" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Main frame
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metal-kit-or-printed-parts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Metal Kit or printed parts?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metal-kit-assembly" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Metal Kit assembly
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#belt-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Belt system
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#front-belt-tensioners" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Front belt tensioners
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#y-axis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Y axis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#z-axis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Z axis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#front-panels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Front panels
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rear-corners" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rear corners
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hotend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hotend
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#optional-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optional components
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Optional components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reinforcement-for-taller-z-builds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reinforcement for taller Z builds
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#air-scrubbers-hepa-activated-carbon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Air scrubbers - HEPA + activated carbon
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#magnetic-heated-bed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Magnetic heated bed
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#internal-lights-cob-led-strip" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Internal lights - COB LED strip
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linear-rails-assembly-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linear rails - assembly tips
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Linear rails - assembly tips">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cleaning-and-lubricating" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cleaning and lubricating
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="assembly">Assembly<a class="headerlink" href="#assembly" title="Permanent link">¶</a></h1>
+<p>Well done - by now you should have all the parts. This is the most exciting stage, and it needs extra attention. The new upgrades made the assembly shorter and easier than ever: the Blind Joints frame saves up to 70% of the time, and the Metal Kit saves a ton of printing hours and installs much more easily. The steps below work whether you have the upgrades or not.</p>
+<p><strong>Tools to prepare:</strong></p>
+<ul>
+<li><a href="http://s.click.aliexpress.com/e/IacurE0">Wire cutter</a></li>
+<li><a href="https://s.click.aliexpress.com/e/_AVjzFR">Allen tool set</a></li>
+<li>Set of torque screwdrivers</li>
+<li><a href="http://s.click.aliexpress.com/e/cZgqyEje">Tapping tools</a></li>
+<li>Protractor</li>
+<li><a href="https://s.click.aliexpress.com/e/_9G4v1T">Aluminium 90° clamps</a> - squaring tool</li>
+<li><a href="https://s.click.aliexpress.com/e/_97OrJF">PTFE tube cutter</a></li>
+<li><a href="http://s.click.aliexpress.com/e/ctVlu2Gs">SN-28B Dupont crimping tool</a></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Use the 3D viewer at any point</p>
+<p>Explore, measure and isolate parts in your browser:
+<a href="https://a360.co/2FLRqSa">full printer</a> · <a href="https://a360.co/2DDDBn4">isolated frame</a> · <a href="https://a360.co/2JGlYZ4">isolated panels / walls</a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/3d-viewer-6146ecaf.jpg" data-desc-position="bottom"><img alt="Online 3D viewer" src="../../assets/img/3d-viewer-6146ecaf.jpg" width="360"></a></p>
+</div>
+<h2 id="choose-your-guide">Choose your guide<a class="headerlink" href="#choose-your-guide" title="Permanent link">¶</a></h2>
+<p>There are three complete guides. Pick one and follow it from start to end.</p>
+<table>
+<thead>
+<tr>
+<th>Guide</th>
+<th>Best for</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#fysetc-step-by-step-video-guide"><strong>FYSETC step-by-step videos</strong></a></td>
+<td>Everyone - the whole printer (frame, electronics, mechanics, printed parts) in 7 videos. Recommended even with the Metal Kit.</td>
+</tr>
+<tr>
+<td><a href="https://www.ifixit.com/Device/BLV_MGN_Cube"><strong>David Husolo's step-by-step guide</strong></a> (iFixit)</td>
+<td>The FYSETC kit - every step and component in detail, written by a very talented person I appreciate</td>
+</tr>
+<tr>
+<td><a href="#the-original-assembly-guide"><strong>The original project guide</strong></a> (below, and the <a href="https://benlevi8.wixsite.com/blvprojects/post/new-metal-kit-upgrade-blv-mgn-cube">original project guides post</a>)</td>
+<td>Animated videos and written text, split into parts; also covers the FYSETC kit</td>
+</tr>
+</tbody>
+</table>
+<h2 id="fysetc-step-by-step-video-guide">FYSETC step-by-step video guide<a class="headerlink" href="#fysetc-step-by-step-video-guide" title="Permanent link">¶</a></h2>
+<p>The FYSETC store made a series of step-by-step videos (<a href="https://benlevi8.wixsite.com/blvprojects/post/new-metal-kit-upgrade-blv-mgn-cube">new full assembly video guide</a>) that show in detail how to build the entire printer. They did an amazing job - huge appreciation to the FYSETC team for this guide. Thank you guys!</p>
+<div class="videos" markdown="0"><figure class="yt"><button class="yt-play" data-id="OTl3H-6wCEU" aria-label="Play: Full frame assembly - the Blind Joints frame"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/OTl3H-6wCEU/hqdefault.jpg" alt=""></button><figcaption>Full frame assembly - the Blind Joints frame</figcaption></figure><figure class="yt"><button class="yt-play" data-id="-2VnD1bWH-g" aria-label="Play: Video guide - step 1"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/-2VnD1bWH-g/hqdefault.jpg" alt=""></button><figcaption>Video guide - step 1</figcaption></figure><figure class="yt"><button class="yt-play" data-id="fzRfXD17uyA" aria-label="Play: Video guide - step 2"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/fzRfXD17uyA/hqdefault.jpg" alt=""></button><figcaption>Video guide - step 2</figcaption></figure><figure class="yt"><button class="yt-play" data-id="oZXPe5NAmO8" aria-label="Play: Video guide - step 3"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/oZXPe5NAmO8/hqdefault.jpg" alt=""></button><figcaption>Video guide - step 3</figcaption></figure><figure class="yt"><button class="yt-play" data-id="ZxM9j8p_UtI" aria-label="Play: Video guide - step 4"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/ZxM9j8p_UtI/hqdefault.jpg" alt=""></button><figcaption>Video guide - step 4</figcaption></figure><figure class="yt"><button class="yt-play" data-id="OYkw1OxLap4" aria-label="Play: Video guide - step 5"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/OYkw1OxLap4/hqdefault.jpg" alt=""></button><figcaption>Video guide - step 5</figcaption></figure><figure class="yt"><button class="yt-play" data-id="LPNwPUBQ0m0" aria-label="Play: Video guide - step 6"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/LPNwPUBQ0m0/hqdefault.jpg" alt=""></button><figcaption>Video guide - step 6</figcaption></figure><figure class="yt"><button class="yt-play" data-id="KnPkUY0QOnw" aria-label="Play: Video guide - step 7 (final)"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/KnPkUY0QOnw/hqdefault.jpg" alt=""></button><figcaption>Video guide - step 7 (final)</figcaption></figure></div>
+
+<h2 id="the-original-assembly-guide">The original assembly guide<a class="headerlink" href="#the-original-assembly-guide" title="Permanent link">¶</a></h2>
+<h3 id="main-frame">Main frame<a class="headerlink" href="#main-frame" title="Permanent link">¶</a></h3>
+<p>Prepare all the tools and the aluminium extrusions. Print the installation jig (<code>Jig_Main.stl</code>) - two units are recommended - it places the extrusions exactly in the right spot. Measure each profile and sort them by length; it makes the installation much easier. The drawings show where each profile goes.</p>
+<div class="gallery">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-0d276046.jpg" data-desc-position="bottom"><img alt="Main frame drawing" src="../../assets/img/img-0d276046.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-4e8e86fd.jpg" data-desc-position="bottom"><img alt="Frame measurements" src="../../assets/img/img-4e8e86fd.jpg"></a></p>
+</div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><input id="__tabbed_1_2" name="__tabbed_1" type="radio"><div class="tabbed-labels"><label for="__tabbed_1_1">Blind Joints frame</label><label for="__tabbed_1_2">Original frame (brackets)</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>This video by FYSETC shows exactly how to assemble the Blind Joints frame. Watch every step carefully. It uses the Blind Joints frame from the FYSETC kit, so other kits may differ slightly.</p>
+<p></p><div class="videos single" markdown="0"><figure class="yt"><button class="yt-play" data-id="OTl3H-6wCEU" aria-label="Play: FYSETC - BLV mgn Cube Blind Joints frame assembly"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/OTl3H-6wCEU/hqdefault.jpg" alt=""></button><figcaption>FYSETC - BLV mgn Cube Blind Joints frame assembly</figcaption></figure></div><p></p>
+<p>Not sure what a Blind Joints frame is? Watch this short video:</p>
+<p></p><div class="videos single" markdown="0"><figure class="yt"><button class="yt-play" data-id="ueniUWrUcjE" aria-label="Play: BLV mgn Cube - Blind Joints / hidden joints"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/ueniUWrUcjE/hqdefault.jpg" alt=""></button><figcaption>BLV mgn Cube - Blind Joints / hidden joints</figcaption></figure></div><p></p>
+<p>Community member Harel shared a video of his Blind Joints frame assembly - it shows how simple it is, using only an Allen key:</p>
+<p></p><div class="videos single" markdown="0"><figure class="yt"><button class="yt-play" data-id="jYSG0BKPSLA" aria-label="Play: BLV mgn Cube Blind Joints frame assembly"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/jYSG0BKPSLA/hqdefault.jpg" alt=""></button><figcaption>BLV mgn Cube Blind Joints frame assembly</figcaption></figure></div><p></p>
+</div>
+<div class="tabbed-block">
+<p>The original frame assembly video, without shortcuts:</p>
+<p></p><div class="videos single" markdown="0"><figure class="yt"><button class="yt-play" data-id="Uq7Vixkb5NU" aria-label="Play: BLV mgn Cube - frame assembly"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/Uq7Vixkb5NU/hqdefault.jpg" alt=""></button><figcaption>BLV mgn Cube - frame assembly</figcaption></figure></div><p></p>
+<p>Due to some limitations the video doesn't show the brackets. All frame extrusions are held together with brackets, as in this image:</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/frame-bracket-screws-7b6945b1.jpg" data-desc-position="bottom"><img alt="Frame bracket screws" src="../../assets/img/frame-bracket-screws-7b6945b1.jpg" width="520"></a></p>
+<p>A 3D video tour of the original frame with all the brackets:</p>
+<p></p><div class="videos single" markdown="0"><figure class="yt"><button class="yt-play" data-id="ITvA9m77xy0" aria-label="Play: BLV mgn Cube - 3D printer frame overview"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/ITvA9m77xy0/hqdefault.jpg" alt=""></button><figcaption>BLV mgn Cube - 3D printer frame overview</figcaption></figure></div><p></p>
+<p>You can also explore the frame in the <a href="https://a360.co/2DDDBn4">3D frame viewer</a> - measure and understand it without installing any 3D software.</p>
+<p><a class="md-button" href="https://a360.co/2DDDBn4">3D Frame Viewer</a></p>
+</div>
+</div>
+</div>
+<h3 id="metal-kit-or-printed-parts">Metal Kit or printed parts?<a class="headerlink" href="#metal-kit-or-printed-parts" title="Permanent link">¶</a></h3>
+<p>Assembling the <a href="https://benlevi8.wixsite.com/blvprojects/post/new-metal-kit-upgrade-blv-mgn-cube">Metal Kit</a> is very different from assembling printed parts. With the Metal Kit, follow the next section; with printed parts, <a href="#belt-system">skip to the belt system</a>.</p>
+<p><a href="https://benlevi8.wixsite.com/blvprojects/post/new-metal-kit-upgrade-blv-mgn-cube"><img alt="Metal Kit parts" src="../../assets/img/all-kit-small-min-41b4c7e9.png" width="300"></a></p>
+<h3 id="metal-kit-assembly">Metal Kit assembly<a class="headerlink" href="#metal-kit-assembly" title="Permanent link">¶</a></h3>
+<p>Sort all the parts of the kit - separate the screws, washers and bearings. Your frame should already be fully assembled. These 3D videos show how to install every Metal Kit part; follow them and be precise.</p>
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Watch out for</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Left X mount</td>
+<td>Use only plates marked <strong>L</strong>, not <strong>R</strong></td>
+</tr>
+<tr>
+<td>Right X mount</td>
+<td>Use only plates marked <strong>R</strong>, not <strong>L</strong></td>
+</tr>
+<tr>
+<td>Left / right rear corners</td>
+<td>The motor standoff length</td>
+</tr>
+<tr>
+<td>Left / right tensioners</td>
+<td>Use only parts marked <strong>L</strong> / <strong>Left</strong> or <strong>R</strong> / <strong>Right</strong></td>
+</tr>
+<tr>
+<td>X carriage</td>
+<td>The belt locker is experimental - I prefer a zip tie</td>
+</tr>
+</tbody>
+</table>
+<div class="videos" markdown="0"><figure class="yt"><button class="yt-play" data-id="h6RqIR12xYc" aria-label="Play: Metal Kit - left X mount"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/h6RqIR12xYc/hqdefault.jpg" alt=""></button><figcaption>Metal Kit - left X mount</figcaption></figure><figure class="yt"><button class="yt-play" data-id="PkNG_4DqNDU" aria-label="Play: Metal Kit - right X mount"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/PkNG_4DqNDU/hqdefault.jpg" alt=""></button><figcaption>Metal Kit - right X mount</figcaption></figure><figure class="yt"><button class="yt-play" data-id="xgskB43XnrQ" aria-label="Play: Metal Kit - left rear corner"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/xgskB43XnrQ/hqdefault.jpg" alt=""></button><figcaption>Metal Kit - left rear corner</figcaption></figure><figure class="yt"><button class="yt-play" data-id="mT_S7TKsJ8E" aria-label="Play: Metal Kit - right rear corner"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/mT_S7TKsJ8E/hqdefault.jpg" alt=""></button><figcaption>Metal Kit - right rear corner</figcaption></figure><figure class="yt"><button class="yt-play" data-id="ZSMAie1AsHY" aria-label="Play: Metal Kit - left tensioner"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/ZSMAie1AsHY/hqdefault.jpg" alt=""></button><figcaption>Metal Kit - left tensioner</figcaption></figure><figure class="yt"><button class="yt-play" data-id="XTAEOTpn_As" aria-label="Play: Metal Kit - right tensioner"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/XTAEOTpn_As/hqdefault.jpg" alt=""></button><figcaption>Metal Kit - right tensioner</figcaption></figure><figure class="yt"><button class="yt-play" data-id="ychonAO79lA" aria-label="Play: Metal Kit - Z motor mount"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/ychonAO79lA/hqdefault.jpg" alt=""></button><figcaption>Metal Kit - Z motor mount</figcaption></figure><figure class="yt"><button class="yt-play" data-id="hjXf-C7vWmQ" aria-label="Play: Metal Kit - Z axis top mount"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/hjXf-C7vWmQ/hqdefault.jpg" alt=""></button><figcaption>Metal Kit - Z axis top mount</figcaption></figure><figure class="yt"><button class="yt-play" data-id="eE851Lm2ddo" aria-label="Play: Metal Kit - X carriage"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/eE851Lm2ddo/hqdefault.jpg" alt=""></button><figcaption>Metal Kit - X carriage</figcaption></figure></div>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Before you finish the hotend assembly, stop and install the belts (next section), then come back and complete the hotend.</p>
+</div>
+<h3 id="belt-system">Belt system<a class="headerlink" href="#belt-system" title="Permanent link">¶</a></h3>
+<p>This section is important for everyone, with or without the Metal Kit. The picture shows the belt configuration. The only difference with the Metal Kit is that you use 0.6 mm washers, as shown in the assembly video.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/belts-e4ffaee8.jpg" data-desc-position="bottom"><img alt="Belt system" src="../../assets/img/belts-e4ffaee8.jpg"></a></p>
+<p>Flip the belts at the rear so that only the flat side of the belt touches the bearings:</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/flip-the-belts-min-ac597b4a.jpg" data-desc-position="bottom"><img alt="Flip the belts at the rear" src="../../assets/img/flip-the-belts-min-ac597b4a.jpg" width="520"></a></p>
+<h3 id="front-belt-tensioners">Front belt tensioners<a class="headerlink" href="#front-belt-tensioners" title="Permanent link">¶</a></h3>
+<p>How to install the two front tensioners. Be careful not to cut the belt while putting it in place. Most parts are marked: <strong>R</strong> for right, <strong>L</strong> for left.</p>
+<div class="videos single" markdown="0"><figure class="yt"><button class="yt-play" data-id="O5G3dKr_gxg" aria-label="Play: BLV mgn Cube - front belt tensioner assembly"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/O5G3dKr_gxg/hqdefault.jpg" alt=""></button><figcaption>BLV mgn Cube - front belt tensioner assembly</figcaption></figure></div>
+
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/blv-mgn-cube-front-tensioner-b2defd33.jpg" data-desc-position="bottom"><img alt="Front tensioner" src="../../assets/img/blv-mgn-cube-front-tensioner-b2defd33.jpg"></a></p>
+<h3 id="y-axis">Y axis<a class="headerlink" href="#y-axis" title="Permanent link">¶</a></h3>
+<p>Installing all the Y-axis parts. Smooth the areas where the bearings sit as much as possible, and watch the markings on the parts.</p>
+<div class="videos single" markdown="0"><figure class="yt"><button class="yt-play" data-id="EoqUOeLqJvc" aria-label="Play: BLV mgn Cube - Y axis assembly"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/EoqUOeLqJvc/hqdefault.jpg" alt=""></button><figcaption>BLV mgn Cube - Y axis assembly</figcaption></figure></div>
+
+<h3 id="z-axis">Z axis<a class="headerlink" href="#z-axis" title="Permanent link">¶</a></h3>
+<p>Use tape to keep the MGN12 carriage from sliding off the rail while you install the linear rails.</p>
+<div class="videos single" markdown="0"><figure class="yt"><button class="yt-play" data-id="ufM-sAZTdMY" aria-label="Play: BLV mgn Cube - Z axis assembly"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/ufM-sAZTdMY/hqdefault.jpg" alt=""></button><figcaption>BLV mgn Cube - Z axis assembly</figcaption></figure></div>
+
+<h3 id="front-panels">Front panels<a class="headerlink" href="#front-panels" title="Permanent link">¶</a></h3>
+<p>Pay attention to the motor standoff length.</p>
+<div class="videos single" markdown="0"><figure class="yt"><button class="yt-play" data-id="OHpfga6H3ys" aria-label="Play: BLV mgn Cube - front panel assembly"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/OHpfga6H3ys/hqdefault.jpg" alt=""></button><figcaption>BLV mgn Cube - front panel assembly</figcaption></figure></div>
+
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/blv-mgn-cube-front-panel-7bd15118.jpg" data-desc-position="bottom"><img alt="Front panel" src="../../assets/img/blv-mgn-cube-front-panel-7bd15118.jpg"></a></p>
+<h3 id="rear-corners">Rear corners<a class="headerlink" href="#rear-corners" title="Permanent link">¶</a></h3>
+<p>These assemblies are relatively simple. The software crashed a few times while I made the video, so this drawing replaces it. All the bearing screws are 35 mm long; the drawing shows where each screw goes, and the belt system picture above shows the bearing locations. (The Metal Kit makes this a 5-minute job.)</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/blv-cube-mgn-project-rear-corners-and-be-3a099c74.jpg" data-desc-position="bottom"><img alt="Rear corners and bearings" src="../../assets/img/blv-cube-mgn-project-rear-corners-and-be-3a099c74.jpg"></a></p>
+<h2 id="hotend">Hotend<a class="headerlink" href="#hotend" title="Permanent link">¶</a></h2>
+<p>The original BLV mgn Cube had official Bowden and direct drive options. The Metal Kit has a Bowden option with twin blowers, and direct drive setups for the BIQU H2 and the Trianglelab Matrix.</p>
+<p>But that's not all - the amazing community behind the project made a huge variety of hotends for every version, even a tool changer. Check the <a href="../community/">community remixes</a> and choose the hotend that fits your needs. These drawings of several BLV hotend versions help with the assembly and with the exact auto-leveling coordinates.</p>
+<div class="gallery">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-e8d8257c.jpg" data-desc-position="bottom"><img alt="Hotend version" src="../../assets/img/img-e8d8257c.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-e8897a25.jpg" data-desc-position="bottom"><img alt="Hotend version" src="../../assets/img/img-e8897a25.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-a4d339fb.jpg" data-desc-position="bottom"><img alt="Hotend version" src="../../assets/img/img-a4d339fb.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-fe5309ec.jpg" data-desc-position="bottom"><img alt="Hotend version" src="../../assets/img/img-fe5309ec.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-9402628b.jpg" data-desc-position="bottom"><img alt="BMG direct drive" src="../../assets/img/img-9402628b.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-be9a2f99.jpg" data-desc-position="bottom"><img alt="Zesty Nimble" src="../../assets/img/img-be9a2f99.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-21ff9e03.jpg" data-desc-position="bottom"><img alt="Hotend version" src="../../assets/img/img-21ff9e03.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-c4537c69.jpg" data-desc-position="bottom"><img alt="Hotend version" src="../../assets/img/img-c4537c69.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-4d8d53cb.png" data-desc-position="bottom"><img alt="Hotend version" src="../../assets/img/img-4d8d53cb.png"></a></p>
+</div>
+<div class="grid cards">
+<ul>
+<li>
+<p><strong>BLV Cube tool changer</strong></p>
+<p><a href="../community/"><img alt="Tool changer" src="../../assets/img/tool-changer-0c1a8cb8.jpg"></a></p>
+</li>
+<li>
+<p><strong>EVA 2.3.0 supported</strong></p>
+<p><a href="../community/"><img alt="EVA" src="../../assets/img/eva-7103b69a.jpg"></a></p>
+</li>
+</ul>
+</div>
+<p>The whole idea of the project is to benefit the 3D community, so it's no surprise that many of the best solutions come from the community itself. I gathered the best upgrades, remixes and new features in one place:</p>
+<p><a class="md-button md-button--primary" href="../community/">Community remixes</a></p>
+<h2 id="optional-components">Optional components<a class="headerlink" href="#optional-components" title="Permanent link">¶</a></h2>
+<h3 id="reinforcement-for-taller-z-builds">Reinforcement for taller Z builds<a class="headerlink" href="#reinforcement-for-taller-z-builds" title="Permanent link">¶</a></h3>
+<p>If you build taller than the standard height, add a 496 mm reinforcing extrusion at the top, just below the front tensioners, as in the picture. It keeps the frame stable even on tall builds.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/reinforcement-402b0a1e.jpg" data-desc-position="bottom"><img alt="Frame reinforcement" src="../../assets/img/reinforcement-402b0a1e.jpg" width="520"></a></p>
+<h3 id="air-scrubbers-hepa-activated-carbon">Air scrubbers - HEPA + activated carbon<a class="headerlink" href="#air-scrubbers-hepa-activated-carbon" title="Permanent link">¶</a></h3>
+<p>The project has a small and a large air scrubber. Printing releases particles into the air we breathe, so filtering them is a good idea.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/blv-mgn-cube-air-scrubber-big-v3-47c4f7a1.jpg" data-desc-position="bottom"><img alt="Big air scrubber v3" src="../../assets/img/blv-mgn-cube-air-scrubber-big-v3-47c4f7a1.jpg"></a></p>
+<p>Mount the fan so it pushes the dirty air into the filter: the air passes through the activated carbon filter first, then the HEPA filter. Check the filters once a month and replace them when needed.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/air-scrubber-39eddef0.jpg" data-desc-position="bottom"><img alt="Air scrubber airflow" src="../../assets/img/air-scrubber-39eddef0.jpg" width="520"></a></p>
+<h3 id="magnetic-heated-bed">Magnetic heated bed<a class="headerlink" href="#magnetic-heated-bed" title="Permanent link">¶</a></h3>
+<p>The most recommended bed is an aluminum MIC6 plate with an AC silicone heater. It has two problems:</p>
+<ol>
+<li>High price - both the MIC6 plate and the silicone heater are relatively expensive.</li>
+<li>Risk of electric shock if it isn't installed properly.</li>
+</ol>
+<p>So the safest option is a 24V bed - slower than AC heating, but safe. The FYSETC kit comes with a magnetic aluminum heated bed with a BuildTak-like glass surface: flat and easy to handle. The original Blurolls kit comes with a PCB bed, which I recommend less because it tends to warp at high temperatures - message the seller and ask to replace it with his upgraded magnetic metal bed.</p>
+<p>These pictures are from the FYSETC kit (see my <a href="https://benlevi8.wixsite.com/blvprojects/post/unboxing-fysetc-blv-mgn-cube-full-kit">FYSETC kit unboxing</a>). You can also get the bed from the <a href="../bom/#heated-bed-8-mm-bed">BOM</a>. Install the magnetic surface layers exactly in the order shown.</p>
+<div class="gallery">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/blv-heated-bed-fysetc-6-1be132e7.jpg" data-desc-position="bottom"><img alt="FYSETC heated bed" src="../../assets/img/blv-heated-bed-fysetc-6-1be132e7.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/blv-heated-bed-fysetc-10-6046cf05.jpg" data-desc-position="bottom"><img alt="FYSETC heated bed" src="../../assets/img/blv-heated-bed-fysetc-10-6046cf05.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/blv-heated-bed-fysetc-3-349a2cd3.jpg" data-desc-position="bottom"><img alt="FYSETC heated bed" src="../../assets/img/blv-heated-bed-fysetc-3-349a2cd3.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/bed-magnetic-b50b77aa.jpg" data-desc-position="bottom"><img alt="Magnetic bed layers" src="../../assets/img/bed-magnetic-b50b77aa.jpg"></a></p>
+</div>
+<h2 id="internal-lights-cob-led-strip">Internal lights - COB LED strip<a class="headerlink" href="#internal-lights-cob-led-strip" title="Permanent link">¶</a></h2>
+<p>After a long time with a regular LED strip, I wanted lighting that is nicer, hidden, needs no printed parts, and shines evenly instead of in spots. The answer: a <strong>COB LED strip</strong>.</p>
+<p>A COB strip packs much smaller diodes: about 360 LEDs per meter instead of 60 - six times more - so the light is uniform. The diodes are covered in silicone that acts as a diffuser. The strip is also narrow; I chose 8 mm, which slides right into the extrusion channel. It can be cut every 50 mm, and the brightness can be controlled.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/blv-mgn-cube-cob-light-strip-1-518f9c92.jpg" data-desc-position="bottom"><img alt="COB light strip" src="../../assets/img/blv-mgn-cube-cob-light-strip-1-518f9c92.jpg" width="520"></a></p>
+<p>My first two strips from different AliExpress stores were disappointing. Then I found a <a href="https://s.click.aliexpress.com/e/_9i94Go">reliable store</a> with quality COB strips. I chose: 6000K cool white, 24V, 360 LEDs, 2 meters.</p>
+<ol>
+<li>Cut the strip at the marks (every 50 mm) with scissors.</li>
+<li>Solder two 26AWG wires - or use <a href="https://s.click.aliexpress.com/e/_9II1fw">this fast connector</a> (choose "For 8 mm PCB") if you can't solder.</li>
+<li>Slide the strip into the upper extrusion channels.</li>
+<li>Connect the wires in one of two ways:<ul>
+<li>Directly to a 24V PSU</li>
+<li>To a Duet fan output - then you can control the brightness with a slider in the Duet control panel</li>
+</ul>
+</li>
+</ol>
+<p>I use the FYSETC <a href="https://s.click.aliexpress.com/e/_A1uWxz">Duet 3 6HC board</a>, so I defined the lights as a fan output with this line in <code>config.g</code>, and connected the strip to the <strong>OUT9</strong> port:</p>
+<div class="highlight"><pre><span></span><code>M950 F2 C"out9" Q500 M106 P2 S0.2 H-1 C"Lights"
+</code></pre></div>
+<p>I'm very pleased with the result: efficient, good-looking light whose intensity I control from the panel.</p>
+<div class="gallery">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-8e97a60d.jpg" data-desc-position="bottom"><img alt="COB lights" src="../../assets/img/img-8e97a60d.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-84429b5e.jpg" data-desc-position="bottom"><img alt="COB lights" src="../../assets/img/img-84429b5e.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-161f6da4.jpg" data-desc-position="bottom"><img alt="COB lights" src="../../assets/img/img-161f6da4.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/blv-mgn-cube-cob-light-strip-1-518f9c92.jpg" data-desc-position="bottom"><img alt="COB lights" src="../../assets/img/blv-mgn-cube-cob-light-strip-1-518f9c92.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-b0feeb49.jpg" data-desc-position="bottom"><img alt="COB lights" src="../../assets/img/img-b0feeb49.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-333dd352.jpg" data-desc-position="bottom"><img alt="COB lights" src="../../assets/img/img-333dd352.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-d85be162.jpg" data-desc-position="bottom"><img alt="COB lights" src="../../assets/img/img-d85be162.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-238054a9.jpg" data-desc-position="bottom"><img alt="COB lights" src="../../assets/img/img-238054a9.jpg"></a></p>
+</div>
+<h2 id="linear-rails-assembly-tips">Linear rails - assembly tips<a class="headerlink" href="#linear-rails-assembly-tips" title="Permanent link">¶</a></h2>
+<p>At first I used <a href="http://s.click.aliexpress.com/e/b4ZT5JAu">cheap Chinese MGN12H rails from AliExpress</a> at $18 each. After buying from 4 different sellers, I found <a href="http://s.click.aliexpress.com/e/b4ZT5JAu">the best cheap rails at the "CNA Mechanical Parts Store"</a>: the block slides smoothly without cleaning. Wonderful rails if you want a cheap solution. For higher quality, the <a href="http://s.click.aliexpress.com/e/cTl59jr2">HIWIN linear rails kit from Blurolls</a> is not that expensive and very, very good.</p>
+<div class="admonition danger">
+<p class="admonition-title">Stores to avoid</p>
+<p>Don't buy rails from <strong>"RDC Official Store"</strong> or <strong>"linkcnc Store"</strong> on AliExpress. linkcnc sold me a used, damaged rail, shorter than ordered - it stayed stuck even after cleaning and lubricating. RDC started shipping MGN blocks in non-standard sizes.</p>
+</div>
+<h3 id="cleaning-and-lubricating">Cleaning and lubricating<a class="headerlink" href="#cleaning-and-lubricating" title="Permanent link">¶</a></h3>
+<p>New rails won't be as smooth as they should be: at the factory they are coated with a protective oil that must be cleaned off. Some YouTube videos show how to clean the carriage with WD-40. After cleaning, lubricate the rails and carriages with sewing machine oil or Teflon silicone grease. These are miniature rails, so don't use thick grease. You want them smooth, but not too smooth.</p>
+<p>The video below is a good one - just work over a container so you don't lose the steel balls. After reassembling, there will be an empty space of one ball; that's normal.</p>
+<div class="videos single" markdown="0"><figure class="yt"><button class="yt-play" data-id="c53sa46C1qQ" aria-label="Play: Tuning up cheap Chinese linear bearings"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/c53sa46C1qQ/hqdefault.jpg" alt=""></button><figcaption>Tuning up cheap Chinese linear bearings</figcaption></figure></div>
+
+<p>Fixing the MGN rails can be very frustrating: they must be perfectly aligned and straight, or you'll get headaches. Don't start without tons of patience.</p>
+<div class="admonition warning">
+<p class="admonition-title">The gravity test - no!</p>
+<p>Don't test the rails with the well known "gravity test", where you tilt the rail and let the carriage slide down. It doesn't tell you if the rail is good: a rail with excessive free play passes it easily - and then fails every print quality test. The rail's tolerance grade determines how much friction the carriage has.</p>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../download-and-print/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Download &amp; Print">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Download &amp; Print
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../wiring/" class="md-footer__link md-footer__link--next" aria-label="Next: Wiring">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Wiring
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © Ben Levi · BLV Projects · <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA</a> - free for non-commercial use
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://www.facebook.com/groups/BenLevi" target="_blank" rel="noopener" title="BLV Facebook group" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120 82.7 220.8 194.2 248.5V334.2h-52.8V256h52.8v-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287v175.9C413.8 494.8 512 386.9 512 256"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.youtube.com/c/BenLevi0" target="_blank" rel="noopener" title="YouTube" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://discord.gg/zY4GBfuzC4" target="_blank" rel="noopener" title="Discord" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M492.5 69.8c-.2-.3-.4-.6-.8-.7-38.1-17.5-78.4-30-119.7-37.1-.4-.1-.8 0-1.1.1s-.6.4-.8.8c-5.5 9.9-10.5 20.2-14.9 30.6-44.6-6.8-89.9-6.8-134.4 0-4.5-10.5-9.5-20.7-15.1-30.6-.2-.3-.5-.6-.8-.8s-.7-.2-1.1-.2C162.5 39 122.2 51.5 84.1 69c-.3.1-.6.4-.8.7C7.1 183.5-13.8 294.6-3.6 404.2c0 .3.1.5.2.8s.3.4.5.6c44.4 32.9 94 58 146.8 74.2.4.1.8.1 1.1 0s.7-.4.9-.7c11.3-15.4 21.4-31.8 30-48.8.1-.2.2-.5.2-.8s0-.5-.1-.8-.2-.5-.4-.6-.4-.3-.7-.4c-15.8-6.1-31.2-13.4-45.9-21.9-.3-.2-.5-.4-.7-.6s-.3-.6-.3-.9 0-.6.2-.9.3-.5.6-.7c3.1-2.3 6.2-4.7 9.1-7.1.3-.2.6-.4.9-.4s.7 0 1 .1c96.2 43.9 200.4 43.9 295.5 0 .3-.1.7-.2 1-.2s.7.2.9.4c2.9 2.4 6 4.9 9.1 7.2.2.2.4.4.6.7s.2.6.2.9-.1.6-.3.9-.4.5-.6.6c-14.7 8.6-30 15.9-45.9 21.8-.2.1-.5.2-.7.4s-.3.4-.4.7-.1.5-.1.8.1.5.2.8c8.8 17 18.8 33.3 30 48.8.2.3.6.6.9.7s.8.1 1.1 0c52.9-16.2 102.6-41.3 147.1-74.2.2-.2.4-.4.5-.6s.2-.5.2-.8c12.3-126.8-20.5-236.9-86.9-334.5zm-302 267.7c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.4 59.2-52.8 59.2m195.4 0c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.2 59.2-52.8 59.2"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.tiktok.com/@benleviblv" target="_blank" rel="noopener" title="TikTok" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M448.5 209.9c-44 .1-87-13.6-122.8-39.2v178.7c0 33.1-10.1 65.4-29 92.6s-45.6 48-76.6 59.6-64.8 13.5-96.9 5.3-60.9-25.9-82.7-50.8-35.3-56-39-88.9 2.9-66.1 18.6-95.2 40-52.7 69.6-67.7 62.9-20.5 95.7-16v89.9c-15-4.7-31.1-4.6-46 .4s-27.9 14.6-37 27.3-14 28.1-13.9 43.9 5.2 31 14.5 43.7 22.4 22.1 37.4 26.9 31.1 4.8 46-.1 28-14.4 37.2-27.1 14.2-28.1 14.2-43.8V0h88c-.1 7.4.6 14.9 1.9 22.2 3.1 16.3 9.4 31.9 18.7 45.7s21.3 25.6 35.2 34.6c19.9 13.1 43.2 20.1 67 20.1V210z"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.paypal.com/paypalme/BenBLV" target="_blank" rel="noopener" title="Donate" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="m241 87.1 15 20.7 15-20.7C296 52.5 336.2 32 378.9 32 452.4 32 512 91.6 512 165.1v2.6c0 112.2-139.9 242.5-212.9 298.2-12.4 9.4-27.6 14.1-43.1 14.1s-30.8-4.6-43.1-14.1C139.9 410.2 0 279.9 0 167.7v-2.6C0 91.6 59.6 32 133.1 32 175.8 32 216 52.5 241 87.1"></path></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes", "navigation.top", "navigation.footer", "navigation.instant", "search.highlight", "search.suggest", "toc.follow", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/extra.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

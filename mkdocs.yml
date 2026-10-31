@@ -1,0 +1,137 @@
+site_name: BLV Projects
+site_url: https://www.blvprojects.com/
+site_description: >-
+  Archive of the BLV open-source 3D printer projects by Ben Levi: BLV mgn Cube,
+  BLV Ender 3 Pro upgrade and BLV mgn12 mod. Guides, BOM, CAD files, wiring and assembly videos.
+site_author: Ben Levi
+copyright: >-
+  © Ben Levi · BLV Projects ·
+  <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA</a> - free for non-commercial use
+
+docs_dir: content
+site_dir: docs
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/img/blv-logo-6da88bb8.png
+  favicon: assets/img/blv-logo-6da88bb8.png
+  font:
+    text: Poppins
+    code: Roboto Mono
+  palette:
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - search.highlight
+    - search.suggest
+    - toc.follow
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
+
+hooks:
+  - hooks.py
+
+plugins:
+  - search
+  - glightbox:
+      skip_classes:
+        - no-lightbox
+  - redirects:
+      redirect_maps:
+        blv-mgn-cube-3d-printer.md: mgn-cube/index.md
+        blv-mgn-cube-3d-printer-old.md: mgn-cube/index.md
+        blv-mgn-cube-start.md: mgn-cube/start.md
+        blv-mgn-cube-bom.md: mgn-cube/bom.md
+        blv-mgn-cube-download.md: mgn-cube/download-and-print.md
+        blv-mgn-cube-assembly-guide.md: mgn-cube/assembly.md
+        blv-mgn-cube-wiring.md: mgn-cube/wiring.md
+        blv-mgn-cube-calibrations.md: mgn-cube/calibrations.md
+        blv-mgn-cube-community.md: mgn-cube/community.md
+        blv-mgn-cube-license.md: mgn-cube/license.md
+        blv-ender-3-pro.md: ender-3-pro/index.md
+        blv-mgn12-mod-3d-printer.md: mgn12/index.md
+
+markdown_extensions:
+  - admonition
+  - def_list
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/groups/BenLevi
+      name: BLV Facebook group
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/c/BenLevi0
+      name: YouTube
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/zY4GBfuzC4
+      name: Discord
+    - icon: fontawesome/brands/tiktok
+      link: https://www.tiktok.com/@benleviblv
+      name: TikTok
+    - icon: fontawesome/solid/heart
+      link: https://www.paypal.com/paypalme/BenBLV
+      name: Donate
+
+nav:
+  - Home: index.md
+  - BLV mgn Cube:
+      - mgn-cube/index.md
+      - Start here: mgn-cube/start.md
+      - BOM: mgn-cube/bom.md
+      - Download & Print: mgn-cube/download-and-print.md
+      - Assembly: mgn-cube/assembly.md
+      - Wiring: mgn-cube/wiring.md
+      - Calibrations: mgn-cube/calibrations.md
+      - Community remixes: mgn-cube/community.md
+      - License & Thanks: mgn-cube/license.md
+  - BLV Ender 3 Pro:
+      - ender-3-pro/index.md
+      - BOM: ender-3-pro/bom.md
+      - Build guide: ender-3-pro/build.md
+      - Tips & extras: ender-3-pro/extras.md
+      - License & Thanks: ender-3-pro/license.md
+  - BLV mgn12 mod:
+      - mgn12/index.md
+      - BOM: mgn12/bom.md
+      - Print & assemble: mgn12/build.md
+      - License & Thanks: mgn12/license.md
+  - About: about.md

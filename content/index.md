@@ -12,7 +12,7 @@ hide:
 
 <p class="lead">Open-source 3D printers by Ben Levi. An archive of the BLV mgn Cube, BLV Ender 3 Pro and BLV mgn12 projects.</p>
 
-I design open-source 3D printers, and the BLV projects are my way of thanking the 3D printing community. This site has the guides, assembly videos, BOMs, sketches and original CAD files needed to build a BLV printer. The projects are non-profit and free for non-commercial use.
+I design open-source 3D printers, and the BLV projects are my way of thanking the 3D printing community. Each project comes with full build guides, assembly videos, a bill of materials, firmware settings and the original CAD files. Everything is free for non-commercial use.
 
 <div class="home-sign">
 <img class="avatar no-lightbox" src="assets/img/ben-levi-8e903eef.png" alt="Ben Levi">
@@ -21,14 +21,23 @@ I design open-source 3D printers, and the BLV projects are my way of thanking th
 </div>
 </div>
 
-<img class="photo no-lightbox" src="assets/img/home-hero-97ea63d4.jpg" alt="BLV mgn Cube X axis and hotend">
+<div class="facts">
+<span><b>3 projects</b>printers and upgrades</span>
+<span><b>1.78M</b>downloads of the Cube</span>
+<span><b>MGN12 rails</b>in every project</span>
+<span><b>STEP files</b>open CAD sources</span>
+<span><b>CC BY-NC-SA</b>free for personal use</span>
+<span><b>Archive</b>no longer updated</span>
+</div>
 </div>
 
 ## The projects
 
+Not sure where to start? The **BLV mgn Cube** is a complete printer built from scratch. The other two are upgrades for printers you may already own.
+
 <div class="grid cards" markdown>
 
--   [![BLV mgn Cube](assets/img/blv-cubg-mgn-trans-min-7ea675f5.png){ .no-lightbox width="160" }](mgn-cube/index.md)
+-   [![BLV mgn Cube](assets/img/blv-cubg-mgn-trans-min-7ea675f5.png){ .no-lightbox width="110" }](mgn-cube/index.md)
 
     **[BLV mgn Cube](mgn-cube/index.md)**
 
@@ -38,7 +47,7 @@ I design open-source 3D printers, and the BLV projects are my way of thanking th
 
     [Overview](mgn-cube/index.md) · [Start here](mgn-cube/start.md) · [Download](mgn-cube/download-and-print.md)
 
--   [![BLV Ender 3 Pro](assets/img/ender-with-shadow-7033575a.png){ .no-lightbox width="160" }](ender-3-pro/index.md)
+-   [![BLV Ender 3 Pro](assets/img/ender-with-shadow-7033575a.png){ .no-lightbox width="110" }](ender-3-pro/index.md)
 
     **[BLV Ender 3 Pro](ender-3-pro/index.md)**
 
@@ -48,7 +57,7 @@ I design open-source 3D printers, and the BLV projects are my way of thanking th
 
     [Overview](ender-3-pro/index.md) · [BOM](ender-3-pro/bom.md) · [Build guide](ender-3-pro/build.md)
 
--   [![BLV mgn12 mod](assets/img/img-3c231f17.jpg){ .no-lightbox width="160" }](mgn12/index.md)
+-   [![BLV mgn12 mod](assets/img/img-3c231f17.jpg){ .no-lightbox width="110" }](mgn12/index.md)
 
     **[BLV mgn12 mod](mgn12/index.md)**
 

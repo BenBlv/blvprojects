@@ -1,6 +1,6 @@
 ---
 title: Download & Print - BLV mgn Cube
-description: Download the BLV mgn Cube project files (with or without the Metal Kit) and learn how to print the parts - filament, settings and orientation.
+description: Download the BLV mgn Cube project files, with or without the Metal Kit, and print the parts with the right filament, settings and orientation.
 ---
 
 # Download & Print
@@ -68,37 +68,30 @@ The project received several updates, add-ons and improvements after its release
 
 How you print the parts has a large effect on how well they work. Orientation, wall count, filament type and even print speed all matter. Most parts print without supports.
 
-### Filament
-
-The parts carry loads and work near heat, so choose a strong filament.
-
-| Filament | Notes |
-| --- | --- |
-| **PETG** | What I used |
-| **PETG Carbon** | Very rigid, requires a hardened steel nozzle |
-| ABS | Requires an enclosure, releases toxic fumes |
-| PA12 | MJF / SLS printed |
+<div class="facts">
+<span><b>PETG</b>what I used</span>
+<span><b>PETG Carbon</b>very rigid, hardened nozzle</span>
+<span><b>ABS</b>needs an enclosure</span>
+<span><b>PA12</b>MJF / SLS printed</span>
+<span><b>6 walls</b>at least</span>
+<span><b>7 top / 7 bottom</b>layers</span>
+<span><b>80%+ infill</b>for most parts</span>
+</div>
 
 !!! danger "Don't use PLA or PLA+"
-    The heat inside the printer deforms PLA parts.
+    The parts carry loads and work near heat, and PLA deforms inside the printer. The sketches below give the exact infill for each part.
 
-### Print settings
+**Orientation.** Orientation has a large effect on the strength of a part. The image shows how to place every part on the bed. A few parts need supports, for example the tensioner idler holder, so check before printing. Labels such as X90 or Y-90 give the rotation to apply.
 
-- At least **6 outer walls / perimeters**
-- **7 bottom** layers and **7 top** layers
-- Most parts need **80% infill or more**. The sketches below show the exact value for each part.
-
-### Orientation
-
-Orientation has a large effect on the strength of a part. The image shows how to place every part on the bed. A few parts need supports, for example the tensioner idler holder, so check before printing. Labels such as X90 or Y-90 give the rotation to apply.
-
+<div class="gallery big contain" markdown>
 ![Print orientation of all the parts](../assets/img/orinetation-1d97169f.jpg)
+</div>
 
 ## Parts descriptions
 
 Each sketch shows a group of parts with the name, material and infill of every part. Where a sketch differs from the settings above, follow the settings above (6 walls, 7 bottom and 7 top layers).
 
-<div class="gallery" markdown>
+<div class="gallery big" markdown>
 ![Front panel](../assets/img/blv-mgn-cube-front-panel-7bd15118.jpg)
 ![Rear corners and bearings](../assets/img/blv-cube-mgn-project-rear-corners-and-be-3a099c74.jpg)
 ![Hotend](../assets/img/img-a4d339fb.jpg)

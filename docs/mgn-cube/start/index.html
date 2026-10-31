@@ -3,7 +3,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="The first page of the BLV mgn Cube building guide - the build steps from start to finish, requirements and the project change log.">
+        <meta name="description" content="The road map of the BLV mgn Cube build, from preparation to the first print.">
       
       
         <meta name="author" content="Ben Levi">
@@ -547,32 +547,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#what-you-need" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What you need
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#the-build-step-by-step" class="md-nav__link">
     <span class="md-ellipsis">
       
         The build, step by step
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#change-log" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Change log
       
     </span>
   </a>
@@ -1203,32 +1181,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#what-you-need" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What you need
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#the-build-step-by-step" class="md-nav__link">
     <span class="md-ellipsis">
       
         The build, step by step
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#change-log" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Change log
       
     </span>
   </a>
@@ -1254,276 +1210,29 @@
 
 <h1 id="start-here">Start here<a class="headerlink" href="#start-here" title="Permanent link">¶</a></h1>
 <p>This page is the road map of the build. Read it once before ordering anything, then follow the guide pages in order: <a href="../bom/">BOM</a>, <a href="../download-and-print/">Download &amp; Print</a>, <a href="../assembly/">Assembly</a>, <a href="../wiring/">Wiring</a> and <a href="../calibrations/">Calibrations</a>.</p>
-<h2 id="what-you-need">What you need<a class="headerlink" href="#what-you-need" title="Permanent link">¶</a></h2>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled="" checked=""><span class="task-list-indicator"></span></label> A passion for 3D printing</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled="" checked=""><span class="task-list-indicator"></span></label> 3D printing knowledge</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled="" checked=""><span class="task-list-indicator"></span></label> Technical ability</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled="" checked=""><span class="task-list-indicator"></span></label> Spare time</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled="" checked=""><span class="task-list-indicator"></span></label> A budget</li>
-</ul>
+<div class="admonition tip">
+<p class="admonition-title">Before you begin</p>
+<p>This is not a kit you assemble in an evening. Expect some 3D printing experience, basic electronics skills, a few weekends of work and a mid-range budget. In return you get a printer you understand down to the last screw.</p>
+</div>
 <h2 id="the-build-step-by-step">The build, step by step<a class="headerlink" href="#the-build-step-by-step" title="Permanent link">¶</a></h2>
 <ol>
-<li>
-<p><strong>Prepare.</strong>
-   Read the project description and the linked material, watch the 3D animations and explore the printer in the <a href="../#explore-in-3d">3D viewer</a>. Make sure you understand the structure before you start.</p>
-</li>
-<li>
-<p><strong>Get the parts.</strong>
-   Waiting for parts is the most frustrating stage. Check that you have everything in the <a href="../bom/">BOM</a>, plus spare T-nuts and screws. If you use your own electronics, make sure you know how to configure the firmware for your board.</p>
-</li>
-<li>
-<p><strong>Build.</strong>
-   Prepare the tools and use a good corner alignment tool. A precise frame is the basis of good prints. The printed jigs make the assembly much easier. Tap the holes in the extrusion ends and check whether they take M5 or M6 screws, since this depends on the extrusion maker. Take your time with the rails. This <a href="http://youtube.com/watch?v=iX0U1ADH0MY">short video by 3D Distributed</a> shows an easy way to align parallel rails. Reward yourself when the rails are in, you deserve it.</p>
-</li>
-<li>
-<p><strong>Install the electronics.</strong>
-   Check every connection against the <a href="../wiring/">wiring diagram</a>, avoid shortcuts and use the right tools and parts. Connect the power cable last.</p>
-</li>
-<li>
-<p><strong>Test and calibrate.</strong>
-   Update the Duet WiFi to the latest firmware, copy the provided configuration to the micro SD card, insert it and power up. The Mini IR sensor should blink 4 times at power-up. Check the endstops before you move any axis. When you home the printer it should move left and then to the rear. If it doesn't, check the motor wiring and the configuration. Calibrate the Z height and check the temperature readings. Run a <strong>PID calibration</strong> for both the bed and the hotend. This step is essential, without it prints will fail. When everything looks right, load filament and print a calibration cube. Details are on the <a href="../calibrations/">Calibrations</a> page.</p>
-</li>
-<li>
-<p><strong>Print and maintain.</strong>
-   Grease the rails with a synthetic PTFE grease or sewing machine oil. Keep the rails clean and the belts tight. Clean the PEI plate with alcohol after every print. If you built the air scrubber, replace the HEPA filter when needed.</p>
-</li>
-<li>
-<p><strong>Share your build.</strong>
-   I would really appreciate an "I made one" photo. Knowing the project helped you build your own printer makes all the hours worth it.</p>
-</li>
-<li>
-<p><strong>Remix and share.</strong>
-   There are many ways to make this printer better, which is why the source files are included. Improve it and share your remixes with the community.</p>
-</li>
+<li><strong>Prepare.</strong>
+   Read the project description and the linked material, watch the 3D animations and explore the printer in the <a href="../#explore-in-3d">3D viewer</a>. Make sure you understand the structure before you start.</li>
+<li><strong>Get the parts.</strong>
+   Waiting for parts is the most frustrating stage. Check that you have everything in the <a href="../bom/">BOM</a>, plus spare T-nuts and screws. If you use your own electronics, make sure you know how to configure the firmware for your board.</li>
+<li><strong>Build.</strong>
+   Prepare the tools and use a good corner alignment tool. A precise frame is the basis of good prints. The printed jigs make the assembly much easier. Tap the holes in the extrusion ends and check whether they take M5 or M6 screws, since this depends on the extrusion maker. Take your time with the rails. This <a href="http://youtube.com/watch?v=iX0U1ADH0MY">short video by 3D Distributed</a> shows an easy way to align parallel rails. Reward yourself when the rails are in, you deserve it.</li>
+<li><strong>Install the electronics.</strong>
+   Check every connection against the <a href="../wiring/">wiring diagram</a>, avoid shortcuts and use the right tools and parts. Connect the power cable last.</li>
+<li><strong>Test and calibrate.</strong>
+   Update the Duet WiFi to the latest firmware, copy the provided configuration to the micro SD card, insert it and power up. The Mini IR sensor should blink 4 times at power-up. Check the endstops before you move any axis. When you home the printer it should move left and then to the rear. If it doesn't, check the motor wiring and the configuration. Calibrate the Z height and check the temperature readings. Run a <strong>PID calibration</strong> for both the bed and the hotend. This step is essential, without it prints will fail. When everything looks right, load filament and print a calibration cube. Details are on the <a href="../calibrations/">Calibrations</a> page.</li>
+<li><strong>Print and maintain.</strong>
+   Grease the rails with a synthetic PTFE grease or sewing machine oil. Keep the rails clean and the belts tight. Clean the PEI plate with alcohol after every print. If you built the air scrubber, replace the HEPA filter when needed.</li>
+<li><strong>Share your build.</strong>
+   I would really appreciate an "I made one" photo. Knowing the project helped you build your own printer makes all the hours worth it.</li>
+<li><strong>Remix and share.</strong>
+   There are many ways to make this printer better, which is why the source files are included. Improve it and share your remixes with the community.</li>
 </ol>
-<h2 id="change-log">Change log<a class="headerlink" href="#change-log" title="Permanent link">¶</a></h2>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Change</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>29/10/22</td>
-<td>All broken links updated: screws, filaments, tools</td>
-</tr>
-<tr>
-<td>28/10/22</td>
-<td>Links updated</td>
-</tr>
-<tr>
-<td>28/10/22</td>
-<td>Huge BOM update + upgrades: new magnetic triple Z axis option (MJF parts) · new 8 mm magnetic Mic6 bed + silicone heater · new PET+PEI steel build plate setup · new ToolChanger E3D clone option (by Funssor) · new X-axis aluminium CNC tube 460 mm · new X-axis carbon fiber tube 460 mm · Klipper + RepRap new boards update · support for 48V TMC5160 drivers · 6 new hotend / extruder setup options</td>
-</tr>
-<tr>
-<td>06/06/22</td>
-<td>New panel files</td>
-</tr>
-<tr>
-<td>06/03/22</td>
-<td>Official support for <strong>Klipper</strong> (<a href="../download-and-print/">download page</a>)</td>
-</tr>
-<tr>
-<td>24/01/22</td>
-<td><a href="https://benlevi8.wixsite.com/blvprojects/post/new-front-panel-beta">New front panel beta testing</a></td>
-</tr>
-<tr>
-<td>04/01/22</td>
-<td>New step-by-step <a href="https://www.ifixit.com/Device/BLV_MGN_Cube">assembly guide by David Husolo</a></td>
-</tr>
-<tr>
-<td>18/07/21</td>
-<td>New step-by-step <a href="https://www.facebook.com/groups/BenLevi/posts/883722929021911/">assembly videos by FYSETC</a></td>
-</tr>
-<tr>
-<td>22/05/21</td>
-<td>New complete <a href="https://benlevi8.wixsite.com/blvprojects/post/unboxing-fysetc-blv-mgn-cube-full-kit">BLV mgn Cube kit by FYSETC</a></td>
-</tr>
-<tr>
-<td>24/03/21</td>
-<td><a href="https://discord.com/invite/zY4GBfuzC4">New Discord channel</a></td>
-</tr>
-<tr>
-<td>06/03/21</td>
-<td><a href="https://benlevi8.wixsite.com/blvprojects/post/the-new-biqu-h2-extruder-review">BIQU H2 direct-drive bracket adapter</a> + fan duct</td>
-</tr>
-<tr>
-<td>13/02/21</td>
-<td>New <a href="https://www.facebook.com/groups/BenLevi/posts/796272867766918/">config + wiring diagram for Duet 3 6HC</a></td>
-</tr>
-<tr>
-<td>12/02/21</td>
-<td><a href="https://benlevi8.wixsite.com/blvprojects/post/let-there-be-cob-led-light">COB LED upgrade for the BLV mgn Cube</a></td>
-</tr>
-<tr>
-<td>19/11/20</td>
-<td><a href="https://www.facebook.com/groups/BenLevi/posts/746890766038462/">New PID procedure</a> (Duet / RepRap)</td>
-</tr>
-<tr>
-<td>15/11/20</td>
-<td><a href="https://benlevi8.wixsite.com/blvprojects/post/trianglelab-matrix-adapter-for-blv-cube-metal-kit">Trianglelab Matrix direct drive extruder adapter</a></td>
-</tr>
-<tr>
-<td>09/11/20</td>
-<td><a href="https://www.facebook.com/groups/BenLevi/posts/738763493517856/">New Blind Joints frame for easy and accurate frame assembly</a></td>
-</tr>
-<tr>
-<td>30/08/20</td>
-<td><a href="https://benlevi8.wixsite.com/blvprojects/post/new-metal-kit-upgrade-blv-mgn-cube">New experimental BLTouch mount</a> for the Metal Kit</td>
-</tr>
-<tr>
-<td>29/08/20</td>
-<td><a href="https://benlevi8.wixsite.com/blvprojects/post/new-metal-kit-upgrade-blv-mgn-cube">Metal Kit upgrade</a> - replaces all the printed parts</td>
-</tr>
-<tr>
-<td>04/07/20</td>
-<td>New website for the project (after working on it Feb - Aug 2020)</td>
-</tr>
-<tr>
-<td>01/01/20</td>
-<td><a href="https://www.facebook.com/groups/BenLevi/posts/449121519148723/">Silicone wiper upgrade</a> (replaces the brass brush)</td>
-</tr>
-<tr>
-<td>13/09/19</td>
-<td>STEP files for the new twin fans</td>
-</tr>
-<tr>
-<td>09/08/19</td>
-<td>Powerful twin 4010 blower fan option (layer fan) for Bowden and direct drive</td>
-</tr>
-<tr>
-<td>03/08/19</td>
-<td>Updated Neopixel code by Claus Noack - works! · updated Neopixel wiring v2.2b</td>
-</tr>
-<tr>
-<td>21/07/19</td>
-<td>Optional frame reinforcement for taller Z-axis builds</td>
-</tr>
-<tr>
-<td>05/07/19</td>
-<td>Wiring diagram for 12V fans on a 24V system</td>
-</tr>
-<tr>
-<td>01/07/19</td>
-<td>Link to the full screws kit</td>
-</tr>
-<tr>
-<td>25/06/19</td>
-<td>Picture showing how to flip the belts at the rear</td>
-</tr>
-<tr>
-<td>11/06/19</td>
-<td>Hotend and heated bed PID tuning quick guide</td>
-</tr>
-<tr>
-<td>24/05/19</td>
-<td>Support for the Ender-3 bed size</td>
-</tr>
-<tr>
-<td>19/05/19</td>
-<td>Fixed typo in the purge message box</td>
-</tr>
-<tr>
-<td>12/05/19</td>
-<td>Quick frame wire holders (based on samella's design and thing:2576237)</td>
-</tr>
-<tr>
-<td>11/05/19</td>
-<td>E3D high temp 314 × 314 bed size</td>
-</tr>
-<tr>
-<td>10/05/19</td>
-<td>Fixed V6 locker - fan screw holes reduced to 2.7 mm</td>
-</tr>
-<tr>
-<td>01/05/19</td>
-<td>STL panels for PanelDue 4.3 and MKS TFT32 V4 (not supported by Duet)</td>
-</tr>
-<tr>
-<td>17/04/19</td>
-<td>Simplify3D profile v1.2 (added M81 S1 end script) · Neopixel wiring diagram (beta) and Mimasx code</td>
-</tr>
-<tr>
-<td>16/04/19</td>
-<td>Wiring diagram v3.2 · steppers setup guide for other stepper brands / batches</td>
-</tr>
-<tr>
-<td>04/04/19</td>
-<td>DXF (vector) files for the enclosure panels</td>
-</tr>
-<tr>
-<td>31/03/19</td>
-<td>Firmware: M80 PS_ON command on startup</td>
-</tr>
-<tr>
-<td>25/03/19</td>
-<td>Small fix: front panel - left plate for PanelDue 5 STL</td>
-</tr>
-<tr>
-<td>20/03/19</td>
-<td>DWG files for the bottom, rear and side panels</td>
-</tr>
-<tr>
-<td>19/03/19</td>
-<td>STEP (CAD) file for the direct drive setup</td>
-</tr>
-<tr>
-<td>18/03/19</td>
-<td>Wiring diagram fixed</td>
-</tr>
-<tr>
-<td>08/03/19</td>
-<td>Spitfire fan cover · front plate for Chimera (not suitable for layer fan / sensor)</td>
-</tr>
-<tr>
-<td>28/02/19</td>
-<td>Fixed Z-height calibration guide</td>
-</tr>
-<tr>
-<td>26/02/19</td>
-<td>Belt system V2 - use only flanged 623zz ball bearings + flip belt</td>
-</tr>
-<tr>
-<td>25/02/19</td>
-<td>Zesty Nimble front plate and block shield</td>
-</tr>
-<tr>
-<td>18/02/19</td>
-<td>Z height calibration guide</td>
-</tr>
-<tr>
-<td>17/02/19</td>
-<td>Renamed back the 8 mm / 12 mm mounts · walls dimensions PDF</td>
-</tr>
-<tr>
-<td>16/02/19</td>
-<td>BMG direct drive extruder (3 STL files + instructions) · big air scrubber - HEPA + carbon</td>
-</tr>
-<tr>
-<td>15/02/19</td>
-<td>Electronics schematics updated (dual extruder + buttons)</td>
-</tr>
-<tr>
-<td>09/02/19</td>
-<td>BOM calculator supports threaded rod length · block shield for BLTouch, 8 mm and 12 mm sensors · front panel for smartphone STL fixed</td>
-</tr>
-<tr>
-<td>07/02/19</td>
-<td>Printer size calculator (Excel file) and info</td>
-</tr>
-<tr>
-<td>06/02/19</td>
-<td>Printing orientation description + image</td>
-</tr>
-<tr>
-<td>03/02/19</td>
-<td>Jigs</td>
-</tr>
-</tbody>
-</table>
 
 
 

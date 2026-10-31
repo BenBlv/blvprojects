@@ -14,7 +14,7 @@ description: BLV Ender 3 Pro build guide. Assembly videos and instructions, belt
 
 ## Assembly instructions
 
-<div class="gallery" markdown>
+<div class="gallery big" markdown>
 ![Assembly instructions](../assets/img/img-ad21ddca.jpg)
 ![Assembly instructions](../assets/img/img-569c9138.jpg)
 ![Assembly instructions](../assets/img/img-adc493c1.jpg)
@@ -26,13 +26,12 @@ description: BLV Ender 3 Pro build guide. Assembly videos and instructions, belt
 
 The original Creality belt is too flexible and reduces print quality. Use a fiberglass-reinforced GT2 6 mm belt instead. The X axis belt is clamped at a length of **785 mm**, measured between the clamps and not including the brass clamps. When replacing a belt, both ends can be locked with a zip tie.
 
+**Build volume.** To keep the original build volume, change `Y_MIN_POS` in Marlin's **Configuration.h**. My value was **-9.15**, adjust it to your setup. The picture shows where to find it.
+
+<div class="gallery big" markdown>
 ![Y axis belt](../assets/img/y-axis-31700401.jpg)
-
-### Build volume adjustment
-
-To keep the original build volume, change `Y_MIN_POS` in Marlin's **Configuration.h**. My value was **-9.15**, adjust it to your setup. The picture shows where to find it.
-
 ![Build volume adjustment](../assets/img/adjustments-biuld-volum-02fdbc91.png)
+</div>
 
 ## Dual Z: moving the PSU
 
@@ -46,4 +45,6 @@ The dual Z option requires moving the PSU:
 6. Put the plastic cover back on the frame and tighten the screws.
 7. Put the PSU back and lock it to the cover.
 
+<div class="gallery big" markdown>
 ![Moving the PSU](../assets/img/psu-3ad9fca5.jpg)
+</div>

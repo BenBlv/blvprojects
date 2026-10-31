@@ -28,18 +28,14 @@ description: BLV mgn12 mod parts to print from this project and from the AM8, ma
 | 4 | 4_Bottom_Corner_Plate | |
 | 1 | Anet_Board_Mount__With_Fan **or** Anet_Board_Mount_No_Fan | skip if you use the electronics box |
 
-### Material and infill
+**Material and infill.** The PDF **BLV mgn12 mod.pdf** in the project ZIP lists the name, material and infill of every part.
 
-The PDF **BLV mgn12 mod.pdf** in the project ZIP has the full spec of every part: name, material and infill percentage.
-
-### Orientation
-
-Print orientation has a large effect on the strength of the parts. The pictures show how to orient each part.
+**Orientation.** Print orientation has a large effect on the strength of the parts. The pictures show how to orient each part.
 
 !!! warning
     Calibrate your printer before printing the parts. Dimensional accuracy is critical.
 
-<div class="gallery" markdown>
+<div class="gallery big" markdown>
 ![Printing orientation](../assets/img/img-1ec2fa2c.jpg)
 ![Printing orientation](../assets/img/img-ea10f166.jpg)
 </div>
@@ -55,13 +51,15 @@ Print orientation has a large effect on the strength of the parts. The pictures 
 !!! note
     You may need to re-center the hotend and bed coordinates in the Marlin configuration.
 
-<div class="gallery" markdown>
+<div class="gallery big" markdown>
 ![Assembly](../assets/img/img-b8496b40.jpg)
 ![Assembly](../assets/img/img-dc6eaa67.jpg)
 ![Assembly](../assets/img/img-0d72dfb3.jpg)
 </div>
 
 ## More info
+
+<div class="cols" markdown>
 
 - [Greg's geared extruder](https://www.thingiverse.com/thing:18379)
 - [Simplify3D build plate for this project](https://www.thingiverse.com/thing:2598588)
@@ -71,6 +69,8 @@ Print orientation has a large effect on the strength of the parts. The pictures 
 - [PapaJohn88's mount for the Anet A6 LCD](https://www.thingiverse.com/thing:2382917) (recommended by artistebot)
 - [Handle for AM8](https://www.thingiverse.com/thing:2409747)
 - Green PVC electrical tube for the extruder wires, 13 mm (1/2"), also called "split wire loom". It is sold in electrical shops and [online here](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20180712230700&SearchText=Split+Wire+Loom) [or here](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dtools&field-keywords=Split+Wire+Loom&tag=tv-auto-20)
+
+</div>
 
 ## Rail tips
 

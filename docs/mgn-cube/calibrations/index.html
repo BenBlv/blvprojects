@@ -756,41 +756,13 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="5. Calibrate">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#hotend-pid" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Hotend PID
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
-  <a href="#optional-calibrations" class="md-nav__link">
+  <a href="#optional-features-and-references" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Optional calibrations
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#useful-guides" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Useful guides
+        Optional features and references
       
     </span>
   </a>
@@ -1350,41 +1322,13 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="5. Calibrate">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#hotend-pid" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Hotend PID
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
-  <a href="#optional-calibrations" class="md-nav__link">
+  <a href="#optional-features-and-references" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Optional calibrations
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#useful-guides" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Useful guides
+        Optional features and references
       
     </span>
   </a>
@@ -1410,7 +1354,6 @@
 
 <h1 id="calibrations">Calibrations<a class="headerlink" href="#calibrations" title="Permanent link">¶</a></h1>
 <p>Before calibrating, make sure the Duet board runs the right firmware. The project was released on RepRap 2.x and later moved to the Duet 3 board with RepRap 3.x. Community member <a href="https://www.facebook.com/groups/371460246914851/user/1208415623/">David Husolo</a> published well-tuned BLV Cube configuration files on GitHub for both the Duet 2 WiFi and the Duet 3 running RepRap 3.x.</p>
-<p>Several steps below point to the official Duet guides, which cover calibration in detail.</p>
 <h2 id="1-update-the-duet-firmware">1. Update the Duet firmware<a class="headerlink" href="#1-update-the-duet-firmware" title="Permanent link">¶</a></h2>
 <p>Duet boards are very well documented, with step-by-step guides for almost every task. Update to the latest RepRap firmware 3.x before calibrating. The Duet 2 WiFi and the Duet 3 use the same update guide.</p>
 <p><a class="md-button" href="https://github.com/Duet3D/RepRapFirmware/releases"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7z"></path></svg></span> Download the firmware</a>
@@ -1440,10 +1383,10 @@
 </tbody>
 </table>
 <h2 id="3-connect-to-the-web-interface">3. Connect to the web interface<a class="headerlink" href="#3-connect-to-the-web-interface" title="Permanent link">¶</a></h2>
-<p>The Duet has a built-in web interface with full control of the printer. This guide explains the network setup:</p>
-<p><a class="md-button" href="https://docs.duet3d.com/">Network setup guide</a></p>
+<p>The Duet has a built-in web interface with full control of the printer, from any phone, tablet or computer on your network. The <a href="https://docs.duet3d.com/">Duet documentation</a> explains the network setup, and the <a href="https://docs.duet3d.com/User_manual/Reference/Duet_Web_Control_Manual">Duet Web Control manual</a> covers the interface itself.</p>
 <div class="admonition danger">
 <p class="admonition-title">Avoid damaging the hardware</p>
+<div class="cols" markdown="">
 <ul>
 <li>Never disconnect cables from a powered Duet, except the USB cable.</li>
 <li>Check all wires for shorts, especially fan, motor and heater wires.</li>
@@ -1456,44 +1399,52 @@
 <li>With the steppers connected, don't move an axis quickly by hand.</li>
 </ul>
 </div>
+</div>
 <h2 id="4-configure-your-printer">4. Configure your printer<a class="headerlink" href="#4-configure-your-printer" title="Permanent link">¶</a></h2>
 <p>The provided configuration covers almost everything. You may still want to center the bed, set motor directions, add macro buttons or define temperature presets per filament. The <a href="https://docs.duet3d.com/">Duet guides</a> cover all of this:</p>
-<ul>
-<li><a href="https://docs.duet3d.com/"><strong>Duet documentation</strong></a>, for both the Duet 2 WiFi and the Duet 3</li>
-<li><a href="https://docs.duet3d.com/User_manual/RepRapFirmware/RepRapFirmware_overview"><strong>RepRap 3 overview</strong></a>, essential reading</li>
-</ul>
-<p><strong>Complete these before moving on:</strong></p>
+<p>Start with the <a href="https://docs.duet3d.com/User_manual/RepRapFirmware/RepRapFirmware_overview"><strong>RepRap 3 overview</strong></a>, it is essential reading. Then complete these before moving on:</p>
+<div class="cols">
 <ul>
 <li><a href="https://docs.duet3d.com/User_manual/Tuning">Center your bed</a></li>
 <li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Sensors_testing">Test your endstop switches</a></li>
 <li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Z_probe_connecting">Set up a different Z probe</a>, only for other probe types</li>
 <li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Temperature_connecting_PT100">Set up a PT100 sensor</a>, only with a PT100</li>
 </ul>
+</div>
 <h3 id="stepper-motors">Stepper motors<a class="headerlink" href="#stepper-motors" title="Permanent link">¶</a></h3>
 <p>With the FYSETC parts set you can skip this, since its labeled cables match the FYSETC configuration. With steppers from the BOM or the Blurolls set, the motors will probably turn the wrong way at first. Set them up like this:</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/motors-steppers-note-min-8d41b50a.png" data-desc-position="bottom"><img alt="Stepper motors note" src="../../assets/img/motors-steppers-note-min-8d41b50a.png" width="560"></a></p>
 <ol>
 <li><strong>Identify the coil pairs.</strong> A stepper has 4 wires, 2 per coil. This <a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Motors_connecting">short guide</a> and <a href="http://www.youtube.com/watch?v=S0pGKgos498">this video</a> show how to find them.</li>
 <li><strong>Connect the steppers</strong> using the original Duet stepper wiring, shown in the bottom right corner of <a href="../wiring/">wiring diagram v3.2</a> under "Duet original steppers wiring".</li>
-<li><strong>Test and configure</strong> them with the <a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Motors_configuring">Duet documentation</a>. The video shows the expected movement for each test command.</li>
+<li>
+<p><strong>Test and configure</strong> them with the <a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Motors_configuring">Duet documentation</a>. The video shows the expected movement for each test command.</p>
+</li>
+<li>
+<p><strong>Check the directions.</strong> In the third video I press the jog buttons. Your printer should move the same way.</p>
+</li>
 </ol>
-<div class="videos" markdown="0"><figure class="yt"><button class="yt-play" data-id="S0pGKgos498" aria-label="Play: Easily identify the leads of a 4-wire stepper motor with a multimeter"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/S0pGKgos498/hqdefault.jpg" alt=""></button><figcaption>Easily identify the leads of a 4-wire stepper motor with a multimeter</figcaption></figure><figure class="yt"><button class="yt-play" data-id="fPW-o5QJiSU" aria-label="Play: BLV mgn Cube 3D printer - steppers test"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/fPW-o5QJiSU/hqdefault.jpg" alt=""></button><figcaption>BLV mgn Cube 3D printer - steppers test</figcaption></figure></div>
+<div class="videos" markdown="0"><figure class="yt"><button class="yt-play" data-id="S0pGKgos498" aria-label="Play: Identify the leads of a 4-wire stepper with a multimeter"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/S0pGKgos498/hqdefault.jpg" alt=""></button><figcaption>Identify the leads of a 4-wire stepper with a multimeter</figcaption></figure><figure class="yt"><button class="yt-play" data-id="fPW-o5QJiSU" aria-label="Play: Steppers test"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/fPW-o5QJiSU/hqdefault.jpg" alt=""></button><figcaption>Steppers test</figcaption></figure><figure class="yt"><button class="yt-play" data-id="OKzHyKRgO7I" aria-label="Play: Axis movement"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/OKzHyKRgO7I/hqdefault.jpg" alt=""></button><figcaption>Axis movement</figcaption></figure></div>
 
-<p>Then check the directions. In this video I press the jog buttons, and your printer should move the same way.</p>
-<div class="videos single" markdown="0"><figure class="yt"><button class="yt-play" data-id="OKzHyKRgO7I" aria-label="Play: BLV mgn Cube 3D printer - axis movement"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/OKzHyKRgO7I/hqdefault.jpg" alt=""></button><figcaption>BLV mgn Cube 3D printer - axis movement</figcaption></figure></div>
-
+<div class="gallery big contain">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/motors-steppers-note-min-8d41b50a.png" data-desc-position="bottom"><img alt="Stepper motors note" src="../../assets/img/motors-steppers-note-min-8d41b50a.png"></a></p>
+</div>
 <p><strong>More guides:</strong></p>
+<div class="cols">
 <ul>
 <li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Motors_tuning">Tuning stepper motor drivers</a> for the Duet's TMC2660 drivers</li>
 <li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Z_probe_mesh_bed">Mesh bed compensation</a> to change the mesh settings</li>
 <li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Z_probe_auto_levelling">Multiple independent Z motors</a> for true auto leveling</li>
 <li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Sensors_filament">Filament sensor</a></li>
 </ul>
+</div>
 <h2 id="5-calibrate">5. Calibrate<a class="headerlink" href="#5-calibrate" title="Permanent link">¶</a></h2>
-<p>These calibrations are mandatory. Follow the pictures exactly and work accurately, since they have a large effect on print quality.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/mini-ir-min-efb8fe55.jpg" data-desc-position="bottom"><img alt="Mini IR sensor calibration" src="../../assets/img/mini-ir-min-efb8fe55.jpg"></a></p>
-<h3 id="hotend-pid">Hotend PID<a class="headerlink" href="#hotend-pid" title="Permanent link">¶</a></h3>
-<p>The picture shows the classic hotend PID tuning. Newer RepRap 3.x releases add an algorithm that detects fan speed changes and adjusts the heater in advance. To use it:</p>
+<p>These calibrations are mandatory. Follow the pictures exactly and work accurately, since they have a large effect on print quality: the Z probe height first, then PID tuning for the hotend and the bed.</p>
+<div class="gallery big contain">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/mini-ir-min-efb8fe55.jpg" data-desc-position="bottom"><img alt="Mini IR sensor calibration" src="../../assets/img/mini-ir-min-efb8fe55.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/pid-min-609839b7.jpg" data-desc-position="bottom"><img alt="Hotend PID" src="../../assets/img/pid-min-609839b7.jpg"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/pid-bed-min-77f2da8f.jpg" data-desc-position="bottom"><img alt="Bed PID" src="../../assets/img/pid-bed-min-77f2da8f.jpg"></a></p>
+</div>
+<p><strong>Hotend PID.</strong> The pictures show the classic hotend PID tuning. Newer RepRap 3.x releases add an algorithm that detects fan speed changes and adjusts the heater in advance. To use it:</p>
 <ul>
 <li>Run the latest 3.x release.</li>
 <li>Define all your tools (T0) correctly.</li>
@@ -1501,25 +1452,20 @@
 <li>Turn off the part cooling fan and run <code>M303 T0 S200</code>, with 200 replaced by your usual printing temperature. The algorithm turns the fan on by itself during tuning.</li>
 </ul>
 <p>In short, replace <strong><code>M303 H1 S190</code></strong> with <strong><code>M303 T0 S190</code></strong>.</p>
-<div class="gallery">
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/pid-min-609839b7.jpg" data-desc-position="bottom"><img alt="Hotend PID" src="../../assets/img/pid-min-609839b7.jpg"></a>
-<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/pid-bed-min-77f2da8f.jpg" data-desc-position="bottom"><img alt="Bed PID" src="../../assets/img/pid-bed-min-77f2da8f.jpg"></a></p>
-</div>
-<h2 id="optional-calibrations">Optional calibrations<a class="headerlink" href="#optional-calibrations" title="Permanent link">¶</a></h2>
-<p>Read each guide before enabling the feature:</p>
+<h2 id="optional-features-and-references">Optional features and references<a class="headerlink" href="#optional-features-and-references" title="Permanent link">¶</a></h2>
+<p>Read each guide before enabling the feature.</p>
+<div class="cols">
 <ul>
 <li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Motors_tuning">Reducing stand-still noise</a> for quieter idle motors (see the standstill current setting)</li>
 <li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Sensors_stall_detection">Stall detection and sensorless homing</a></li>
 <li><a href="https://docs.duet3d.com/User_manual/Tuning/Pressure_advance">Pressure advance</a> to compensate for filament and extruder elasticity</li>
 <li><a href="https://docs.duet3d.com/User_manual/Tuning/Resume">Resume a print after a power failure</a></li>
 <li><a href="https://docs.duet3d.com/User_manual/Connecting_hardware/Sensors_Accelerometer">Accelerometer (experimental)</a> to measure ringing frequencies for DAA</li>
-</ul>
-<h2 id="useful-guides">Useful guides<a class="headerlink" href="#useful-guides" title="Permanent link">¶</a></h2>
-<ul>
 <li><a href="https://docs.duet3d.com/User_manual/Tuning/Macros">Macros</a> in RepRap firmware</li>
 <li><a href="https://docs.duet3d.com/User_manual/Tuning/Triggers">External buttons and a custom web interface panel</a></li>
 <li><a href="https://docs.duet3d.com/User_manual/Reference/Gcodes">G-code dictionary</a> with every G-code RepRapFirmware supports</li>
 </ul>
+</div>
 
 
 

@@ -9,6 +9,8 @@ By now you should have all the parts, and the most exciting stage begins. It nee
 
 **Tools to prepare:**
 
+<div class="cols" markdown>
+
 - [Wire cutter](http://s.click.aliexpress.com/e/IacurE0)
 - [Allen tool set](https://s.click.aliexpress.com/e/_AVjzFR)
 - Set of torque screwdrivers
@@ -18,11 +20,10 @@ By now you should have all the parts, and the most exciting stage begins. It nee
 - [PTFE tube cutter](https://s.click.aliexpress.com/e/_97OrJF)
 - [SN-28B Dupont crimping tool](http://s.click.aliexpress.com/e/ctVlu2Gs)
 
-!!! tip "Use the 3D viewer at any point"
-    Explore, measure and isolate parts in the browser:
-    [full printer](https://a360.co/2FLRqSa) · [frame only](https://a360.co/2DDDBn4) · [panels and walls only](https://a360.co/2JGlYZ4)
+</div>
 
-    ![Online 3D viewer](../assets/img/3d-viewer-6146ecaf.jpg){ width="360" }
+!!! tip "Use the 3D viewer at any point"
+    Explore, measure and isolate parts in the browser: [full printer](https://a360.co/2FLRqSa) · [frame only](https://a360.co/2DDDBn4) · [panels and walls only](https://a360.co/2JGlYZ4)
 
 ## Choose your guide
 
@@ -60,41 +61,26 @@ Prepare the tools and the aluminium extrusions. Print the installation jig (`Jig
 
 === "Blind Joints frame"
 
-    This video by FYSETC shows exactly how to assemble the Blind Joints frame. Watch every step carefully. It shows the FYSETC version of the frame, so other versions may differ slightly.
+    The first video by FYSETC shows the full Blind Joints frame assembly. Watch every step carefully, since other versions of the frame may differ slightly. The second video explains the hidden joint idea, and in the third, community member Harel shows how simple it is with only an Allen key.
 
-    !yt OTl3H-6wCEU | FYSETC - BLV mgn Cube Blind Joints frame assembly
-
-    New to the Blind Joints frame? This short video explains it:
-
-    !yt ueniUWrUcjE | BLV mgn Cube - Blind Joints / hidden joints
-
-    Community member Harel shared his Blind Joints frame assembly, which shows how simple it is with only an Allen key:
-
-    !yt jYSG0BKPSLA | BLV mgn Cube Blind Joints frame assembly
+    !yt OTl3H-6wCEU | FYSETC: Blind Joints frame assembly
+    !yt ueniUWrUcjE | What are Blind Joints?
+    !yt jYSG0BKPSLA | Harel's Blind Joints build
 
 === "Original frame (brackets)"
 
-    The original frame assembly video, start to finish:
+    The assembly video doesn't show the brackets. All the extrusions are joined with brackets as in the picture. The second video is a 3D tour of the finished frame, which you can also explore in the [3D frame viewer](https://a360.co/2DDDBn4).
 
-    !yt Uq7Vixkb5NU | BLV mgn Cube - frame assembly
+    !yt Uq7Vixkb5NU | Original frame assembly
+    !yt ITvA9m77xy0 | 3D frame overview
 
-    The video doesn't show the brackets. All the extrusions are joined with brackets, as in this image:
-
-    ![Frame bracket screws](../assets/img/frame-bracket-screws-7b6945b1.jpg){ width="520" }
-
-    A 3D tour of the original frame with all its brackets:
-
-    !yt ITvA9m77xy0 | BLV mgn Cube - 3D printer frame overview
-
-    You can also explore and measure the frame in the [3D frame viewer](https://a360.co/2DDDBn4) without installing any software.
-
-    [3D Frame Viewer](https://a360.co/2DDDBn4){ .md-button }
+    <div class="gallery big" markdown>
+    ![Frame bracket screws](../assets/img/frame-bracket-screws-7b6945b1.jpg)
+    </div>
 
 ### Metal Kit or printed parts?
 
 Assembling the [Metal Kit](https://benlevi8.wixsite.com/blvprojects/post/new-metal-kit-upgrade-blv-mgn-cube) is quite different from assembling printed parts. With metal parts, follow the next section. With printed parts, [continue to the belt system](#belt-system).
-
-[![Metal Kit parts](../assets/img/all-kit-small-min-41b4c7e9.png){ width="300" }](https://benlevi8.wixsite.com/blvprojects/post/new-metal-kit-upgrade-blv-mgn-cube)
 
 ### Metal Kit assembly
 
@@ -125,45 +111,56 @@ Sort the parts first and separate the screws, washers and bearings. The frame sh
 
 This section applies to every build. The picture shows the belt configuration. The only difference with the Metal Kit is the 0.6 mm washers shown in the assembly video.
 
+Flip the belts at the rear so that only the flat side touches the bearings (second picture).
+
+<div class="gallery big" markdown>
 ![Belt system](../assets/img/belts-e4ffaee8.jpg)
+![Flip the belts at the rear](../assets/img/flip-the-belts-min-ac597b4a.jpg)
+</div>
 
-Flip the belts at the rear so that only the flat side touches the bearings:
+### Axes, panels and corners
 
-![Flip the belts at the rear](../assets/img/flip-the-belts-min-ac597b4a.jpg){ width="520" }
+Work through the tabs in order.
 
-### Front belt tensioners
+=== "Front belt tensioners"
 
-This video shows how to install the two front tensioners. Take care not to cut the belt while fitting it. Most parts are marked **R** for right and **L** for left.
+    This video shows how to install the two front tensioners. Take care not to cut the belt while fitting it. Most parts are marked **R** for right and **L** for left.
 
-!yt O5G3dKr_gxg | BLV mgn Cube - front belt tensioner assembly
+    !yt O5G3dKr_gxg | BLV mgn Cube - front belt tensioner assembly
 
-![Front tensioner](../assets/img/blv-mgn-cube-front-tensioner-b2defd33.jpg)
+    <div class="gallery big" markdown>
+    ![Front tensioner](../assets/img/blv-mgn-cube-front-tensioner-b2defd33.jpg)
+    </div>
 
-### Y axis
+=== "Y axis"
 
-Installing the Y axis parts. Smooth the bearing seats as much as possible and follow the markings on the parts.
+    Installing the Y axis parts. Smooth the bearing seats as much as possible and follow the markings on the parts.
 
-!yt EoqUOeLqJvc | BLV mgn Cube - Y axis assembly
+    !yt EoqUOeLqJvc | BLV mgn Cube - Y axis assembly
 
-### Z axis
+=== "Z axis"
 
-Put tape on the rail to keep the MGN12 carriage from sliding off while you install it.
+    Put tape on the rail to keep the MGN12 carriage from sliding off while you install it.
 
-!yt ufM-sAZTdMY | BLV mgn Cube - Z axis assembly
+    !yt ufM-sAZTdMY | BLV mgn Cube - Z axis assembly
 
-### Front panels
+=== "Front panels"
 
-Check the length of the motor standoffs.
+    Check the length of the motor standoffs.
 
-!yt OHpfga6H3ys | BLV mgn Cube - front panel assembly
+    !yt OHpfga6H3ys | BLV mgn Cube - front panel assembly
 
-![Front panel](../assets/img/blv-mgn-cube-front-panel-7bd15118.jpg)
+    <div class="gallery big" markdown>
+    ![Front panel](../assets/img/blv-mgn-cube-front-panel-7bd15118.jpg)
+    </div>
 
-### Rear corners
+=== "Rear corners"
 
-These assemblies are simple. The software crashed several times while I recorded the video, so this drawing replaces it. All the bearing screws are 35 mm long. The drawing shows where each screw goes, and the belt system picture above shows the bearing positions. With the Metal Kit this takes about 5 minutes.
+    These assemblies are simple. The software crashed several times while I recorded the video, so this drawing replaces it. All the bearing screws are 35 mm long. The drawing shows where each screw goes, and the belt system picture above shows the bearing positions. With the Metal Kit this takes about 5 minutes.
 
-![Rear corners and bearings](../assets/img/blv-cube-mgn-project-rear-corners-and-be-3a099c74.jpg)
+    <div class="gallery big" markdown>
+    ![Rear corners and bearings](../assets/img/blv-cube-mgn-project-rear-corners-and-be-3a099c74.jpg)
+    </div>
 
 ## Hotend
 
@@ -181,95 +178,84 @@ The community also created a large variety of hotends for every version, includi
 ![Hotend version](../assets/img/img-21ff9e03.jpg)
 ![Hotend version](../assets/img/img-c4537c69.jpg)
 ![Hotend version](../assets/img/img-4d8d53cb.png)
+![BLV Cube tool changer](../assets/img/tool-changer-0c1a8cb8.jpg)
+![EVA 2.3.0](../assets/img/eva-7103b69a.jpg)
 </div>
 
-<div class="grid cards" markdown>
-
--   **BLV Cube tool changer**
-
-    [![Tool changer](../assets/img/tool-changer-0c1a8cb8.jpg)](community.md)
-
--   **EVA 2.3.0 supported**
-
-    [![EVA](../assets/img/eva-7103b69a.jpg)](community.md)
-
-</div>
-
-The project was made for the 3D printing community, and many of the best solutions came from that community. The best upgrades and remixes are collected in one place:
-
-[Community remixes](community.md){ .md-button .md-button--primary }
+Many of the best hotend solutions came from the community, including a BLV Cube tool changer and EVA 2.3.0 support. They are collected on the [community remixes](community.md) page.
 
 ## Optional components
 
-### Reinforcement for taller Z builds
+=== "Taller Z"
 
-For a printer taller than standard, add a 496 mm reinforcing extrusion at the top, just below the front tensioners, as in the picture. It keeps the frame stable at any height.
+    For a printer taller than standard, add a 496 mm reinforcing extrusion at the top, just below the front tensioners, as in the picture. It keeps the frame stable at any height.
 
-![Frame reinforcement](../assets/img/reinforcement-402b0a1e.jpg){ width="520" }
+    <div class="gallery big" markdown>
+    ![Frame reinforcement](../assets/img/reinforcement-402b0a1e.jpg)
+    </div>
 
-### Air scrubbers, HEPA and activated carbon
+=== "Air scrubbers"
 
-The project includes a small and a large air scrubber. Printing releases fine particles into the air, and the scrubbers filter them.
+    The project includes a small and a large air scrubber. Printing releases fine particles into the air, and the scrubbers filter them.
 
-![Big air scrubber v3](../assets/img/blv-mgn-cube-air-scrubber-big-v3-47c4f7a1.jpg)
+    Mount the fan so it pushes the air into the filter. The air should pass through the activated carbon first and then through the HEPA filter. Check the filters monthly and replace them when needed.
 
-Mount the fan so it pushes the air into the filter. The air should pass through the activated carbon first and then through the HEPA filter. Check the filters monthly and replace them when needed.
+    <div class="gallery big" markdown>
+    ![Big air scrubber v3](../assets/img/blv-mgn-cube-air-scrubber-big-v3-47c4f7a1.jpg)
+    ![Air scrubber airflow](../assets/img/air-scrubber-39eddef0.jpg)
+    </div>
 
-![Air scrubber airflow](../assets/img/air-scrubber-39eddef0.jpg){ width="520" }
+=== "Heated bed"
 
-### Magnetic heated bed
+    The best bed is an aluminum MIC6 plate with an AC silicone heater, but it has two drawbacks:
 
-The best bed is an aluminum MIC6 plate with an AC silicone heater, but it has two drawbacks:
+    1. Cost. Both the MIC6 plate and the silicone heater are relatively expensive.
+    2. Risk of electric shock if it is not installed correctly.
 
-1. Cost. Both the MIC6 plate and the silicone heater are relatively expensive.
-2. Risk of electric shock if it is not installed correctly.
+    A 24V bed heats more slowly than an AC bed but is safe to use. The FYSETC parts set came with a magnetic aluminum bed and a BuildTak-like glass surface, which is flat and easy to handle. The original Blurolls set came with a PCB bed, which I recommend less because it tends to warp at high temperatures.
 
-A 24V bed heats more slowly than an AC bed but is safe to use. The FYSETC parts set came with a magnetic aluminum bed and a BuildTak-like glass surface, which is flat and easy to handle. The original Blurolls set came with a PCB bed, which I recommend less because it tends to warp at high temperatures.
+    These pictures show the FYSETC bed (see my [FYSETC unboxing](https://benlevi8.wixsite.com/blvprojects/post/unboxing-fysetc-blv-mgn-cube-full-kit)). The bed parts are also listed in the [BOM](bom.md#heated-bed-8-mm-plate). Install the magnetic surface layers in exactly the order shown.
 
-These pictures show the FYSETC bed (see my [FYSETC unboxing](https://benlevi8.wixsite.com/blvprojects/post/unboxing-fysetc-blv-mgn-cube-full-kit)). The bed parts are also listed in the [BOM](bom.md#heated-bed-8-mm-plate). Install the magnetic surface layers in exactly the order shown.
+    <div class="gallery" markdown>
+    ![FYSETC heated bed](../assets/img/blv-heated-bed-fysetc-6-1be132e7.jpg)
+    ![FYSETC heated bed](../assets/img/blv-heated-bed-fysetc-10-6046cf05.jpg)
+    ![FYSETC heated bed](../assets/img/blv-heated-bed-fysetc-3-349a2cd3.jpg)
+    ![Magnetic bed layers](../assets/img/bed-magnetic-b50b77aa.jpg)
+    </div>
 
-<div class="gallery" markdown>
-![FYSETC heated bed](../assets/img/blv-heated-bed-fysetc-6-1be132e7.jpg)
-![FYSETC heated bed](../assets/img/blv-heated-bed-fysetc-10-6046cf05.jpg)
-![FYSETC heated bed](../assets/img/blv-heated-bed-fysetc-3-349a2cd3.jpg)
-![Magnetic bed layers](../assets/img/bed-magnetic-b50b77aa.jpg)
-</div>
+=== "COB LED lighting"
 
-## Internal lighting with a COB LED strip
+    After a long time with a regular LED strip, I wanted lighting that is hidden, needs no printed parts and shines evenly instead of in spots. The answer was a **COB LED strip**.
 
-After a long time with a regular LED strip, I wanted lighting that is hidden, needs no printed parts and shines evenly instead of in spots. The answer was a **COB LED strip**.
+    A COB strip has much smaller diodes, about 360 per meter instead of 60, so the light is even. A silicone layer over the diodes works as a diffuser. The strip is also narrow. The 8 mm version slides straight into the extrusion channel. It can be cut every 50 mm and the brightness can be controlled.
 
-A COB strip has much smaller diodes, about 360 per meter instead of 60, so the light is even. A silicone layer over the diodes works as a diffuser. The strip is also narrow. The 8 mm version slides straight into the extrusion channel. It can be cut every 50 mm and the brightness can be controlled.
+    The first two strips I ordered from different AliExpress stores were disappointing. Then I found a [reliable store](https://s.click.aliexpress.com/e/_9i94Go) with good COB strips. My choice was 6000K cool white, 24V, 360 LEDs per meter, 2 meters.
 
-![COB light strip](../assets/img/blv-mgn-cube-cob-light-strip-1-518f9c92.jpg){ width="520" }
+    1. Cut the strip at the marks (every 50 mm) with scissors.
+    2. Solder two 26AWG wires, or use [this quick connector](https://s.click.aliexpress.com/e/_9II1fw) (choose "For 8 mm PCB") if you prefer not to solder.
+    3. Slide the strip into the upper extrusion channels.
+    4. Connect the wires in one of two ways:
+        - Directly to a 24V PSU
+        - To a Duet fan output, which lets you set the brightness with a slider in the Duet control panel
 
-The first two strips I ordered from different AliExpress stores were disappointing. Then I found a [reliable store](https://s.click.aliexpress.com/e/_9i94Go) with good COB strips. My choice was 6000K cool white, 24V, 360 LEDs per meter, 2 meters.
+    I use the [Duet 3 6HC board](https://s.click.aliexpress.com/e/_A1uWxz) from FYSETC, so I defined the lights as a fan output with this line in `config.g` and connected the strip to the **OUT9** port:
 
-1. Cut the strip at the marks (every 50 mm) with scissors.
-2. Solder two 26AWG wires, or use [this quick connector](https://s.click.aliexpress.com/e/_9II1fw) (choose "For 8 mm PCB") if you prefer not to solder.
-3. Slide the strip into the upper extrusion channels.
-4. Connect the wires in one of two ways:
-    - Directly to a 24V PSU
-    - To a Duet fan output, which lets you set the brightness with a slider in the Duet control panel
+    ```
+    M950 F2 C"out9" Q500 M106 P2 S0.2 H-1 C"Lights"
+    ```
 
-I use the [Duet 3 6HC board](https://s.click.aliexpress.com/e/_A1uWxz) from FYSETC, so I defined the lights as a fan output with this line in `config.g` and connected the strip to the **OUT9** port:
+    The result is efficient, good-looking light with adjustable brightness from the panel.
 
-```
-M950 F2 C"out9" Q500 M106 P2 S0.2 H-1 C"Lights"
-```
-
-The result is efficient, good-looking light with adjustable brightness from the panel.
-
-<div class="gallery" markdown>
-![COB lights](../assets/img/img-8e97a60d.jpg)
-![COB lights](../assets/img/img-84429b5e.jpg)
-![COB lights](../assets/img/img-161f6da4.jpg)
-![COB lights](../assets/img/blv-mgn-cube-cob-light-strip-1-518f9c92.jpg)
-![COB lights](../assets/img/img-b0feeb49.jpg)
-![COB lights](../assets/img/img-333dd352.jpg)
-![COB lights](../assets/img/img-d85be162.jpg)
-![COB lights](../assets/img/img-238054a9.jpg)
-</div>
+    <div class="gallery" markdown>
+    ![COB lights](../assets/img/img-8e97a60d.jpg)
+    ![COB lights](../assets/img/img-84429b5e.jpg)
+    ![COB lights](../assets/img/img-161f6da4.jpg)
+    ![COB lights](../assets/img/blv-mgn-cube-cob-light-strip-1-518f9c92.jpg)
+    ![COB lights](../assets/img/img-b0feeb49.jpg)
+    ![COB lights](../assets/img/img-333dd352.jpg)
+    ![COB lights](../assets/img/img-d85be162.jpg)
+    ![COB lights](../assets/img/img-238054a9.jpg)
+    </div>
 
 ## Linear rail tips
 

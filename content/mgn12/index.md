@@ -20,32 +20,17 @@ description: BLV mgn12 mod converts an Anet A8 or Prusa i3 into an accurate, fas
 ![BLV mgn12 mod](../assets/img/img-3c231f17.jpg){ width="230" }
 </div>
 
-## Why
+## Why MGN rails
 
 Low and mid range printers usually move on linear bearings or Delrin wheels because they are cheaper than MGN rails, and the price is accuracy and reliability. MGN linear rails are stiffer, very precise and smooth. They allow faster printing without losing quality, and because the rails are fixed to the frame, they block unwanted motion from bent threaded rods or the other axes. That is why high-end printers use them. Affordable MGN rails on AliExpress made this upgrade possible.
 
-## Preview
+## Good to know
 
-!yt cdsmOH3TG3c | BLV mgn12 mod
-!yt FWgkXiwj2UU | BLV mgn12 mod for Anet A8 / AM8
-!yt VYAPbLh5rCg | Test print
-!yt VnbSI7vDNAc | Test print, part 2
-!yt DMExUBlhi_M | Prusa mgn Cube test
-!yt xReZFV8Lnr0 | Printing the X motor mount, Prusa mgn
-
-## Important
-
-!!! warning "Patience required"
-    Mounting the MGN rails takes a lot of patience. They must be perfectly straight and aligned, and rushing this step causes problems later.
-
-- **Source file.** The STEP file is included in the project ZIP so the design can be improved. Please follow the license (Creative Commons Attribution Non-Commercial Share-Alike).
-- If you use the STEP file, mark your work as a remix.
-- A [Simplify3D build plate](https://www.thingiverse.com/thing:2598588) is available for this project.
-
-!!! note
-    You may need to re-center the bed coordinates in the Marlin configuration, or move the Z extrusion to center the hotbed.
-
-Seeing community members share photos and remixes makes the long hours worth it. An "**I made one**" photo is always appreciated.
+- **Patience required.** The MGN rails must be perfectly straight and aligned. Rushing this step causes problems later.
+- **Source file.** The STEP file is in the project ZIP. If you remix it, follow the license (CC BY-NC-SA) and mark your work as a remix.
+- **Bed position.** You may need to re-center the bed coordinates in Marlin, or move the Z extrusion to center the bed.
+- **Simplify3D.** A [build plate for Simplify3D](https://www.thingiverse.com/thing:2598588) is available.
+- **Share it.** An "I made one" photo on Thingiverse or in the Facebook group is always appreciated.
 
 ## Mod variations
 
@@ -58,40 +43,46 @@ Seeing community members share photos and remixes makes the long hours worth it.
     Not all the AM8 parts are needed, see [what to print](build.md#what-to-print).
 3. **Anet [AM8](https://www.thingiverse.com/thing:2263216) freestyle with the BLV mgn12 mod.** The parts are modular and can be fitted as you like. For a custom size with a bigger bed or a taller Z axis, choose the extrusion lengths and attach the parts to them.
 
-## Requirements
+!!! note "Requirements"
+    An **Anet A8** (or a similar Prusa i3 style printer), the [**AM8 frame upgrade**](https://www.thingiverse.com/thing:2263216), basic technical skills, spare time and a mid-range budget.
 
-- [x] An **Anet A8 3D printer**
-- [x] The [**AM8 upgrade**](https://www.thingiverse.com/thing:2263216)
-- [x] Technical ability
-- [x] Spare time
-- [x] Budget (mid)
+## Gallery and videos
 
-## Gallery
+=== "Photos"
 
-<div class="gallery" markdown>
-![BLV mgn12 mod](../assets/img/img-3c231f17.jpg)
-![BLV mgn12 mod](../assets/img/img-5c97c658.jpg)
-![BLV mgn12 mod](../assets/img/img-cd7d6ca3.jpg)
-![BLV mgn12 mod](../assets/img/img-f1a6995d.jpg)
-![BLV mgn12 mod](../assets/img/img-0f064e73.jpg)
-![BLV mgn12 mod](../assets/img/img-d18d04cf.jpg)
-![BLV mgn12 mod](../assets/img/img-62af6c1b.jpg)
-![BLV mgn12 mod](../assets/img/img-28b489a5.jpg)
-![BLV mgn12 mod](../assets/img/img-4b778488.jpg)
-![BLV mgn12 mod](../assets/img/img-b5d373cb.jpg)
-![BLV mgn12 mod](../assets/img/img-0f18120a.jpg)
-![BLV mgn12 mod](../assets/img/img-d0776fae.jpg)
-![BLV mgn12 mod](../assets/img/img-1b383fc0.jpg)
-![BLV mgn12 mod](../assets/img/img-0f25dd52.jpg)
-![BLV mgn12 mod](../assets/img/img-ae698912.jpg)
-![BLV mgn12 mod](../assets/img/img-304cb0ec.jpg)
-![BLV mgn12 mod](../assets/img/img-fcea866e.jpg)
-![BLV mgn12 mod](../assets/img/img-b8e6fb5e.jpg)
-![BLV mgn12 mod](../assets/img/img-472d5cad.jpg)
-![BLV mgn12 mod](../assets/img/img-e4a687a3.jpg)
-![BLV mgn12 mod](../assets/img/img-7a620b7a.jpg)
-![BLV mgn12 mod](../assets/img/img-e0bda45f.jpg)
-![BLV mgn12 mod](../assets/img/img-fc055e34.jpg)
-![BLV mgn12 mod](../assets/img/img-0d72dfb3.jpg)
-![BLV mgn12 mod](../assets/img/img-cf4a1bed.jpg)
-</div>
+    <div class="gallery" markdown>
+    ![BLV mgn12 mod](../assets/img/img-3c231f17.jpg)
+    ![BLV mgn12 mod](../assets/img/img-5c97c658.jpg)
+    ![BLV mgn12 mod](../assets/img/img-cd7d6ca3.jpg)
+    ![BLV mgn12 mod](../assets/img/img-f1a6995d.jpg)
+    ![BLV mgn12 mod](../assets/img/img-0f064e73.jpg)
+    ![BLV mgn12 mod](../assets/img/img-d18d04cf.jpg)
+    ![BLV mgn12 mod](../assets/img/img-62af6c1b.jpg)
+    ![BLV mgn12 mod](../assets/img/img-28b489a5.jpg)
+    ![BLV mgn12 mod](../assets/img/img-4b778488.jpg)
+    ![BLV mgn12 mod](../assets/img/img-b5d373cb.jpg)
+    ![BLV mgn12 mod](../assets/img/img-0f18120a.jpg)
+    ![BLV mgn12 mod](../assets/img/img-d0776fae.jpg)
+    ![BLV mgn12 mod](../assets/img/img-1b383fc0.jpg)
+    ![BLV mgn12 mod](../assets/img/img-0f25dd52.jpg)
+    ![BLV mgn12 mod](../assets/img/img-ae698912.jpg)
+    ![BLV mgn12 mod](../assets/img/img-304cb0ec.jpg)
+    ![BLV mgn12 mod](../assets/img/img-fcea866e.jpg)
+    ![BLV mgn12 mod](../assets/img/img-b8e6fb5e.jpg)
+    ![BLV mgn12 mod](../assets/img/img-472d5cad.jpg)
+    ![BLV mgn12 mod](../assets/img/img-e4a687a3.jpg)
+    ![BLV mgn12 mod](../assets/img/img-7a620b7a.jpg)
+    ![BLV mgn12 mod](../assets/img/img-e0bda45f.jpg)
+    ![BLV mgn12 mod](../assets/img/img-fc055e34.jpg)
+    ![BLV mgn12 mod](../assets/img/img-0d72dfb3.jpg)
+    ![BLV mgn12 mod](../assets/img/img-cf4a1bed.jpg)
+    </div>
+
+=== "Videos"
+
+    !yt cdsmOH3TG3c | BLV mgn12 mod
+    !yt FWgkXiwj2UU | BLV mgn12 mod for Anet A8 / AM8
+    !yt VYAPbLh5rCg | Test print
+    !yt VnbSI7vDNAc | Test print, part 2
+    !yt DMExUBlhi_M | Prusa mgn Cube test
+    !yt xReZFV8Lnr0 | Printing the X motor mount, Prusa mgn

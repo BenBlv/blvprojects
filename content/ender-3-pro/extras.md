@@ -5,54 +5,68 @@ description: BLV Ender 3 Pro extras. Smart filament sensor, PEI surface, LEDs, b
 
 # Tips & extras
 
-## Smart filament sensor
+## Upgrades and tips
 
-Why pay $15 for the **SKR smart filament sensor** when a wire and an endstop switch cost $1.5? [This video](http://Youtube.com/watch?v=iFGIKMAGJTk) explains the difference.
+=== "Smart filament sensor"
 
-A switch sensor only detects whether filament is present. If the spool jams or the filament gets stuck, nothing happens and the printer keeps printing air. The smart sensor tracks filament movement with a rotary encoder and pauses the print when the filament stops moving. It is well worth it, especially for long prints of 12 hours or more.
+    Why pay $15 for the **SKR smart filament sensor** when a wire and an endstop switch cost $1.5? [This video](http://Youtube.com/watch?v=iFGIKMAGJTk) explains the difference.
 
-![Smart filament sensor](../assets/img/smart-filament-sensor-379f6e53.jpg)
+    A switch sensor only detects whether filament is present. If the spool jams or the filament gets stuck, nothing happens and the printer keeps printing air. The smart sensor tracks filament movement with a rotary encoder and pauses the print when the filament stops moving. It is well worth it, especially for long prints of 12 hours or more.
 
-## PEI surface
+    <div class="gallery big" markdown>
+    ![Smart filament sensor](../assets/img/smart-filament-sensor-379f6e53.jpg)
+    </div>
 
-After a long time with the Energetic PEI spring steel sheet, I tested the Trianglelab double-coated PEI sheet. It arrived well packed, with alcohol wipes and a printed manual. On the first try the corners lifted. The last tip in the manual solved it: **scuff the PEI well with brass wool**, and prints stick very well. Unlike the Energetic sheet, prints also release easily once the sheet cools down.
+=== "PEI surface"
 
-![Scratch the PEI sheet with brass wool](../assets/img/brass-wool-541ef7f5.jpg)
+    After a long time with the Energetic PEI spring steel sheet, I tested the Trianglelab double-coated PEI sheet. It arrived well packed, with alcohol wipes and a printed manual. On the first try the corners lifted. The last tip in the manual solved it: **scuff the PEI well with brass wool**, and prints stick very well. Unlike the Energetic sheet, prints also release easily once the sheet cools down.
 
-## LED installation
+    <div class="gallery big" markdown>
+    ![Scratch the PEI sheet with brass wool](../assets/img/brass-wool-541ef7f5.jpg)
+    </div>
 
-Use a 5V, 60 LEDs/m, non-waterproof strip that can be cut after every LED. The non-waterproof type slides into the V-slot channel more easily.
+=== "LED installation"
 
-1. Cut a 15-LED strip, solder a long 4-wire cable to it, and slide it into the top V-slot channel.
-2. Cut a 3-LED strip, solder a cable to it, and secure it with 2 zip ties to the back of the [transparent BMG extruder](https://s.click.aliexpress.com/e/_A3OmVx).
-3. Connect both strips together and check the connection.
-4. Then either:
-    - connect them to a simple RGB LED controller and use the IR remote, or
-    - connect them to the SKR Mini E3 LED pins and configure it.
+    Use a 5V, 60 LEDs/m, non-waterproof strip that can be cut after every LED. The non-waterproof type slides into the V-slot channel more easily.
 
-![LED installation](../assets/img/led-installation-f824b3f9.jpg)
+    1. Cut a 15-LED strip, solder a long 4-wire cable to it, and slide it into the top V-slot channel.
+    2. Cut a 3-LED strip, solder a cable to it, and secure it with 2 zip ties to the back of the [transparent BMG extruder](https://s.click.aliexpress.com/e/_A3OmVx).
+    3. Connect both strips together and check the connection.
+    4. Then either:
+        - connect them to a simple RGB LED controller and use the IR remote, or
+        - connect them to the SKR Mini E3 LED pins and configure it.
 
-## Bed carriage springs
+    <div class="gallery big" markdown>
+    ![LED installation](../assets/img/led-installation-f824b3f9.jpg)
+    </div>
 
-Replace the original bed springs with the [stronger yellow Creality CR-10 springs](http://s.click.aliexpress.com/e/YFNHPjE) for a much more stable bed.
+=== "Bed carriage springs"
 
-![Bed carriage springs](../assets/img/sprrings-6f325c47.jpg)
+    Replace the original bed springs with the [stronger yellow Creality CR-10 springs](http://s.click.aliexpress.com/e/YFNHPjE) for a much more stable bed.
 
-## Trianglelab DDE
+    <div class="gallery big" markdown>
+    ![Bed carriage springs](../assets/img/sprrings-6f325c47.jpg)
+    </div>
 
-To install the Trianglelab DDE system:
+=== "Trianglelab DDE"
 
-1. Print `Carriage template.stl`.
-2. Place the drilling template on the rear of the DDE system.
-3. Drill two holes as shown, with a 6 mm drill bit, 4 mm deep.
-4. Remove the template.
-5. Install the DDE on the X carriage.
+    To install the Trianglelab DDE system:
 
-![Trianglelab DDE installation](../assets/img/triangelab-installl-622b3be2.jpg)
+    1. Print `Carriage template.stl`.
+    2. Place the drilling template on the rear of the DDE system.
+    3. Drill two holes as shown, with a 6 mm drill bit, 4 mm deep.
+    4. Remove the template.
+    5. Install the DDE on the X carriage.
 
-[Trianglelab DDE installation guide and STL](https://drive.google.com/drive/folders/1KL6InrIttUU6s1C7EP5DR8_zmNnUmlQb?spm=a2g0o.detail.1000023.51.47dc9b5afl5hrg){ .md-button }
+    [Trianglelab DDE installation guide and STL](https://drive.google.com/drive/folders/1KL6InrIttUU6s1C7EP5DR8_zmNnUmlQb?spm=a2g0o.detail.1000023.51.47dc9b5afl5hrg){ .md-button }
+
+    <div class="gallery big" markdown>
+    ![Trianglelab DDE installation](../assets/img/triangelab-installl-622b3be2.jpg)
+    </div>
 
 ## More printed parts
+
+<div class="cols" markdown>
 
 - [BMG bracket](https://www.thingiverse.com/thing:3117704). With dual Z on one stepper, it recovers lost Z height by lowering the BMG and its motor.
 - [Filament holder with ball bearings](https://www.thingiverse.com/thing:3209211)
@@ -61,6 +75,8 @@ To install the Trianglelab DDE system:
 - [Ender 3 / Pro X-axis cable holder](https://www.thingiverse.com/thing:2949858)
 - [LCD cable holders](https://www.thingiverse.com/thing:2960375)
 - [Filament filter](https://www.thingiverse.com/thing:497764), recommended
+
+</div>
 
 ## Rail tips
 

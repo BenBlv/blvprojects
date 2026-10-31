@@ -3,7 +3,7 @@ title: BOM - BLV mgn12 mod
 description: BLV mgn12 mod bill of materials. Rails, extrusions, screws, hotend, electronics, optional parts and tools.
 ---
 
-# BOM - bill of materials
+# Bill of materials
 
 !!! note
     This list is in addition to the [AM8 BOM](https://www.thingiverse.com/thing:2263216).
@@ -21,26 +21,26 @@ description: BLV mgn12 mod bill of materials. Rails, extrusions, screws, hotend,
 - 6 × [rubber feet](http://s.click.aliexpress.com/e/c27ykKbA)
 - 1 × [PC4-M6 OD4 mm fitting](http://s.click.aliexpress.com/e/hwPdjgM), optional, for Greg's geared extruder
 
-**Screws and nuts:**
+??? note "Screws and nuts (16 items)"
 
-| Qty | Part |
-| ---: | --- |
-| 150 | [M5×10 button head socket cap screw](http://s.click.aliexpress.com/e/bkaDwiQc) |
-| 8 | [M5×10 socket head cap screw](http://s.click.aliexpress.com/e/rdCEBs4) |
-| 6 | [M5×16 socket head cap screw](http://s.click.aliexpress.com/e/rdCEBs4) |
-| 160 | [M5 T-nut or M5×0.8 square nut](http://s.click.aliexpress.com/e/cE4VsD3a) |
-| 1 | [M4×30 hex head](http://s.click.aliexpress.com/e/cofQXlYU) (Y tensioner knob) |
-| 20 | [M4×10 screw](http://s.click.aliexpress.com/e/cofQXlYU) |
-| 20 | [M4 nut](http://s.click.aliexpress.com/e/b6UeHSTq) |
-| 20 | [M4 washer](http://s.click.aliexpress.com/e/bBzZ8BzO) |
-| 60 | M3×8 socket head cap screw |
-| 4 | M3×20 socket head cap screw |
-| 6 | M3×20 screw |
-| 1 | [M3×32 screw](http://s.click.aliexpress.com/e/bPa8ju3A) |
-| 40 | [M3 T-nut](http://s.click.aliexpress.com/e/cE4VsD3a) |
-| 4 | [M3 nut](http://s.click.aliexpress.com/e/b6UeHSTq) |
-| 13 | [M3 washer](http://s.click.aliexpress.com/e/bBzZ8BzO) |
-| 1 | [M3 Nyloc](http://s.click.aliexpress.com/e/GAEzFFa) |
+    | Qty | Part |
+    | ---: | --- |
+    | 150 | [M5×10 button head socket cap screw](http://s.click.aliexpress.com/e/bkaDwiQc) |
+    | 8 | [M5×10 socket head cap screw](http://s.click.aliexpress.com/e/rdCEBs4) |
+    | 6 | [M5×16 socket head cap screw](http://s.click.aliexpress.com/e/rdCEBs4) |
+    | 160 | [M5 T-nut or M5×0.8 square nut](http://s.click.aliexpress.com/e/cE4VsD3a) |
+    | 1 | [M4×30 hex head](http://s.click.aliexpress.com/e/cofQXlYU) (Y tensioner knob) |
+    | 20 | [M4×10 screw](http://s.click.aliexpress.com/e/cofQXlYU) |
+    | 20 | [M4 nut](http://s.click.aliexpress.com/e/b6UeHSTq) |
+    | 20 | [M4 washer](http://s.click.aliexpress.com/e/bBzZ8BzO) |
+    | 60 | M3×8 socket head cap screw |
+    | 4 | M3×20 socket head cap screw |
+    | 6 | M3×20 screw |
+    | 1 | [M3×32 screw](http://s.click.aliexpress.com/e/bPa8ju3A) |
+    | 40 | [M3 T-nut](http://s.click.aliexpress.com/e/cE4VsD3a) |
+    | 4 | [M3 nut](http://s.click.aliexpress.com/e/b6UeHSTq) |
+    | 13 | [M3 washer](http://s.click.aliexpress.com/e/bBzZ8BzO) |
+    | 1 | [M3 Nyloc](http://s.click.aliexpress.com/e/GAEzFFa) |
 
 ## Rails
 

@@ -3,14 +3,17 @@ title: BOM - BLV Ender 3 Pro
 description: BLV Ender 3 Pro upgrade bill of materials. Board, rails, hotend, Z axis options, screws, tools and filaments.
 ---
 
-# BOM - bill of materials
+# Bill of materials
 
 ## Aluminum parts
 
 !!! info "The kit is no longer sold"
     The BLV Ender 3 Pro aluminum kit (all the CNC parts, screws and belts) is no longer available. The drawings are in the [project files](download:BLV-Ender-3-Pro-Upgrade.zip), and the full screw list is below.
 
-![BLV Ender 3 Pro aluminum parts](../assets/img/14-96487860.jpg){ width="420" }
+<div class="gallery big" markdown>
+![BLV Ender 3 Pro aluminum parts](../assets/img/14-96487860.jpg)
+![Aluminum parts](../assets/img/aluminium-kit-bar-1f80712e.jpg)
+</div>
 
 ## General
 
@@ -36,7 +39,6 @@ description: BLV Ender 3 Pro upgrade bill of materials. Board, rails, hotend, Z 
 !!! note "Using the original Z endstop?"
     If you use the original Z endstop instead of a BLTouch or another leveling sensor, use [this adapter for the Z endstop](https://www.thingiverse.com/thing:4058533).
 
-![Aluminum parts](../assets/img/aluminium-kit-bar-1f80712e.jpg)
 
 ## Rails
 
@@ -69,11 +71,12 @@ A better hotend is a recommended upgrade. First decide between Bowden and direct
 
     Its X carriage is very similar to the original Ender carriage. To install the DDE, drill two small holes for M3×6 mm screws in the carriage. It takes about 2 minutes ([how](extras.md#trianglelab-dde)).
 
+<div class="gallery big" markdown>
 ![Hotends](../assets/img/hotends-12030ef9.jpg)
-
-**Use the two screws for alignment only, then remove them.**
-
 ![Trianglelab](../assets/img/trianglelab-5ef19d17.jpg)
+</div>
+
+With the Trianglelab DDE, use the two screws for alignment only, then remove them.
 
 ## Z axis
 
@@ -93,25 +96,25 @@ Choose a Z setup:
 
 ## Screws
 
-All the screws needed for the aluminum parts:
+??? note "Screw list for the aluminum parts (15 items)"
 
-| Qty | Part |
-| ---: | --- |
-| 42 | M3 8 mm hex socket head screw |
-| 8 | M3 10 mm hex socket head screw |
-| 4 | M3 14 mm hex socket head screw |
-| 2 | M3 6 mm hex socket head screw |
-| 2 | M3 6 mm hex flat countersink screw |
-| 2 | M3 16 mm hex flat countersink screw |
-| 1 | M3 20 mm hex flat countersink screw |
-| 4 | M3 50 mm hex flat countersink screw |
-| 12 | M5 8 mm hex button head screw |
-| 2 | M4 40 mm hex button head screw |
-| 2 | M4 Nyloc |
-| 5 | M3 Nyloc |
-| 14 | M3 0.5 mm washer |
-| 32 | M3 T-nut |
-| 10 | M5 T-nut |
+    | Qty | Part |
+    | ---: | --- |
+    | 42 | M3 8 mm hex socket head screw |
+    | 8 | M3 10 mm hex socket head screw |
+    | 4 | M3 14 mm hex socket head screw |
+    | 2 | M3 6 mm hex socket head screw |
+    | 2 | M3 6 mm hex flat countersink screw |
+    | 2 | M3 16 mm hex flat countersink screw |
+    | 1 | M3 20 mm hex flat countersink screw |
+    | 4 | M3 50 mm hex flat countersink screw |
+    | 12 | M5 8 mm hex button head screw |
+    | 2 | M4 40 mm hex button head screw |
+    | 2 | M4 Nyloc |
+    | 5 | M3 Nyloc |
+    | 14 | M3 0.5 mm washer |
+    | 32 | M3 T-nut |
+    | 10 | M5 T-nut |
 
 **Only for dual Z:**
 

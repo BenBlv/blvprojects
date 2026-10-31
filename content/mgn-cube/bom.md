@@ -3,32 +3,16 @@ title: BOM - BLV mgn Cube
 description: BLV mgn Cube bill of materials. Frame, motion system, electronics, hotends, screws, panels and tools, with the parts I tested.
 ---
 
-# BOM - bill of materials
+# Bill of materials
 
-This list covers every mechanical and electrical part you need besides the printed parts. I bought and tested these parts myself and organized them so you know exactly what to get.
+Every mechanical and electrical part besides the printed parts. I bought and tested these parts myself. Quantities are for a **365 mm Z height**. For other sizes, use **BLV_mgn_Cube-Frame_calculator.xlsx** from the project ZIP.
 
-[Frame](#frame) · [Motion system](#motion-system) · [Electronics](#main-electronics) · [Mechanics](#mechanics-and-more) · [Screws](#screws) · [Panels](#panels) · [Optional](#optional) · [Tools](#tools)
-
-!!! note "Printer size"
-    The quantities are for a **365 mm Z height**. For a different size, use the calculator file **BLV_mgn_Cube-Frame_calculator.xlsx** in the project ZIP.
-
-!!! info "Kits"
-    Full kits, the Metal Kit and the Blind Joints frame were once sold by FYSETC and Blurolls. They are no longer available, so this BOM lists the individual parts. The Metal Kit design is still in the [project files](download-and-print.md).
-
-## Printed parts or metal parts?
-
-Many of the printer parts are printed. The Metal Kit design replaces most of them with CNC aluminum parts.
-
-| | Metal parts | Printed parts |
-| --- | --- | --- |
-| Pros | <span class="pro">Ready to install · about 10× stiffer · accurate</span> | <span class="pro">Cheap · easy to remix</span> |
-| Cons | <span class="con">Must be machined · costs more</span> | <span class="con">Need post-processing · less rigid · long print time</span> |
+!!! info "Kits are no longer sold"
+    The full kits, the Metal Kit and the Blind Joints frame were once sold by FYSETC and Blurolls. This list covers the individual parts, and the Metal Kit drawings are still in the [project files](download-and-print.md). **Metal or printed?** CNC parts are about 10× stiffer and ready to install, but must be machined. Printed parts are cheap and easy to remix, but less rigid and slow to print.
 
 ## Frame
 
 Buying the extrusions from a local supplier is usually cheaper. Use regular European extrusions with MGN rails, not the V-slot type, and don't replace 2040 profiles with 2020, since that reduces the stiffness of the frame.
-
-![Frame calculator](../assets/img/calculator-6fc8118b.jpg){ width="440" }
 
 ### Extrusions
 
@@ -62,7 +46,8 @@ Buying the extrusions from a local supplier is usually cheaper. Use regular Euro
 - 14 × [90° corner bracket](https://s.click.aliexpress.com/e/_AbriPg) for 2020/2040
 - 100 × [2020 aluminum brackets](https://s.click.aliexpress.com/e/_A2p4Tg), 20×20 or 20×17
 
-<div class="gallery" markdown>
+<div class="gallery big" markdown>
+![Frame calculator](../assets/img/calculator-6fc8118b.jpg)
 ![Frame measurements](../assets/img/img-4e8e86fd.jpg)
 ![Frame reinforcement](../assets/img/reinforcement-402b0a1e.jpg)
 ![Extrusions](../assets/img/extrusions-58025380.jpg)
@@ -194,54 +179,47 @@ Start by choosing the firmware: Klipper or RepRap.
 
 ## Screws
 
-Screws are usually sold in bulk, so the quantities are rounded.
+??? note "Screw list (35 items, quantities rounded for bulk packs)"
 
-| Qty | Part | Note |
-| ---: | --- | --- |
-| 300 | [M5 10 mm button head](http://s.click.aliexpress.com/e/cpnplQQc) | buy 300 to 350 |
-| 2 | [M5 16 mm button head](http://s.click.aliexpress.com/e/bPEOlP9A) | |
-| 4 | [M5 35 mm button head](http://s.click.aliexpress.com/e/bPEOlP9A) | |
-| 200 | [M5 washer](https://s.click.aliexpress.com/e/_DmLXgTt) | |
-| 283 | [M5 roll-in spring T-nut](https://s.click.aliexpress.com/e/_Dc8Guzd) | buy at least 300 |
-| 4 | [M4 40 mm flat head](https://s.click.aliexpress.com/e/_DlbxgCT) | for the bed |
-| 2 | [M4 30 mm hex head](http://s.click.aliexpress.com/e/OI2rlP6) | |
-| 2 | [M4 nut](https://s.click.aliexpress.com/e/_Dme4c6n) | |
-| 78 | [M3 8 mm socket head](https://s.click.aliexpress.com/e/_DdxB7EL) | buy at least 100 |
-| 2 | [M3 10 mm socket head](https://s.click.aliexpress.com/e/_DdxB7EL) | |
-| 8 | [M3 12 mm socket head](https://s.click.aliexpress.com/e/_DdxB7EL) | |
-| 1 | [M3 16 mm socket head](https://s.click.aliexpress.com/e/_DdxB7EL) | |
-| 5 | [M3 16 mm socket head](https://s.click.aliexpress.com/e/_DdxB7EL) | only without the block cover |
-| 8 | M3 18 mm socket head | only with the block cover |
-| 8 | M3 22 mm socket head | |
-| 3 | M3 25 mm socket head | |
-| 2 | [M3 30 mm socket head](https://s.click.aliexpress.com/e/_DdxB7EL) | |
-| 13 | [M3 35 mm socket head](https://s.click.aliexpress.com/e/_DdxB7EL) | |
-| 4 | [M3 40 mm socket head](https://s.click.aliexpress.com/e/_DdxB7EL) | |
-| 2 | [M3 50 mm socket head](https://s.click.aliexpress.com/e/_DdxB7EL) | |
-| 11 | [M3 14 mm Phillips round head](https://s.click.aliexpress.com/e/_DEbeJuP) | |
-| 2 | [M3 18 mm Phillips round head](https://s.click.aliexpress.com/e/_DEbeJuP) | |
-| 1 | [M3 22 mm Phillips round head](https://s.click.aliexpress.com/e/_DEbeJuP) | |
-| 3 | [M3 25 mm Phillips round head](https://s.click.aliexpress.com/e/_DEbeJuP) | |
-| 40 | [M3 roll-in spring T-nut](https://s.click.aliexpress.com/e/_Dc8Guzd) | |
-| 62 | [M3 0.5 mm washer](http://s.click.aliexpress.com/e/ZTKSC40) | two 0.5 mm or one 1 mm per spot, buy at least 100 |
-| 26 | [M3 nut](http://s.click.aliexpress.com/e/c2TqLSnI) | buy at least 50 |
-| 16 | [M3 Nyloc nut](http://s.click.aliexpress.com/e/h5iPrs4) | |
-| 4 | M2.5 12 mm flat head | |
+    | Qty | Part | Note |
+    | ---: | --- | --- |
+    | 300 | [M5 10 mm button head](http://s.click.aliexpress.com/e/cpnplQQc) | buy 300 to 350 |
+    | 2 | [M5 16 mm button head](http://s.click.aliexpress.com/e/bPEOlP9A) | |
+    | 4 | [M5 35 mm button head](http://s.click.aliexpress.com/e/bPEOlP9A) | |
+    | 200 | [M5 washer](https://s.click.aliexpress.com/e/_DmLXgTt) | |
+    | 283 | [M5 roll-in spring T-nut](https://s.click.aliexpress.com/e/_Dc8Guzd) | buy at least 300 |
+    | 4 | [M4 40 mm flat head](https://s.click.aliexpress.com/e/_DlbxgCT) | for the bed |
+    | 2 | [M4 30 mm hex head](http://s.click.aliexpress.com/e/OI2rlP6) | |
+    | 2 | [M4 nut](https://s.click.aliexpress.com/e/_Dme4c6n) | |
+    | 78 | [M3 8 mm socket head](https://s.click.aliexpress.com/e/_DdxB7EL) | buy at least 100 |
+    | 2 | [M3 10 mm socket head](https://s.click.aliexpress.com/e/_DdxB7EL) | |
+    | 8 | [M3 12 mm socket head](https://s.click.aliexpress.com/e/_DdxB7EL) | |
+    | 1 | [M3 16 mm socket head](https://s.click.aliexpress.com/e/_DdxB7EL) | |
+    | 5 | [M3 16 mm socket head](https://s.click.aliexpress.com/e/_DdxB7EL) | only without the block cover |
+    | 8 | M3 18 mm socket head | only with the block cover |
+    | 8 | M3 22 mm socket head | |
+    | 3 | M3 25 mm socket head | |
+    | 2 | [M3 30 mm socket head](https://s.click.aliexpress.com/e/_DdxB7EL) | |
+    | 13 | [M3 35 mm socket head](https://s.click.aliexpress.com/e/_DdxB7EL) | |
+    | 4 | [M3 40 mm socket head](https://s.click.aliexpress.com/e/_DdxB7EL) | |
+    | 2 | [M3 50 mm socket head](https://s.click.aliexpress.com/e/_DdxB7EL) | |
+    | 11 | [M3 14 mm Phillips round head](https://s.click.aliexpress.com/e/_DEbeJuP) | |
+    | 2 | [M3 18 mm Phillips round head](https://s.click.aliexpress.com/e/_DEbeJuP) | |
+    | 1 | [M3 22 mm Phillips round head](https://s.click.aliexpress.com/e/_DEbeJuP) | |
+    | 3 | [M3 25 mm Phillips round head](https://s.click.aliexpress.com/e/_DEbeJuP) | |
+    | 40 | [M3 roll-in spring T-nut](https://s.click.aliexpress.com/e/_Dc8Guzd) | |
+    | 62 | [M3 0.5 mm washer](http://s.click.aliexpress.com/e/ZTKSC40) | two 0.5 mm or one 1 mm per spot, buy at least 100 |
+    | 26 | [M3 nut](http://s.click.aliexpress.com/e/c2TqLSnI) | buy at least 50 |
+    | 16 | [M3 Nyloc nut](http://s.click.aliexpress.com/e/h5iPrs4) | |
+    | 4 | M2.5 12 mm flat head | |
 
-A [440-piece set of M3 DIN912 socket head screws](http://s.click.aliexpress.com/e/bEBhHo8s) covers most of the M3 sizes.
+    A [440-piece set of M3 DIN912 socket head screws](http://s.click.aliexpress.com/e/bEBhHo8s) covers most of the M3 sizes.
 
 ## Panels
 
-The walls are a cheap and easy semi-enclosure. Choose a board:
+The walls are a cheap semi-enclosure that keeps the chamber warm and quiet. Use 4 mm cardboard or KAPA foam board (cheapest), aluminum composite panel or 4 mm plywood. Cover it with [carbon fiber vinyl](https://s.click.aliexpress.com/e/_DBgNjFN) and fix it to the frame with M3 or M5 screws. The DXF and DWG files are in the project ZIP.
 
-- 4 mm cardboard (cheap)
-- KAPA foam board (cheap)
-- Aluminum composite panel
-- 4 mm plywood
-
-Cover the board with [carbon fiber vinyl](https://s.click.aliexpress.com/e/_DBgNjFN) and fix it to the frame with M3 or M5 screws.
-
-![BLV mgn Cube panel dimensions](../assets/img/blv-mgn-cube-panels-walls-dimensions-ae561374.jpg){ width="560" }
+![BLV mgn Cube panel dimensions](../assets/img/blv-mgn-cube-panels-walls-dimensions-ae561374.jpg)
 
 ## Optional
 
@@ -257,7 +235,7 @@ Cover the board with [carbon fiber vinyl](https://s.click.aliexpress.com/e/_DBgN
 - HEPA filter for Eufy RoboVac 11c for the large air scrubber
 - [Acoustic foam tiles](https://s.click.aliexpress.com/e/_DC5Z6wn)
 
-**Filaments I used in the project:**
+**Filaments I used:**
 
 - [PETG 1 kg, transparent green, black or blue](https://s.click.aliexpress.com/e/_9RCwpL)
 - [Dual color PLA 250 g](https://s.click.aliexpress.com/e/_DFzLWwf) (test prints)

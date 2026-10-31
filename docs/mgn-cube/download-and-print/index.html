@@ -3,7 +3,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Download the BLV mgn Cube project files (with or without the Metal Kit) and learn how to print the parts - filament, settings and orientation.">
+        <meta name="description" content="Download the BLV mgn Cube project files, with or without the Metal Kit, and print the parts with the right filament, settings and orientation.">
       
       
         <meta name="author" content="Ben Levi">
@@ -639,45 +639,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="3D printing the parts">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#filament" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Filament
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#print-settings" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Print settings
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#orientation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Orientation
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -1295,45 +1256,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="3D printing the parts">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#filament" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Filament
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#print-settings" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Print settings
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#orientation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Orientation
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -1513,50 +1435,27 @@
 </details>
 <h2 id="3d-printing-the-parts">3D printing the parts<a class="headerlink" href="#3d-printing-the-parts" title="Permanent link">¶</a></h2>
 <p>How you print the parts has a large effect on how well they work. Orientation, wall count, filament type and even print speed all matter. Most parts print without supports.</p>
-<h3 id="filament">Filament<a class="headerlink" href="#filament" title="Permanent link">¶</a></h3>
-<p>The parts carry loads and work near heat, so choose a strong filament.</p>
-<table>
-<thead>
-<tr>
-<th>Filament</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>PETG</strong></td>
-<td>What I used</td>
-</tr>
-<tr>
-<td><strong>PETG Carbon</strong></td>
-<td>Very rigid, requires a hardened steel nozzle</td>
-</tr>
-<tr>
-<td>ABS</td>
-<td>Requires an enclosure, releases toxic fumes</td>
-</tr>
-<tr>
-<td>PA12</td>
-<td>MJF / SLS printed</td>
-</tr>
-</tbody>
-</table>
+<div class="facts">
+<span><b>PETG</b>what I used</span>
+<span><b>PETG Carbon</b>very rigid, hardened nozzle</span>
+<span><b>ABS</b>needs an enclosure</span>
+<span><b>PA12</b>MJF / SLS printed</span>
+<span><b>6 walls</b>at least</span>
+<span><b>7 top / 7 bottom</b>layers</span>
+<span><b>80%+ infill</b>for most parts</span>
+</div>
+
 <div class="admonition danger">
 <p class="admonition-title">Don't use PLA or PLA+</p>
-<p>The heat inside the printer deforms PLA parts.</p>
+<p>The parts carry loads and work near heat, and PLA deforms inside the printer. The sketches below give the exact infill for each part.</p>
 </div>
-<h3 id="print-settings">Print settings<a class="headerlink" href="#print-settings" title="Permanent link">¶</a></h3>
-<ul>
-<li>At least <strong>6 outer walls / perimeters</strong></li>
-<li><strong>7 bottom</strong> layers and <strong>7 top</strong> layers</li>
-<li>Most parts need <strong>80% infill or more</strong>. The sketches below show the exact value for each part.</li>
-</ul>
-<h3 id="orientation">Orientation<a class="headerlink" href="#orientation" title="Permanent link">¶</a></h3>
-<p>Orientation has a large effect on the strength of a part. The image shows how to place every part on the bed. A few parts need supports, for example the tensioner idler holder, so check before printing. Labels such as X90 or Y-90 give the rotation to apply.</p>
+<p><strong>Orientation.</strong> Orientation has a large effect on the strength of a part. The image shows how to place every part on the bed. A few parts need supports, for example the tensioner idler holder, so check before printing. Labels such as X90 or Y-90 give the rotation to apply.</p>
+<div class="gallery big contain">
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/orinetation-1d97169f.jpg" data-desc-position="bottom"><img alt="Print orientation of all the parts" src="../../assets/img/orinetation-1d97169f.jpg"></a></p>
+</div>
 <h2 id="parts-descriptions">Parts descriptions<a class="headerlink" href="#parts-descriptions" title="Permanent link">¶</a></h2>
 <p>Each sketch shows a group of parts with the name, material and infill of every part. Where a sketch differs from the settings above, follow the settings above (6 walls, 7 bottom and 7 top layers).</p>
-<div class="gallery">
+<div class="gallery big">
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/blv-mgn-cube-front-panel-7bd15118.jpg" data-desc-position="bottom"><img alt="Front panel" src="../../assets/img/blv-mgn-cube-front-panel-7bd15118.jpg"></a>
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/blv-cube-mgn-project-rear-corners-and-be-3a099c74.jpg" data-desc-position="bottom"><img alt="Rear corners and bearings" src="../../assets/img/blv-cube-mgn-project-rear-corners-and-be-3a099c74.jpg"></a>
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/img/img-a4d339fb.jpg" data-desc-position="bottom"><img alt="Hotend" src="../../assets/img/img-a4d339fb.jpg"></a>

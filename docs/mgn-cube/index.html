@@ -1134,10 +1134,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#upgrades" class="md-nav__link">
+  <a href="#specifications" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Upgrades
+        Specifications
       
     </span>
   </a>
@@ -1145,65 +1145,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#features" class="md-nav__link">
+  <a href="#gallery-and-videos" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Features
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#build-volume" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Build volume
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#explore-in-3d" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Explore in 3D
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gallery" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Gallery
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#printer-videos" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Printer videos
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#community-videos" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Community videos
+        Gallery and videos
       
     </span>
   </a>
@@ -1234,6 +1179,7 @@
 <p>The BLV mgn Cube is an open front CoreXY 3D printer that runs on MGN linear rails. It was designed for accuracy, efficiency and print quality, with one simple goal: to let anyone build a good and reliable 3D printer.</p>
 <div class="stats"><span><b>1.78M</b>downloads</span><span><b>6.3M</b>views</span><span><b>29/10/22</b>last update</span></div>
 <p><a class="md-button md-button--primary" href="start/">Start building</a>
+<a class="md-button" href="bom/">Bill of materials</a>
 <a class="md-button" href="download-and-print/">Download the files</a></p>
 </div>
 <p><img alt="BLV mgn Cube 3D printer" class="no-lightbox" src="../assets/img/blv-cubg-mgn-trans-min-7ea675f5.png"></p>
@@ -1241,79 +1187,60 @@
 <div class="videos single" markdown="0"><figure class="yt"><button class="yt-play" data-id="FC9tIDhOgD4" aria-label="Play: BLV mgn Cube at 9000 mm/s² acceleration and 500 mm/s"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/FC9tIDhOgD4/hqdefault.jpg" alt=""></button><figcaption>BLV mgn Cube at 9000 mm/s² acceleration and 500 mm/s</figcaption></figure></div>
 
 <h2 id="why-build-it">Why build it<a class="headerlink" href="#why-build-it" title="Permanent link">¶</a></h2>
-<dl>
-<dt><strong>Fast, reliable, accurate</strong></dt>
-<dd>Most low and mid range printers move on linear bearings or Delrin wheels because they are cheap. The price is accuracy and reliability. MGN linear rails are stiffer, more precise and much smoother, so you can print faster without losing quality. That is why high-end printers use them. When I found affordable MGN rails on AliExpress, I decided to build around them.</dd>
-<dt><strong>Rigid open structure</strong></dt>
-<dd>The open front is as rigid as a closed cube but still gives easy access to the bed and the prints. A front belt tensioner makes maintenance easier. The design came out of many hours of simulation and physical stress tests.</dd>
-<dt><strong>Accessible</strong></dt>
-<dd>Every part is easy to source, print or make. The BOM has no expensive or rare machined parts. Most parts are printed or bought online or locally. You can also use your own electronics, as long as you know how to adapt the firmware.</dd>
-<dt><strong>Open source</strong></dt>
-<dd>The original CAD files (STEP) are included in the project files. You are welcome to modify, remix and improve them. If you do, please share your work with the community, mark the parts as "remixed" and link back to this project.</dd>
-<dt><strong>Ready to print</strong></dt>
-<dd>I spent many hours tuning the firmware and the Simplify3D slicing profile for this printer. After the build, upload the config files, load the profile and start printing.</dd>
-<dt><strong>Modular</strong></dt>
-<dd>Both the Z height and the bed size can grow. You only need longer extrusions and rails. The included CAD file helps you calculate the dimensions of a custom size.</dd>
-<dt><strong>Easy to build?</strong></dt>
-<dd>Installing the rails takes about 70% of the build time. It takes precision and a few hours of alignment, and it is worth every minute when the printer runs. To help, the project includes 3D animation videos, PDF guides, sketches and measurements.</dd>
-<dt><strong>Balanced budget</strong></dt>
-<dd>The BOM aims for the best value without cutting quality: a top 32-bit board, good stepper motors and reliable sensors. A 5" PanelDue touch screen is optional. You can save $80 and <a href="https://docs.duet3d.com/User_manual/Reference/Duet_Web_Control_Manual">use a phone or tablet instead</a> with no loss of features.</dd>
-</dl>
-<h2 id="upgrades">Upgrades<a class="headerlink" href="#upgrades" title="Permanent link">¶</a></h2>
-<p>Two official upgrades were released after the original design. Their files are part of the project download.</p>
+<div class="why">
 <ul>
-<li><strong><a href="https://benlevi8.wixsite.com/blvprojects/post/new-metal-kit-upgrade-blv-mgn-cube">Metal Kit</a></strong> - CNC aluminum parts that replace most of the printed parts.</li>
-<li><strong>Blind Joints frame</strong> - a bracket-free frame that assembles in about 20 minutes.</li>
+<li><strong>Fast, reliable, accurate.</strong> Most low and mid range printers ride on linear bearings or Delrin wheels because they are cheap, and they give up accuracy and reliability for it. MGN linear rails are stiffer, more precise and much smoother, so the Cube prints fast without losing quality.</li>
+<li><strong>Rigid open structure.</strong> The open front is as rigid as a closed cube and still gives easy access to the bed. The design came out of many hours of simulation and physical stress tests. A front belt tensioner keeps maintenance simple.</li>
+<li><strong>Accessible.</strong> There are no rare or expensive machined parts. Everything is printed or bought online or locally, and you can use your own electronics if you know how to adapt the firmware.</li>
+<li><strong>Open source.</strong> The original STEP files are included. Remix and improve them, and please share your work, mark the parts as remixed and link back to the project.</li>
+<li><strong>Ready to print.</strong> Tuned firmware settings and slicer profiles are included. Upload the configuration, load the profile and print.</li>
+<li><strong>Modular.</strong> Height and bed size can grow with longer extrusions and rails. A size calculator helps you plan a custom build.</li>
+<li><strong>Honest about the effort.</strong> Installing and aligning the rails takes about 70% of the build time. 3D animations, PDF guides, sketches and measurements make it manageable.</li>
+<li><strong>Balanced budget.</strong> A top 32-bit board, good motors and reliable sensors, without overspending. The 5" PanelDue screen is optional. A <a href="https://docs.duet3d.com/User_manual/Reference/Duet_Web_Control_Manual">phone or tablet works just as well</a> and saves about $80.</li>
 </ul>
-<div class="gallery">
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/all-kit-small-min-41b4c7e9.png" data-desc-position="bottom"><img alt="BLV Metal Kit parts" src="../assets/img/all-kit-small-min-41b4c7e9.png"></a>
-<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/blv-frame-blind-joints-86644b47.png" data-desc-position="bottom"><img alt="Blind Joints frame" src="../assets/img/blv-frame-blind-joints-86644b47.png"></a></p>
 </div>
-<h2 id="features">Features<a class="headerlink" href="#features" title="Permanent link">¶</a></h2>
+<h2 id="specifications">Specifications<a class="headerlink" href="#specifications" title="Permanent link">¶</a></h2>
+<div class="facts">
+<span><b>CoreXY</b>open front frame</span>
+<span><b>300 × 300 mm</b>bed (350 × 350 custom)</span>
+<span><b>365 to 665 mm</b>build height</span>
+<span><b>500 mm/s</b>with Klipper</span>
+<span><b>9000 mm/s²</b>acceleration</span>
+<span><b>Triple Z</b>true bed leveling</span>
+<span><b>MGN12H</b>linear rails on all axes</span>
+<span><b>RepRap / Klipper</b>Duet 2, Duet 3, Spider</span>
+</div>
+
 <div class="feature-list">
 <ul>
-<li><strong>RepRap</strong> and <strong>Klipper</strong> firmware support</li>
-<li>Input Shaper (Klipper)</li>
-<li><strong>9000</strong> mm/s² acceleration and <strong>500</strong> mm/s with Klipper</li>
-<li>Efficient cooling system</li>
-<li>SuperSlicer and Simplify3D profiles</li>
-<li>HEPA and carbon air scrubber</li>
-<li>Rigid aluminum open front frame</li>
+<li>Input Shaper (Klipper) and mesh auto-leveling</li>
+<li>High resolution X/Y stepper motors</li>
+<li>TMC5160 48V high voltage driver support</li>
+<li>Efficient part cooling, Bowden or direct drive</li>
 <li>Dual extrusion option</li>
 <li>Front belt tensioners</li>
-<li>Mesh auto-leveling</li>
+<li>HEPA and carbon air scrubber</li>
 <li>Internal LED lighting</li>
-<li>Blind Joints frame for fast assembly</li>
-<li><strong>Triple Z</strong> for true bed leveling</li>
-<li>MGN12H linear rails</li>
-<li>High resolution X/Y stepper motors</li>
-<li>Full firmware configuration included</li>
-<li>Bed 300 × 300 mm, height 365, 465 or 565 mm</li>
-<li>Duet WiFi, Duet 3 or FYSETC Spider v2.2 (Klipper)</li>
-<li>TMC5160 high voltage 48V driver support</li>
-<li>Web interface from phone, tablet or desktop</li>
 <li>Electronics mounted at the back</li>
-<li>CNC aluminum parts with the <a href="https://benlevi8.wixsite.com/blvprojects/post/new-metal-kit-upgrade-blv-mgn-cube">Metal Kit</a></li>
-<li>Open-source CAD files</li>
-<li>A large community with many remixes and upgrades</li>
+<li>Web control from phone, tablet or desktop</li>
+<li>SuperSlicer and Simplify3D profiles</li>
+<li>Full firmware configuration included</li>
 </ul>
 </div>
-<h2 id="build-volume">Build volume<a class="headerlink" href="#build-volume" title="Permanent link">¶</a></h2>
-<ul>
-<li><strong>Bed:</strong> 300 × 300 mm (standard) or 350 × 350 mm (custom)</li>
-<li><strong>Height:</strong> 365, 465, 565 or 665 mm</li>
-</ul>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/build-volume-min-bb267165.png" data-desc-position="bottom"><img alt="Build volume options" src="../assets/img/build-volume-min-bb267165.png" width="420"></a></p>
-<h2 id="explore-in-3d">Explore in 3D<a class="headerlink" href="#explore-in-3d" title="Permanent link">¶</a></h2>
-<p>The online viewers let you explore, measure and isolate parts in the browser:</p>
-<ul>
-<li><a href="https://a360.co/2FLRqSa">Full printer</a></li>
-<li><a href="https://a360.co/2DDDBn4">Frame only</a></li>
-<li><a href="https://a360.co/2JGlYZ4">Panels and walls only</a></li>
-</ul>
-<h2 id="gallery">Gallery<a class="headerlink" href="#gallery" title="Permanent link">¶</a></h2>
-<div class="gallery">
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/img-6402205e.gif" data-desc-position="bottom"><img alt="BLV mgn Cube" src="../assets/img/img-6402205e.gif"></a>
+<p><strong>Upgrades.</strong> Two official upgrades followed the original design, and both are part of the project files. The <strong><a href="https://benlevi8.wixsite.com/blvprojects/post/new-metal-kit-upgrade-blv-mgn-cube">Metal Kit</a></strong> replaces most printed parts with CNC aluminum. The <strong>Blind Joints frame</strong> needs no brackets and assembles in about 20 minutes.</p>
+<p><strong>Explore in 3D.</strong> Measure and isolate any part in the browser: <a href="https://a360.co/2FLRqSa">full printer</a> · <a href="https://a360.co/2DDDBn4">frame only</a> · <a href="https://a360.co/2JGlYZ4">panels and walls</a>.</p>
+<div class="gallery big">
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/all-kit-small-min-41b4c7e9.png" data-desc-position="bottom"><img alt="BLV Metal Kit parts" src="../assets/img/all-kit-small-min-41b4c7e9.png"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/blv-frame-blind-joints-86644b47.png" data-desc-position="bottom"><img alt="Blind Joints frame" src="../assets/img/blv-frame-blind-joints-86644b47.png"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/build-volume-min-bb267165.png" data-desc-position="bottom"><img alt="Build volume options" src="../assets/img/build-volume-min-bb267165.png"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/3d-viewer-6146ecaf.jpg" data-desc-position="bottom"><img alt="Online 3D viewer" src="../assets/img/3d-viewer-6146ecaf.jpg"></a></p>
+</div>
+<h2 id="gallery-and-videos">Gallery and videos<a class="headerlink" href="#gallery-and-videos" title="Permanent link">¶</a></h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><input id="__tabbed_1_2" name="__tabbed_1" type="radio"><input id="__tabbed_1_3" name="__tabbed_1" type="radio"><div class="tabbed-labels"><label for="__tabbed_1_1">Photos</label><label for="__tabbed_1_2">Printer videos</label><label for="__tabbed_1_3">Community videos</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p></p><div class="gallery" markdown="">
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/img-6402205e.gif" data-desc-position="bottom"><img alt="BLV mgn Cube" src="../assets/img/img-6402205e.gif"></a>
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/img-e2264cb8.jpg" data-desc-position="bottom"><img alt="BLV mgn Cube" src="../assets/img/img-e2264cb8.jpg"></a>
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/img-c9976482.jpg" data-desc-position="bottom"><img alt="BLV mgn Cube" src="../assets/img/img-c9976482.jpg"></a>
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/img-f9261a09.jpg" data-desc-position="bottom"><img alt="BLV mgn Cube" src="../assets/img/img-f9261a09.jpg"></a>
@@ -1338,13 +1265,16 @@
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/img-dfb71fce.jpg" data-desc-position="bottom"><img alt="BLV mgn Cube" src="../assets/img/img-dfb71fce.jpg"></a>
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/img-f9742585.jpg" data-desc-position="bottom"><img alt="BLV mgn Cube" src="../assets/img/img-f9742585.jpg"></a>
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/img-7cf291ee.jpg" data-desc-position="bottom"><img alt="BLV mgn Cube" src="../assets/img/img-7cf291ee.jpg"></a>
-<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/img/3d-viewer-6146ecaf.jpg" data-desc-position="bottom"><img alt="Online 3D viewer" src="../assets/img/3d-viewer-6146ecaf.jpg"></a></p>
+</div><p></p>
 </div>
-<h2 id="printer-videos">Printer videos<a class="headerlink" href="#printer-videos" title="Permanent link">¶</a></h2>
-<div class="videos" markdown="0"><figure class="yt"><button class="yt-play" data-id="exeUR__tco8" aria-label="Play: Printing with gold silk PLA"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/exeUR__tco8/hqdefault.jpg" alt=""></button><figcaption>Printing with gold silk PLA</figcaption></figure><figure class="yt"><button class="yt-play" data-id="-7xCHPYShQg" aria-label="Play: Printing"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/-7xCHPYShQg/hqdefault.jpg" alt=""></button><figcaption>Printing</figcaption></figure><figure class="yt"><button class="yt-play" data-id="agu6ReJOmm8" aria-label="Play: Print sample"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/agu6ReJOmm8/hqdefault.jpg" alt=""></button><figcaption>Print sample</figcaption></figure></div>
-
-<h2 id="community-videos">Community videos<a class="headerlink" href="#community-videos" title="Permanent link">¶</a></h2>
-<div class="videos" markdown="0"><figure class="yt"><button class="yt-play" data-id="Spc1cCTLFzs" aria-label="Play: Benchy with Prusament PLA"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/Spc1cCTLFzs/hqdefault.jpg" alt=""></button><figcaption>Benchy with Prusament PLA</figcaption></figure><figure class="yt"><button class="yt-play" data-id="N_bD6kgxAEA" aria-label="Play: Johnny Hallyday print"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/N_bD6kgxAEA/hqdefault.jpg" alt=""></button><figcaption>Johnny Hallyday print</figcaption></figure><figure class="yt"><button class="yt-play" data-id="9-EyQRFcamc" aria-label="Play: BLV MGN Cube"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/9-EyQRFcamc/hqdefault.jpg" alt=""></button><figcaption>BLV MGN Cube</figcaption></figure><figure class="yt"><button class="yt-play" data-id="UkFa6o_Uuig" aria-label="Play: Resonance test at 100 mm/s, Metal Kit with NF Crazy Plus"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/UkFa6o_Uuig/hqdefault.jpg" alt=""></button><figcaption>Resonance test at 100 mm/s, Metal Kit with NF Crazy Plus</figcaption></figure><figure class="yt"><button class="yt-play" data-id="rSSUHyvyTfQ" aria-label="Play: BLV mgn Cube community build"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/rSSUHyvyTfQ/hqdefault.jpg" alt=""></button><figcaption>BLV mgn Cube community build</figcaption></figure><figure class="yt"><button class="yt-play" data-id="dt3wfzbeUKs" aria-label="Play: Mandalorian helmet, part 1"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/dt3wfzbeUKs/hqdefault.jpg" alt=""></button><figcaption>Mandalorian helmet, part 1</figcaption></figure><figure class="yt"><button class="yt-play" data-id="3Y3C2JK-PUg" aria-label="Play: BLV mgn Cube 3D printer"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/3Y3C2JK-PUg/hqdefault.jpg" alt=""></button><figcaption>BLV mgn Cube 3D printer</figcaption></figure><figure class="yt"><button class="yt-play" data-id="ItAonH9IVy0" aria-label="Play: Triple Z bed leveling"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/ItAonH9IVy0/hqdefault.jpg" alt=""></button><figcaption>Triple Z bed leveling</figcaption></figure><figure class="yt"><button class="yt-play" data-id="SxxE28ZN7O8" aria-label="Play: Torture test"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/SxxE28ZN7O8/hqdefault.jpg" alt=""></button><figcaption>Torture test</figcaption></figure><figure class="yt"><button class="yt-play" data-id="MtD9szFlxQU" aria-label="Play: SE edition"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/MtD9szFlxQU/hqdefault.jpg" alt=""></button><figcaption>SE edition</figcaption></figure><figure class="yt"><button class="yt-play" data-id="jo5cHnJwMuU" aria-label="Play: Printing TPU"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/jo5cHnJwMuU/hqdefault.jpg" alt=""></button><figcaption>Printing TPU</figcaption></figure><figure class="yt"><button class="yt-play" data-id="es9ltH34RBk" aria-label="Play: Print sample"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/es9ltH34RBk/hqdefault.jpg" alt=""></button><figcaption>Print sample</figcaption></figure></div>
+<div class="tabbed-block">
+<p></p><div class="videos" markdown="0"><figure class="yt"><button class="yt-play" data-id="exeUR__tco8" aria-label="Play: Printing with gold silk PLA"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/exeUR__tco8/hqdefault.jpg" alt=""></button><figcaption>Printing with gold silk PLA</figcaption></figure><figure class="yt"><button class="yt-play" data-id="-7xCHPYShQg" aria-label="Play: Printing"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/-7xCHPYShQg/hqdefault.jpg" alt=""></button><figcaption>Printing</figcaption></figure><figure class="yt"><button class="yt-play" data-id="agu6ReJOmm8" aria-label="Play: Print sample"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/agu6ReJOmm8/hqdefault.jpg" alt=""></button><figcaption>Print sample</figcaption></figure></div><p></p>
+</div>
+<div class="tabbed-block">
+<p></p><div class="videos" markdown="0"><figure class="yt"><button class="yt-play" data-id="Spc1cCTLFzs" aria-label="Play: Benchy with Prusament PLA"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/Spc1cCTLFzs/hqdefault.jpg" alt=""></button><figcaption>Benchy with Prusament PLA</figcaption></figure><figure class="yt"><button class="yt-play" data-id="N_bD6kgxAEA" aria-label="Play: Johnny Hallyday print"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/N_bD6kgxAEA/hqdefault.jpg" alt=""></button><figcaption>Johnny Hallyday print</figcaption></figure><figure class="yt"><button class="yt-play" data-id="9-EyQRFcamc" aria-label="Play: BLV MGN Cube"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/9-EyQRFcamc/hqdefault.jpg" alt=""></button><figcaption>BLV MGN Cube</figcaption></figure><figure class="yt"><button class="yt-play" data-id="UkFa6o_Uuig" aria-label="Play: Resonance test at 100 mm/s, Metal Kit with NF Crazy Plus"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/UkFa6o_Uuig/hqdefault.jpg" alt=""></button><figcaption>Resonance test at 100 mm/s, Metal Kit with NF Crazy Plus</figcaption></figure><figure class="yt"><button class="yt-play" data-id="rSSUHyvyTfQ" aria-label="Play: BLV mgn Cube community build"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/rSSUHyvyTfQ/hqdefault.jpg" alt=""></button><figcaption>BLV mgn Cube community build</figcaption></figure><figure class="yt"><button class="yt-play" data-id="dt3wfzbeUKs" aria-label="Play: Mandalorian helmet, part 1"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/dt3wfzbeUKs/hqdefault.jpg" alt=""></button><figcaption>Mandalorian helmet, part 1</figcaption></figure><figure class="yt"><button class="yt-play" data-id="3Y3C2JK-PUg" aria-label="Play: BLV mgn Cube 3D printer"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/3Y3C2JK-PUg/hqdefault.jpg" alt=""></button><figcaption>BLV mgn Cube 3D printer</figcaption></figure><figure class="yt"><button class="yt-play" data-id="ItAonH9IVy0" aria-label="Play: Triple Z bed leveling"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/ItAonH9IVy0/hqdefault.jpg" alt=""></button><figcaption>Triple Z bed leveling</figcaption></figure><figure class="yt"><button class="yt-play" data-id="SxxE28ZN7O8" aria-label="Play: Torture test"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/SxxE28ZN7O8/hqdefault.jpg" alt=""></button><figcaption>Torture test</figcaption></figure><figure class="yt"><button class="yt-play" data-id="MtD9szFlxQU" aria-label="Play: SE edition"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/MtD9szFlxQU/hqdefault.jpg" alt=""></button><figcaption>SE edition</figcaption></figure><figure class="yt"><button class="yt-play" data-id="jo5cHnJwMuU" aria-label="Play: Printing TPU"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/jo5cHnJwMuU/hqdefault.jpg" alt=""></button><figcaption>Printing TPU</figcaption></figure><figure class="yt"><button class="yt-play" data-id="es9ltH34RBk" aria-label="Play: Print sample"><img class="no-lightbox" loading="lazy" src="https://i.ytimg.com/vi/es9ltH34RBk/hqdefault.jpg" alt=""></button><figcaption>Print sample</figcaption></figure></div><p></p>
+</div>
+</div>
+</div>
 
 
 

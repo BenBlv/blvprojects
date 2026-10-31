@@ -129,7 +129,7 @@
 .md-typeset .yt figcaption { font-size: .58rem; font-style: normal; margin: .35rem 0 0; max-width: none; text-align: left; color: var(--blv-muted); line-height: 1.4; }
 
 /* ---------- Home ---------- */
-.md-typeset .home-hero { display: grid; grid-template-columns: 1.5fr 1fr; gap: 2rem; align-items: center; margin: .2rem 0 1.2rem; padding-bottom: 1.2rem; border-bottom: 1px solid var(--blv-line); }
+.md-typeset .home-hero { display: grid; grid-template-columns: minmax(0, 46rem); gap: 2rem; align-items: center; margin: .2rem 0 1.2rem; padding-bottom: 1.2rem; border-bottom: 1px solid var(--blv-line); }
 .md-typeset .home-hero .facts { grid-template-columns: 1fr 1fr; margin: 0; }
 .md-typeset .home-hero h1 { font-size: 1.5rem; margin-bottom: .3em; }
 .md-typeset .home-hero .lead { font-size: .74rem; color: var(--blv-muted); }

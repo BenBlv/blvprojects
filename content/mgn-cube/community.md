@@ -5,7 +5,7 @@ description: Upgrades, remixes and add-ons for the BLV mgn Cube made by the comm
 
 # Community remixes
 
-The project started as a way to give back to the 3D printing community, and the community answered with many upgrades, remixes and add-ons. This page collects the ones I found or that were shared with me on [Discord](https://discord.gg/zY4GBfuzC4) and [Facebook](https://www.facebook.com/groups/BenLevi). Thank you all for sharing.
+The project started as a way to give back to the 3D printing community, and the community answered with many upgrades, remixes and add-ons. This page collects the ones I found or that were shared with me in the [Facebook group](https://www.facebook.com/groups/BenLevi). Thank you all for sharing.
 
 More remixes are listed on the community sites:
 

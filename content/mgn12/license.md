@@ -24,4 +24,8 @@ description: BLV mgn12 mod license (Creative Commons BY-NC-SA) and thanks.
 
 No conditions apply beyond the license terms. If you would like to support the work, a [small donation](https://www.paypal.me/BenBLV) is always appreciated.
 
-![Ben Levi](../assets/img/ben-3c022fba.png){ width="200" .no-lightbox }
+<div class="home-sign">
+<img class="avatar no-lightbox" src="../../assets/img/ben-levi-8e903eef.png" alt="Ben Levi">
+<span>Sincerely yours,<br><b>Ben Levi</b></span>
+<img class="sig no-lightbox" src="../../assets/img/signature-8c03a84c.png" alt="Ben Levi signature">
+</div>

@@ -103,12 +103,6 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/c/BenLevi0
       name: YouTube
-    - icon: fontawesome/brands/discord
-      link: https://discord.gg/zY4GBfuzC4
-      name: Discord
-    - icon: fontawesome/brands/tiktok
-      link: https://www.tiktok.com/@benleviblv
-      name: TikTok
     - icon: fontawesome/solid/heart
       link: https://www.paypal.com/paypalme/BenBLV
       name: Donate

@@ -7,8 +7,10 @@ hide:
 ---
 
 <div class="home-hero" markdown>
-<div class="home-card" markdown>
-# HI, I'm Ben Levi
+<div markdown>
+# BLV 3D Printers
+
+<p class="lead">Open-source 3D printers by Ben Levi - an archive of the BLV mgn Cube, BLV Ender 3 Pro and BLV mgn12 projects.</p>
 
 I'm an open-source 3D printer developer. The BLV projects are my way of saying "thank you" to the 3D community I admire. Here you'll find guides, assembly videos, instructions, BOM, sketches, original CAD files and all the information you need to build your own BLV 3D printer. BLV projects are non-profit and free for non-commercial use.
 
@@ -18,6 +20,8 @@ I'm an open-source 3D printer developer. The BLV projects are my way of saying "
 <img class="sig no-lightbox" src="assets/img/signature-8c03a84c.png" alt="Ben Levi signature">
 </div>
 </div>
+
+<img class="photo no-lightbox" src="assets/img/home-hero-97ea63d4.jpg" alt="BLV mgn Cube - X axis and hotend">
 </div>
 
 ## The projects
